@@ -1,0 +1,4 @@
+source_id,collection_id,organization_id,source_type,source_date,confidentiality
+OSI-SYN-SRC-001,OSI-SYN-COL-001,OSI-SYN-ORG-001,synthetic_status_record,2026-07-30,synthetic
+OSI-SYN-SRC-002,OSI-SYN-COL-001,OSI-SYN-ORG-001,synthetic_coordination_record,2026-07-31,synthetic
+OSI-SYN-SRC-003,OSI-SYN-COL-001,OSI-SYN-ORG-001,synthetic_resilience_record,2026-08-01,synthetic

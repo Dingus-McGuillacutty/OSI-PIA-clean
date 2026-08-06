@@ -1,0 +1,675 @@
+{
+  "contract": {
+    "artifact_id": "contract-pia-intake-phase1-json-001",
+    "name": "PIA Intake Phase 1 Machine-Readable Record Contract",
+    "version": "0.1.0",
+    "domain": "pia",
+    "authority": "working",
+    "status": "proposed",
+    "lifecycle_state": "formulation",
+    "development_state": "in_progress_subject_to_change",
+    "synthetic_repository_fixtures_only": true
+  },
+  "shared": {
+    "synthetic_participant_pattern": "^PIA-9[0-9]{3}$",
+    "processing_states": [
+      "received",
+      "preflight",
+      "in_progress",
+      "waiting_for_input",
+      "ready_for_review",
+      "ready_for_projection",
+      "projected",
+      "closed",
+      "blocked"
+    ],
+    "review_dispositions": [
+      "pending",
+      "accepted",
+      "accepted_with_limits",
+      "revision_requested",
+      "rejected",
+      "disputed",
+      "superseded"
+    ],
+    "credential_knowledge_statuses": [
+      "title_only_unknown",
+      "source_needed",
+      "source_defined",
+      "issuer_verified",
+      "participant_defined",
+      "conflicting_definition",
+      "obsolete_definition",
+      "inaccessible_definition"
+    ]
+  },
+  "required_files": [
+    "intake_session.csv",
+    "source_artifact.csv",
+    "credential_definition.csv",
+    "credential_application_assertion.csv",
+    "review_event.csv",
+    "intake_assurance_finding.csv",
+    "projection_manifest.csv",
+    "credential_definition_queue.csv"
+  ],
+  "files": {
+    "intake_session.csv": {
+      "record_type": "intake_session",
+      "id_field": "intake_session_id",
+      "id_pattern": "^PIA-[0-9]{4,}-INT-[0-9]{3}$",
+      "participant_scoped": true,
+      "headers": [
+        "intake_session_id",
+        "participant_id",
+        "purpose",
+        "processing_scope",
+        "consent_status",
+        "confidentiality",
+        "retention_class",
+        "processing_state",
+        "created_by",
+        "created_at",
+        "updated_at",
+        "supersedes_intake_session_id"
+      ],
+      "required": [
+        "intake_session_id",
+        "participant_id",
+        "purpose",
+        "processing_scope",
+        "consent_status",
+        "confidentiality",
+        "retention_class",
+        "processing_state",
+        "created_by",
+        "created_at",
+        "updated_at"
+      ],
+      "enums": {
+        "consent_status": ["pending", "granted", "limited", "withdrawn"],
+        "confidentiality": ["internal", "restricted", "participant_private"],
+        "processing_state": [
+          "received",
+          "preflight",
+          "in_progress",
+          "waiting_for_input",
+          "ready_for_review",
+          "ready_for_projection",
+          "projected",
+          "closed",
+          "blocked"
+        ]
+      },
+      "datetime_fields": ["created_at", "updated_at"],
+      "supersedes_field": "supersedes_intake_session_id"
+    },
+    "source_artifact.csv": {
+      "record_type": "source_artifact",
+      "id_field": "source_artifact_id",
+      "id_pattern": "^PIA-[0-9]{4,}-ART-[0-9]{3}$",
+      "participant_scoped": true,
+      "headers": [
+        "source_artifact_id",
+        "intake_session_id",
+        "participant_id",
+        "artifact_kind",
+        "parent_artifact_id",
+        "submitted_by",
+        "original_filename",
+        "media_type",
+        "submitted_uri",
+        "resolved_uri",
+        "storage_reference",
+        "checksum",
+        "content_checksum",
+        "collected_at",
+        "retrieved_at",
+        "confidentiality",
+        "consent_scope",
+        "extraction_method",
+        "extraction_status",
+        "review_status",
+        "created_at",
+        "supersedes_source_artifact_id"
+      ],
+      "required": [
+        "source_artifact_id",
+        "intake_session_id",
+        "participant_id",
+        "artifact_kind",
+        "submitted_by",
+        "storage_reference",
+        "checksum",
+        "collected_at",
+        "confidentiality",
+        "consent_scope",
+        "extraction_method",
+        "extraction_status",
+        "review_status",
+        "created_at"
+      ],
+      "enums": {
+        "artifact_kind": [
+          "upload",
+          "external_link_snapshot",
+          "extracted_content",
+          "structured_statement",
+          "public_reference"
+        ],
+        "confidentiality": ["public", "internal", "restricted", "participant_private"],
+        "extraction_method": ["not_applicable", "manual", "assisted", "automated"],
+        "extraction_status": ["not_requested", "pending", "complete", "failed", "review_required"],
+        "review_status": [
+          "pending",
+          "accepted",
+          "accepted_with_limits",
+          "revision_requested",
+          "rejected",
+          "disputed",
+          "superseded"
+        ]
+      },
+      "datetime_fields": ["collected_at", "retrieved_at", "created_at"],
+      "foreign_keys": [
+        {
+          "field": "intake_session_id",
+          "target_file": "intake_session.csv",
+          "target_field": "intake_session_id",
+          "required": true
+        },
+        {
+          "field": "parent_artifact_id",
+          "target_file": "source_artifact.csv",
+          "target_field": "source_artifact_id",
+          "required": false
+        }
+      ],
+      "supersedes_field": "supersedes_source_artifact_id"
+    },
+    "credential_definition.csv": {
+      "record_type": "credential_definition",
+      "id_field": "credential_definition_id",
+      "id_pattern": "^CRED-DEF-[A-Z0-9-]+-[0-9]{3}$",
+      "participant_scoped": false,
+      "headers": [
+        "credential_definition_id",
+        "credential_family_id",
+        "canonical_title",
+        "acronym",
+        "issuer_name",
+        "version_label",
+        "effective_from",
+        "effective_to",
+        "lifecycle_status",
+        "definition_status",
+        "credential_type",
+        "jurisdiction",
+        "eligibility_summary",
+        "experience_requirement_summary",
+        "assessment_summary",
+        "domain_scope",
+        "primary_source_artifact_ids",
+        "secondary_source_artifact_ids",
+        "source_conflict_status",
+        "negative_boundary",
+        "definition_expansion_required",
+        "next_action",
+        "review_status",
+        "last_reviewed",
+        "review_cycle",
+        "supersedes_credential_definition_id",
+        "created_at",
+        "updated_at"
+      ],
+      "required": [
+        "credential_definition_id",
+        "credential_family_id",
+        "canonical_title",
+        "issuer_name",
+        "lifecycle_status",
+        "definition_status",
+        "credential_type",
+        "source_conflict_status",
+        "definition_expansion_required",
+        "review_status",
+        "created_at",
+        "updated_at"
+      ],
+      "field_patterns": {
+        "credential_family_id": "^CRED-FAM-[A-Z0-9-]+$"
+      },
+      "enums": {
+        "lifecycle_status": ["active", "historical", "retired", "renamed", "superseded", "unknown"],
+        "definition_status": [
+          "title_only_unknown",
+          "source_needed",
+          "source_defined",
+          "issuer_verified",
+          "participant_defined",
+          "conflicting_definition",
+          "obsolete_definition",
+          "inaccessible_definition"
+        ],
+        "credential_type": [
+          "certification",
+          "license",
+          "certificate",
+          "course_completion",
+          "badge",
+          "degree",
+          "other"
+        ],
+        "source_conflict_status": ["none", "possible", "material", "unresolved"],
+        "review_status": [
+          "pending",
+          "accepted",
+          "accepted_with_limits",
+          "revision_requested",
+          "rejected",
+          "disputed",
+          "superseded"
+        ],
+        "review_cycle": ["", "annual", "semiannual", "quarterly", "milestone", "event-driven"]
+      },
+      "boolean_fields": ["definition_expansion_required"],
+      "date_fields": ["effective_from", "effective_to", "last_reviewed"],
+      "datetime_fields": ["created_at", "updated_at"],
+      "supersedes_field": "supersedes_credential_definition_id"
+    },
+    "credential_application_assertion.csv": {
+      "record_type": "application_assertion",
+      "id_field": "application_assertion_id",
+      "id_pattern": "^PIA-[0-9]{4,}-APP-[0-9]{3}$",
+      "participant_scoped": true,
+      "headers": [
+        "application_assertion_id",
+        "intake_session_id",
+        "participant_id",
+        "credential_definition_id",
+        "credential_evidence_id",
+        "experience_id",
+        "application_status",
+        "alignment_basis",
+        "supporting_source_artifact_ids",
+        "confidence",
+        "negative_boundary",
+        "proposed_by",
+        "review_status",
+        "created_at",
+        "reviewed_at",
+        "supersedes_application_assertion_id"
+      ],
+      "required": [
+        "application_assertion_id",
+        "intake_session_id",
+        "participant_id",
+        "credential_definition_id",
+        "credential_evidence_id",
+        "application_status",
+        "alignment_basis",
+        "confidence",
+        "negative_boundary",
+        "proposed_by",
+        "review_status",
+        "created_at"
+      ],
+      "field_patterns": {
+        "credential_evidence_id": "^PIA-[0-9]{4,}-EVD-[0-9]{3}$",
+        "experience_id": "^PIA-[0-9]{4,}-EXP-[0-9]{3}$"
+      },
+      "enums": {
+        "application_status": [
+          "explicitly_attributed_in_source",
+          "participant_reported_application",
+          "topically_aligned_not_verified",
+          "not_established"
+        ],
+        "review_status": [
+          "pending",
+          "accepted",
+          "accepted_with_limits",
+          "revision_requested",
+          "rejected",
+          "disputed",
+          "superseded"
+        ]
+      },
+      "number_fields": {
+        "confidence": {"minimum": 0.0, "maximum": 1.0}
+      },
+      "datetime_fields": ["created_at", "reviewed_at"],
+      "foreign_keys": [
+        {
+          "field": "intake_session_id",
+          "target_file": "intake_session.csv",
+          "target_field": "intake_session_id",
+          "required": true
+        },
+        {
+          "field": "credential_definition_id",
+          "target_file": "credential_definition.csv",
+          "target_field": "credential_definition_id",
+          "required": true
+        }
+      ],
+      "supersedes_field": "supersedes_application_assertion_id"
+    },
+    "review_event.csv": {
+      "record_type": "review_event",
+      "id_field": "review_event_id",
+      "id_pattern": "^PIA-[0-9]{4,}-REV-[0-9]{3}$",
+      "participant_scoped": false,
+      "headers": [
+        "review_event_id",
+        "intake_session_id",
+        "target_record_type",
+        "target_record_id",
+        "target_record_version",
+        "actor_role",
+        "actor_reference",
+        "disposition",
+        "field_scope",
+        "reason",
+        "response_text",
+        "supporting_source_artifact_ids",
+        "created_at",
+        "supersedes_review_event_id"
+      ],
+      "required": [
+        "review_event_id",
+        "intake_session_id",
+        "target_record_type",
+        "target_record_id",
+        "target_record_version",
+        "actor_role",
+        "actor_reference",
+        "disposition",
+        "reason",
+        "created_at"
+      ],
+      "enums": {
+        "target_record_type": [
+          "intake_session",
+          "source_artifact",
+          "credential_definition",
+          "application_assertion",
+          "assurance_finding",
+          "projection_manifest",
+          "credential_definition_queue"
+        ],
+        "actor_role": [
+          "participant",
+          "intake_operator",
+          "credential_definition_reviewer",
+          "ontology_reviewer",
+          "assurance_reviewer",
+          "projection_reviewer"
+        ],
+        "disposition": [
+          "pending",
+          "accepted",
+          "accepted_with_limits",
+          "revision_requested",
+          "rejected",
+          "disputed",
+          "superseded"
+        ]
+      },
+      "datetime_fields": ["created_at"],
+      "foreign_keys": [
+        {
+          "field": "intake_session_id",
+          "target_file": "intake_session.csv",
+          "target_field": "intake_session_id",
+          "required": true
+        }
+      ],
+      "supersedes_field": "supersedes_review_event_id"
+    },
+    "intake_assurance_finding.csv": {
+      "record_type": "assurance_finding",
+      "id_field": "finding_id",
+      "id_pattern": "^PIA-[0-9]{4,}-FND-[0-9]{3}$",
+      "participant_scoped": false,
+      "headers": [
+        "finding_id",
+        "intake_session_id",
+        "target_record_type",
+        "target_record_id",
+        "dimension",
+        "severity",
+        "code",
+        "message",
+        "evidence_references",
+        "logic_chain",
+        "uncertainty",
+        "disposition",
+        "safe_next_action",
+        "created_at",
+        "resolved_at",
+        "supersedes_finding_id"
+      ],
+      "required": [
+        "finding_id",
+        "intake_session_id",
+        "target_record_type",
+        "target_record_id",
+        "dimension",
+        "severity",
+        "code",
+        "message",
+        "disposition",
+        "created_at"
+      ],
+      "enums": {
+        "target_record_type": [
+          "intake_session",
+          "source_artifact",
+          "credential_definition",
+          "application_assertion",
+          "assurance_finding",
+          "projection_manifest",
+          "credential_definition_queue"
+        ],
+        "dimension": [
+          "contract",
+          "provenance",
+          "privacy",
+          "consent",
+          "definition",
+          "inference",
+          "conflict",
+          "projection",
+          "audit"
+        ],
+        "severity": ["notice", "review", "error", "blocking"],
+        "disposition": ["open", "accepted", "routed", "resolved", "waived", "superseded"]
+      },
+      "datetime_fields": ["created_at", "resolved_at"],
+      "foreign_keys": [
+        {
+          "field": "intake_session_id",
+          "target_file": "intake_session.csv",
+          "target_field": "intake_session_id",
+          "required": true
+        }
+      ],
+      "supersedes_field": "supersedes_finding_id"
+    },
+    "projection_manifest.csv": {
+      "record_type": "projection_manifest",
+      "id_field": "projection_manifest_id",
+      "id_pattern": "^PIA-[0-9]{4,}-PRJ-[0-9]{3}$",
+      "participant_scoped": true,
+      "headers": [
+        "projection_manifest_id",
+        "intake_session_id",
+        "participant_id",
+        "target_environment",
+        "target_database",
+        "projection_mode",
+        "contract_version",
+        "record_selection",
+        "record_count",
+        "package_checksum",
+        "assurance_status",
+        "approval_status",
+        "approved_by",
+        "created_at",
+        "applied_at",
+        "post_validation_status",
+        "supersedes_projection_manifest_id"
+      ],
+      "required": [
+        "projection_manifest_id",
+        "intake_session_id",
+        "participant_id",
+        "target_environment",
+        "target_database",
+        "projection_mode",
+        "contract_version",
+        "record_selection",
+        "record_count",
+        "package_checksum",
+        "assurance_status",
+        "approval_status",
+        "created_at",
+        "post_validation_status"
+      ],
+      "enums": {
+        "target_environment": ["local_sandbox", "governed_test", "governed_production"],
+        "projection_mode": ["validate", "dry_run", "apply"],
+        "assurance_status": ["pending", "pass", "warning", "block"],
+        "approval_status": ["pending", "approved", "rejected", "superseded"],
+        "post_validation_status": ["not_run", "pass", "warning", "fail"]
+      },
+      "integer_fields": ["record_count"],
+      "datetime_fields": ["created_at", "applied_at"],
+      "foreign_keys": [
+        {
+          "field": "intake_session_id",
+          "target_file": "intake_session.csv",
+          "target_field": "intake_session_id",
+          "required": true
+        }
+      ],
+      "supersedes_field": "supersedes_projection_manifest_id"
+    },
+    "credential_definition_queue.csv": {
+      "record_type": "credential_definition_queue",
+      "id_field": "queue_item_id",
+      "id_pattern": "^PIA-[0-9]{4,}-QUE-[0-9]{3}$",
+      "participant_scoped": true,
+      "headers": [
+        "queue_item_id",
+        "intake_session_id",
+        "participant_id",
+        "credential_evidence_id",
+        "credential_title",
+        "issuing_authority",
+        "credential_definition_id",
+        "definition_source_artifact_ids",
+        "current_provisional_capability_ids",
+        "processing_state",
+        "knowledge_status",
+        "review_disposition",
+        "priority",
+        "assigned_role",
+        "attempt_count",
+        "last_attempt_at",
+        "blocked_reason",
+        "next_action",
+        "created_at",
+        "updated_at",
+        "supersedes_queue_item_id"
+      ],
+      "required": [
+        "queue_item_id",
+        "intake_session_id",
+        "participant_id",
+        "credential_evidence_id",
+        "credential_title",
+        "issuing_authority",
+        "processing_state",
+        "knowledge_status",
+        "review_disposition",
+        "priority",
+        "assigned_role",
+        "attempt_count",
+        "created_at",
+        "updated_at"
+      ],
+      "field_patterns": {
+        "credential_evidence_id": "^PIA-[0-9]{4,}-EVD-[0-9]{3}$"
+      },
+      "enums": {
+        "processing_state": [
+          "received",
+          "preflight",
+          "in_progress",
+          "waiting_for_input",
+          "ready_for_review",
+          "ready_for_projection",
+          "projected",
+          "closed",
+          "blocked"
+        ],
+        "knowledge_status": [
+          "title_only_unknown",
+          "source_needed",
+          "source_defined",
+          "issuer_verified",
+          "participant_defined",
+          "conflicting_definition",
+          "obsolete_definition",
+          "inaccessible_definition"
+        ],
+        "review_disposition": [
+          "pending",
+          "accepted",
+          "accepted_with_limits",
+          "revision_requested",
+          "rejected",
+          "disputed",
+          "superseded"
+        ],
+        "priority": ["low", "normal", "high", "urgent"],
+        "assigned_role": [
+          "intake_operator",
+          "credential_definition_agent",
+          "credential_definition_reviewer",
+          "participant",
+          "assurance_reviewer",
+          "unassigned"
+        ]
+      },
+      "integer_fields": ["attempt_count"],
+      "datetime_fields": ["last_attempt_at", "created_at", "updated_at"],
+      "foreign_keys": [
+        {
+          "field": "intake_session_id",
+          "target_file": "intake_session.csv",
+          "target_field": "intake_session_id",
+          "required": true
+        },
+        {
+          "field": "credential_definition_id",
+          "target_file": "credential_definition.csv",
+          "target_field": "credential_definition_id",
+          "required": false
+        }
+      ],
+      "supersedes_field": "supersedes_queue_item_id"
+    }
+  },
+  "dynamic_target_files": {
+    "intake_session": "intake_session.csv",
+    "source_artifact": "source_artifact.csv",
+    "credential_definition": "credential_definition.csv",
+    "application_assertion": "credential_application_assertion.csv",
+    "assurance_finding": "intake_assurance_finding.csv",
+    "projection_manifest": "projection_manifest.csv",
+    "credential_definition_queue": "credential_definition_queue.csv"
+  }
+}

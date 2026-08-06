@@ -1,0 +1,13 @@
+# Participant data must remain private and local.
+participants/
+/data/PIA-participants/
+raw/
+normalized/
+derived/
+graph/import/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,31 @@
+%% Synthetic implementation views for LIVE_SANDBOX_GRAPH_TOUR.md
+%% These are editable Mermaid sources, not database screenshots.
+
+%% 1 — PIA evidence chain
+flowchart LR
+  E1["PIA-SYN-EVD-001\nEvidence"] -->|SUPPORTS\nPIA-SYN-MAP-001 · 0.70| C1["CAP-PIA-HANDOFF-MANAGEMENT\nCapability"]
+
+%% 2 — OSI capability-condition path
+flowchart LR
+  O2["OSI-SYN-ORG-001\nOrganization"] -->|HAS_SOURCE| S2["OSI-SYN-SRC-001\nSource"]
+  S2 -->|CONTAINS_EVIDENCE| E2["OSI-SYN-EVD-001\nEvidence"]
+  E2 -->|SUPPORTS_OBSERVATION| Q2["OSI-SYN-OBS-001\nObservationCandidate"]
+
+%% 3 — bridge/dependency baseline
+flowchart LR
+  O3["OSI-SYN-ORG-001"] --> S31["OSI-SYN-SRC-001"]
+  O3 --> S32["OSI-SYN-SRC-002"]
+  O3 --> S33["OSI-SYN-SRC-003"]
+  S31 --> E31["OSI-SYN-EVD-001"] --> Q31["OSI-SYN-OBS-001"]
+  S32 --> E32["OSI-SYN-EVD-002"] --> Q32["OSI-SYN-OBS-002"]
+  S33 --> E33["OSI-SYN-EVD-003"] --> Q33["OSI-SYN-OBS-003"]
+
+%% 4 — state transition test boundary
+flowchart LR
+  R41["Validated baseline\n3 paths"] -->|vacancy/confound experiment| R42["Comparison state\nrequires review"]
+
+%% 5 — governed cross-domain mapping
+flowchart LR
+  P5["PIA-SYN-EVD-001"] -->|SUPPORTS| PC5["CAP-PIA-HANDOFF-MANAGEMENT"]
+  O5["OSI-SYN-EVD-001"] -->|SUPPORTS_OBSERVATION| OC5["OSI-SYN-OBS-001"]
+  PC5 -.->|governed relation\nnot an importer write| OC5

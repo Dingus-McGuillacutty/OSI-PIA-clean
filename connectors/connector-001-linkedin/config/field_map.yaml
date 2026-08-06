@@ -1,0 +1,33 @@
+Profile.csv:
+  entity: person
+  key_fields: [First Name, Last Name]
+Positions.csv:
+  entity: position_history
+  key_fields: [Company Name, Title, Started On]
+Education.csv:
+  entity: education
+  key_fields: [School Name, Degree Name]
+Certifications.csv:
+  entity: certification
+  key_fields: [Name, Authority, Started On]
+Projects.csv:
+  entity: project
+  key_fields: [Title, Started On]
+Publications.csv:
+  entity: publication
+  key_fields: [Name, Published On]
+Skills.csv:
+  entity: skill
+  key_fields: [Name]
+Honors.csv:
+  entity: honor
+  key_fields: [Title, Issued On]
+Learning.csv:
+  entity: learning_record
+  key_fields: [Content Title]
+Endorsement_Received_Info.csv:
+  entity: endorsement
+  key_fields: [Skill Name, Endorsement Date, Endorser Public Url]
+Connections.csv:
+  entity: professional_connection
+  key_fields: [URL, Connected On]

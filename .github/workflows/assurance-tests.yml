@@ -1,0 +1,37 @@
+name: OSI Assurance Integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  assurance-tests:
+    name: Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Compile OSI software
+        run: python -m compileall -q software tests
+
+      - name: Validate repository governance
+        run: python software/governance/validate_repository_governance.py
+
+      - name: Run assurance and integrity tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v

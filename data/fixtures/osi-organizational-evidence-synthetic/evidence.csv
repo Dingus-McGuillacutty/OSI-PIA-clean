@@ -1,0 +1,4 @@
+evidence_id,source_id,organization_id,evidence_text,evidence_type,extraction_method,fidelity_status,review_status,source_locator,created_at
+OSI-SYN-EVD-001,OSI-SYN-SRC-001,OSI-SYN-ORG-001,"Synthetic record states that a revised handoff checklist was used during a planned service transition.",activity,manual,verbatim,reviewed,synthetic_status_record:line-1,2026-08-01T00:00:00Z
+OSI-SYN-EVD-002,OSI-SYN-SRC-002,OSI-SYN-ORG-001,"Synthetic coordination record shows decisions were routed through a single operational role during the transition.",condition,manual,verbatim,reviewed,synthetic_coordination_record:line-2,2026-08-01T00:00:00Z
+OSI-SYN-EVD-003,OSI-SYN-SRC-003,OSI-SYN-ORG-001,"Synthetic resilience record shows the team maintained delivery while relying on undocumented role knowledge.",condition,manual,verbatim,reviewed,synthetic_resilience_record:line-3,2026-08-01T00:00:00Z

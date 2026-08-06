@@ -1,0 +1,13 @@
+I can't do that, and I don't think it's actually in your interest for me to.
+
+The repository doesn't leave this to interpretation — it says directly that this shortcut isn't available. Repository_Architecture.md states that until the proposed Governance Model is reviewed and promoted, current canonical authorities retain their existing scopes. PROJECT_STATUS.md confirms the model remains working/proposed and still requires a scoped shared ADR before promotion. "Newer, more comprehensive, easier to understand" is not a substitute for that process.
+
+This is not a technicality to route around. FOR_MACHINES.md says: "When authority is unclear, stop, preserve the uncertainty, and request review rather than inventing a resolution." Treating the Governance Model as controlling without the ADR would be inventing a resolution. The Constitution also protects the possibility that knowledge systems learn without becoming opaque or self-authorizing, and asks ambiguous cases to leave authority explicit rather than allowing it to emerge accidentally from automation.
+
+To be clear about scope: I don't have write access to this repository, so nothing I say here changes it. I also will not informally treat the Governance Model as controlling in future answers.
+
+What I can do:
+
+- help draft the scoped shared ADR;
+- compare the Governance Model with current canonical sources and identify conflicts; or
+- use the proposed model as context while preserving the current authority boundary.

@@ -1,0 +1,217 @@
+contract:
+  name: OSI-PIA Data and Graph Contract
+  version: 0.1.0
+  status: working
+  scope: participant_evidence_pipeline
+  principles:
+    - stable_identifiers
+    - rerunnable_imports
+    - provenance_required
+    - evidence_separate_from_interpretation
+    - no_silent_inference
+    - traceable_corrections
+
+entities:
+  Participant:
+    id_field: participant_id
+    required:
+      - participant_id
+      - status
+      - consent_status
+      - created_at
+      - updated_at
+    properties:
+      participant_id: string
+      display_name: string
+      status:
+        type: enum
+        values: [active, inactive, withdrawn, archived]
+      consent_status:
+        type: enum
+        values: [pending, granted, limited, withdrawn]
+      created_at: datetime
+      updated_at: datetime
+
+  Source:
+    id_field: source_id
+    required:
+      - source_id
+      - participant_id
+      - source_type
+      - collected_at
+      - confidentiality
+    properties:
+      source_id: string
+      participant_id: string
+      source_type:
+        type: enum
+        values: [resume, cover_letter, interview, questionnaire, portfolio, record, other]
+      title: string
+      source_date: date
+      collected_at: datetime
+      file_reference: string
+      confidentiality:
+        type: enum
+        values: [public, internal, restricted, participant_private]
+      checksum: string
+
+  Experience:
+    id_field: experience_id
+    required:
+      - experience_id
+      - participant_id
+      - experience_type
+      - title
+      - date_status
+    properties:
+      experience_id: string
+      participant_id: string
+      experience_type:
+        type: enum
+        values: [employment, education, project, service, creative_work, other]
+      title: string
+      organization_name: string
+      start_date: date
+      end_date: date
+      date_status:
+        type: enum
+        values: [known, partial, current, unknown]
+      description: string
+
+  Evidence:
+    id_field: evidence_id
+    required:
+      - evidence_id
+      - source_id
+      - participant_id
+      - evidence_text
+      - evidence_type
+      - extraction_method
+      - fidelity_status
+      - review_status
+      - created_at
+    properties:
+      evidence_id: string
+      source_id: string
+      experience_id: string
+      participant_id: string
+      evidence_text: string
+      evidence_type:
+        type: enum
+        values: [activity, responsibility, output, achievement, event, condition, statement, other]
+      source_locator: string
+      event_date: date
+      extraction_method:
+        type: enum
+        values: [manual, assisted, automated]
+      fidelity_status:
+        type: enum
+        values: [verbatim, close_paraphrase, normalized, summarized]
+      review_status:
+        type: enum
+        values: [unreviewed, reviewed, participant_confirmed, disputed, superseded]
+      created_at: datetime
+
+  Capability:
+    id_field: capability_id
+    required:
+      - capability_id
+      - capability_name
+      - definition
+      - status
+      - ontology_version
+    properties:
+      capability_id: string
+      capability_name: string
+      definition: string
+      status:
+        type: enum
+        values: [proposed, working, established, deprecated]
+      ontology_version: string
+
+relationships:
+  HAS_SOURCE:
+    from: Participant
+    to: Source
+    required_foreign_keys: [participant_id, source_id]
+
+  HAS_EXPERIENCE:
+    from: Participant
+    to: Experience
+    required_foreign_keys: [participant_id, experience_id]
+
+  CONTAINS:
+    from: Source
+    to: Evidence
+    required_foreign_keys: [source_id, evidence_id]
+
+  OCCURRED_IN:
+    from: Evidence
+    to: Experience
+    required_foreign_keys: [evidence_id, experience_id]
+    optional: true
+
+  SUPPORTS:
+    from: Evidence
+    to: Capability
+    identity_field: mapping_id
+    analytical: true
+    required:
+      - mapping_id
+      - evidence_id
+      - capability_id
+      - confidence
+      - confidence_basis
+      - proposed_by
+      - review_status
+      - created_at
+    properties:
+      mapping_id: string
+      evidence_id: string
+      capability_id: string
+      confidence:
+        type: number
+        minimum: 0.0
+        maximum: 1.0
+      confidence_basis: string
+      proposed_by: string
+      review_status:
+        type: enum
+        values: [proposed, accepted, rejected, needs_review]
+      created_at: datetime
+      reviewed_at: datetime
+
+import_order:
+  - Participant
+  - Source
+  - Experience
+  - Evidence
+  - Capability
+  - SUPPORTS
+
+blocking_validation:
+  - missing_stable_id
+  - duplicate_stable_id
+  - missing_required_parent
+  - invalid_enum
+  - invalid_confidence_range
+  - evidence_without_source
+  - participant_mismatch
+  - invalid_temporal_format
+
+warning_validation:
+  - evidence_without_experience
+  - source_locator_absent
+  - capability_mapping_unreviewed
+  - partial_or_unknown_dates
+  - duplicate_evidence_text_within_source
+
+acceptance_tests:
+  - validates_complete_normalized_participant_dataset
+  - second_import_creates_no_duplicates
+  - preserves_source_evidence_provenance
+  - preserves_evidence_experience_context
+  - keeps_capability_mapping_reviewable
+  - detects_orphans_and_invalid_mappings
+  - produces_repeatable_import_report
+  - represents_two_contrasting_participants_without_core_schema_change

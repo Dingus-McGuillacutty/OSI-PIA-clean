@@ -1,0 +1,25 @@
+{
+  "package": "osi_assurance_precommit",
+  "status": "pre-commit review",
+  "generated": "2026-07-22",
+  "documents": [
+    "PRE_COMMIT_CHECKLIST.md",
+    "README.md",
+    "assurance_engine.md",
+    "assurance_report.md",
+    "component_standard.md",
+    "finding_contract.md",
+    "logic_chain.md",
+    "osi_assurance_model.md",
+    "reference_architecture.md"
+  ],
+  "reference_paths": [
+    "software/framework/osi_component.py",
+    "software/importer/osi_pia_validate.py",
+    "software/importer/csv_assurance_engine.py"
+  ],
+  "reference_versions": {
+    "csv_assurance_engine": "0.3",
+    "csv_contract": "0.1"
+  }
+}

@@ -1,0 +1,2 @@
+projection_manifest_id,intake_session_id,participant_id,target_environment,target_database,projection_mode,contract_version,record_selection,record_count,package_checksum,assurance_status,approval_status,approved_by,created_at,applied_at,post_validation_status,supersedes_projection_manifest_id
+PIA-9001-PRJ-001,PIA-9001-INT-001,PIA-9001,local_sandbox,pia-sandbox,dry_run,0.1.0,PIA-9001-APP-001|PIA-9001-REV-001,2,dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd,pass,approved,synthetic-projection-reviewer,2026-07-26T00:00:00Z,,not_run,

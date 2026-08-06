@@ -1,0 +1,31 @@
+schema_version: "1.0"
+connector_id: connector-001
+connector_name: linkedin
+display_name: LinkedIn Archive
+namespace: pia
+domain_scope:
+  - pia
+contract_id: contract-pia-linkedin-001
+contract_version: "1.0"
+owner: pia-connectors
+status: active
+version: "0.1.0"
+source_type: linkedin_archive_csv
+outputs:
+  - normalized_tables
+  - evidence_records
+  - neo4j_import
+privacy:
+  default_classification: private_participant_data
+  public_repository_allowed:
+    - connector_code
+    - blank_templates
+    - documentation
+  public_repository_prohibited:
+    - raw_participant_files
+    - normalized_participant_records
+    - derived_participant_assessments
+provenance:
+  retain_source_file: true
+  retain_source_row: true
+  retain_import_timestamp: true

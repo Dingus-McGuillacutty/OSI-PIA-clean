@@ -1,0 +1,12 @@
+# Participant data must remain private and local.
+participants/
+raw/
+normalized/
+derived/
+graph/import/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,1 @@
+review_event_id,intake_session_id,target_record_type,target_record_id,target_record_version,actor_role,actor_reference,disposition,field_scope,reason,response_text,supporting_source_artifact_ids,created_at,supersedes_review_event_id

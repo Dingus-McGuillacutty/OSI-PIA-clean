@@ -1,0 +1,5 @@
+.env
+*.key
+*.secret
+api-response*.json
+registry-cache/
