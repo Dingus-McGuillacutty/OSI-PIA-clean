@@ -1,0 +1,1 @@
+The repository is the canonical record of OSI. Conversations generate ideas; repository documents preserve, distinguish, and integrate them.

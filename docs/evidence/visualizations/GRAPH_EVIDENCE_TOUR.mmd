@@ -1,0 +1,11 @@
+%% See GRAPH_EVIDENCE_TOUR.md for captions and the same synthetic diagrams.
+%% This file is the editable Mermaid source bundle for later rendering.
+
+flowchart LR
+    P["Synthetic Participant"] -->|authorized source| S1["Source Document"]
+    P -->|authorized source| S2["Source Document"]
+    S1 -->|supports| E1["Evidence"]
+    S2 -->|supports| E2["Evidence"]
+    E1 -->|contextualizes| X["Experience"]
+    E2 -->|contextualizes| X
+    X -->|bounded interpretation| C["Capability"]

@@ -1,0 +1,84 @@
+schema_version: "0.1"
+
+component:
+  id: "implementation.component.example"
+  name: "Example Component"
+  version: "0.1.0"
+  domain: "implementation" # shared|osi|pia|implementation|test
+  namespace: "implementation" # primary semantic output namespace
+  type: "engine" # engine|validator|importer|analyzer|visualization|exporter|schema|contract|plugin|workflow
+  status: "draft" # draft|experimental|qualified|deprecated
+  owner: ""
+  description: ""
+
+contract:
+  contract_id: ""
+  contract_version: ""
+  inputs:
+    - name: ""
+      format: ""
+      required: true
+      description: ""
+  outputs:
+    - name: ""
+      format: ""
+      required: true
+      description: ""
+  dependencies: []
+  side_effects: []
+  failure_modes: []
+  idempotent: false
+
+assurance:
+  contract:
+    required: true
+    implementation: ""
+    tests: []
+  validation:
+    required: true
+    implementation: ""
+    tests: []
+  congruence:
+    required: true
+    implementation: ""
+    technical_tests: []
+    philosophical_tests: []
+    human_review_required: false
+  regression:
+    required: true
+    golden_fixtures: []
+    invalid_fixtures: []
+  performance:
+    required: true
+    measures: []
+    thresholds: {}
+  ethics:
+    required: true
+    implementation: ""
+    tests: []
+    human_review_required: false
+  audit:
+    required: true
+    report_format: "json"
+    report_path: ""
+
+privacy:
+  data_classification: "internal" # public|internal|confidential|restricted
+  contains_personal_data: false
+  contains_sensitive_data: false
+  retention_rule: ""
+
+chopsticks_test:
+  stable_identifier: false
+  versioned_contract: false
+  declared_inputs_outputs: false
+  bounded_behavior: false
+  standard_assurance_report: false
+  golden_fixture: false
+  no_hidden_dependencies: false
+  no_silent_assumptions: false
+
+release:
+  qualified_by: ""
+  qualified_at: ""
+  notes: ""

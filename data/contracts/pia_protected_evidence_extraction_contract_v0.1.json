@@ -1,0 +1,116 @@
+{
+  "contract": {
+    "artifact_id": "contract-pia-protected-evidence-extraction-json-001",
+    "name": "PIA Protected Evidence Extraction Machine-Readable Contract",
+    "version": "0.1.0",
+    "domain": "pia",
+    "authority": "working",
+    "status": "proposed",
+    "lifecycle_state": "formulation",
+    "development_state": "in_progress_subject_to_change"
+  },
+  "preconditions": {
+    "allowed_actor_roles": ["owner", "reviewer"],
+    "required_processing_scope": "evidence_extraction",
+    "allowed_consent_states": ["granted", "limited"],
+    "blocked_processing_states": ["blocked", "closed", "deleted"],
+    "unexpired_retention_required": true,
+    "malware_gate_required": true,
+    "artifact_checksum_required": true
+  },
+  "parser_boundary": {
+    "supported_extensions": [".txt", ".csv", ".rtf", ".docx", ".pdf"],
+    "manual_preparation_extensions": [".doc", ".zip"],
+    "unsupported_image_extensions": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".heic",
+      ".tif",
+      ".tiff",
+      ".bmp",
+      ".webp"
+    ],
+    "remote_processing": false,
+    "content_execution": false,
+    "ocr": false,
+    "external_relationship_resolution": false,
+    "embedded_object_execution": false,
+    "limits": {
+      "extracted_characters": 500000,
+      "evidence_candidates": 500,
+      "candidate_characters": 2000,
+      "pdf_pages": 250,
+      "pdf_decompressed_stream_bytes": 2000000,
+      "csv_rows": 5000,
+      "csv_columns": 100,
+      "docx_members": 2000,
+      "docx_uncompressed_bytes": 26214400,
+      "docx_compression_ratio": 200
+    }
+  },
+  "future_image_pipeline": {
+    "implemented": false,
+    "original_image_retained": true,
+    "approved_decoder_boundary_required": true,
+    "approved_local_or_explicitly_authorized_ocr_required": true,
+    "unapproved_cloud_ocr_prohibited": true,
+    "ocr_output_record_type": "encrypted_derived_artifact",
+    "source_region_provenance_required_when_available": true,
+    "ocr_confidence_distinct_from_evidence_confidence": true,
+    "review_before_downstream_required": true,
+    "participant_session_lifecycle_required": true
+  },
+  "extraction_record": {
+    "id_pattern": "^PIA-[1-8][0-9]{3}-EXT-[0-9]{3}$",
+    "statuses": ["complete", "failed", "review_required"],
+    "plaintext_storage": "prohibited",
+    "extracted_text_storage": "encrypted_session_scoped_file",
+    "candidate_storage": "encrypted_session_record",
+    "capability_assertions_created_must_equal": []
+  },
+  "evidence_candidate": {
+    "id_pattern": "^PIA-[1-8][0-9]{3}-EVD-[0-9]{3}$",
+    "evidence_types": [
+      "activity",
+      "responsibility",
+      "output",
+      "achievement",
+      "event",
+      "condition",
+      "statement",
+      "other"
+    ],
+    "initial_extraction_method": "automated",
+    "initial_fidelity_status": "normalized",
+    "initial_review_status": "unreviewed",
+    "initial_included_in_downstream": false,
+    "source_artifact_id_required": true,
+    "source_locator_required": true,
+    "capability_assertions_created_must_equal": "none"
+  },
+  "review": {
+    "id_pattern": "^PIA-[1-8][0-9]{3}-REV-[0-9]{3}$",
+    "dispositions": ["accepted", "corrected", "rejected", "disputed"],
+    "append_only_events": true,
+    "original_extracted_text_preserved": true,
+    "eligible_review_status": "reviewed",
+    "eligibility_field": "included_in_downstream",
+    "capability_inference": false
+  },
+  "idempotency": {
+    "key_fields": [
+      "source_artifact_id",
+      "source_artifact_checksum",
+      "parser_id"
+    ],
+    "same_key_effect": "return_existing_extraction"
+  },
+  "lifecycle": {
+    "withdrawal_effect": "block_new_extraction_and_review",
+    "retention_scope": "participant_session",
+    "deletion_scope": "participant_session",
+    "git_storage": false,
+    "graph_projection": false
+  }
+}

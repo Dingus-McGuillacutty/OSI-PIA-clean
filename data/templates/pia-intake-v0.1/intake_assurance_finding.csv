@@ -1,0 +1,1 @@
+finding_id,intake_session_id,target_record_type,target_record_id,dimension,severity,code,message,evidence_references,logic_chain,uncertainty,disposition,safe_next_action,created_at,resolved_at,supersedes_finding_id

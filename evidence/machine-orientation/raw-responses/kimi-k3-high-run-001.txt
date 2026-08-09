@@ -1,0 +1,5 @@
+I made multiple exhaustive attempts to access https://github.com/Dingus-McGuillacutty/OSI-PIA-clean. Direct GitHub, API, raw README, web search, archive.org, and related username searches all timed out or returned no result.
+
+The repository does not appear to be publicly accessible to me. Because I cannot reach it, I cannot answer the orientation questions in good faith. Doing so would require inventing or assuming information about a codebase I have not seen.
+
+What would resolve this: confirmation that the repository is public, the correct URL, a copy of repository contents, or clarification that this is hypothetical. Without one of those, I have no basis to act as a new computational contributor.

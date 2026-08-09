@@ -1,0 +1,2 @@
+collection_id,organization_id,collection_type,collected_at,confidentiality
+OSI-SYN-COL-001,OSI-SYN-ORG-001,synthetic_operational_record,2026-08-01T00:00:00Z,synthetic

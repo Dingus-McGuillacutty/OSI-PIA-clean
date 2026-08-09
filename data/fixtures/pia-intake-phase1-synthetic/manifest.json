@@ -1,0 +1,15 @@
+{
+  "artifact_id": "fixture-pia-intake-phase1-synthetic-001",
+  "name": "PIA Intake Phase 1 Synthetic Contract Fixture",
+  "version": "0.1.0",
+  "authority": "working",
+  "status": "proposed",
+  "lifecycle_state": "formulation",
+  "development_state": "in_progress_subject_to_change",
+  "contract": "../../contracts/pia_intake_phase1_contract_v0.1.json",
+  "synthetic_only": true,
+  "participant_ids": ["PIA-9001"],
+  "contains_participant_data": false,
+  "purpose": "Exercise resolved and unresolved credential-definition paths without participant data.",
+  "expected_validation": "pass_with_review_item"
+}

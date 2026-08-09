@@ -1,0 +1,38 @@
+schema_version: "1.0"
+connector_id: connector-002
+connector_name: credential-engine
+display_name: Credential Engine Registry Search
+namespace: pia
+domain_scope:
+  - pia
+contract_id: contract-pia-credential-resolution-linkage-001
+contract_version: "0.1.0"
+owner: pia-connectors
+status: proposed
+version: "0.1.0"
+source_type: credential_engine_ctdl_search_api
+inputs:
+  - participant_free_credential_lookup_request
+outputs:
+  - normalized_public_definition_candidates
+privacy:
+  default_classification: public_reference_candidate
+  participant_data_allowed: false
+  api_key_location: server_environment_only
+  public_repository_allowed:
+    - connector_code
+    - blank_configuration
+    - documentation
+  public_repository_prohibited:
+    - api_keys
+    - participant_records
+    - private_lookup_relationships
+provenance:
+  retain_registry_identity: true
+  retain_resource_uri: true
+  retain_retrieval_timestamp: true
+  retain_record_metadata: true
+  retain_candidate_fingerprint: true
+acceptance:
+  automatic_definition_acceptance: false
+  phase_3a_review_required: true

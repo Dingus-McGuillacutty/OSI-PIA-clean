@@ -1,0 +1,2 @@
+organizational_unit_id,organization_id,unit_name,unit_type,record_status
+OSI-SYN-UNIT-001,OSI-SYN-ORG-001,Synthetic Operations,operational_unit,active

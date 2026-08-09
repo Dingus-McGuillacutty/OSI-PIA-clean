@@ -1,0 +1,22 @@
+schema_version: "0.1.0"
+request:
+  credential_title: "ceterms:name search value"
+  credential_type_hint: "@type filter"
+  issuer_hint: "nested ceterms:ownedBy organization-name filter"
+  version_hint: "candidate comparison hint"
+  jurisdiction_hint: "candidate comparison hint"
+response:
+  "@id": resource_uri
+  "ceterms:ctid": external_identity
+  "ceterms:name": credential_name
+  "@type": credential_types
+  "ceterms:description": description
+  "ceterms:subjectWebpage": subject_webpage
+  "ceterms:ownedBy": owner_references
+  "ceterms:offeredBy": offerer_references
+  "ceterms:credentialStatusType": credential_status_types
+  "ResultsMetadata.RecordCreated": record_created
+  "ResultsMetadata.RecordUpdated": record_updated
+  "ResultsMetadata.RecordOwnedBy": record_owned_by
+  "ResultsMetadata.RecordPublishedBy": record_published_by
+  "ResultsMetadata.RecordPublishType": record_publish_type

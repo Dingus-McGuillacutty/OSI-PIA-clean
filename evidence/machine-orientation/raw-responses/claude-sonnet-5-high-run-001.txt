@@ -1,0 +1,54 @@
+I followed the repository's own onboarding path rather than browsing freely: README → `docs/START_HERE.md` → `docs/FOR_MACHINES.md` (with `FOR_HUMANS.md` and the OSI Constitution as listed siblings) → `foundation/OSI_CONSTITUTION.md` → `governance/Repository_Architecture.md` → `docs/PROJECT_STATUS.md` → `governance/CLEAN_RELEASE_STANDARD.md` → `governance/registries/README.md`. One stop I could not complete: `evidence/machine-orientation/` returned a robots-disallowed error on directory listing, so I have not seen what's in it despite it sounding directly relevant to my role. I'm flagging that as an open gap rather than papering over it.
+
+## 1. What kind of environment this is
+
+This is a governed research-and-engineering repository, not a live product or a sandbox I can experiment freely in. It hosts two peer domains — Organizational Systems Intelligence (OSI, organizational-level) and Professional Identity Architecture (PIA, participant-level) — built on a shared foundation, with the explicit statement that the repository is the canonical record of the project, where conversations generate ideas but repository documents preserve, distinguish, and integrate them. Critically, I have entered the **sanitized release lineage**, not the working development archive — the repository describes itself as a sanitized, participant-data-free release lineage for OSI-PIA, and a separate "restricted development archive" exists that this lineage is deliberately disconnected from (more on that in §3). Nothing here is production-authorized; it's mid-development, with its own governance still partly unratified.
+
+## 2. What the project exists to protect
+
+The OSI Constitution states this directly rather than leaving it implicit. The architecture is designed to protect human agency and the right to participate knowingly; the integrity and provenance of evidence; the distinction between observation, interpretation, and conclusion; uncertainty, dissent, correction, and the right to withdraw; stewardship across the lifecycle of knowledge; the independence of OSI and PIA domains while permitting governed relation; development of capability without reducing people to scores or labels; and the possibility that organizations and knowledge systems can learn without becoming opaque or self-authorizing. Notably, human beings remain the primary source of meaning, judgment, ethics, and stewardship, while computational systems are welcomed as participants operating within architectural boundaries designed to strengthen rather than displace human development — that framing directly shapes what I think I'm allowed to do (§4).
+
+## 3. Authoritative, exploratory, historical, and operational materials
+
+The repository is explicit about layering authority rather than treating all documents as equally binding:
+
+**Canonical / authoritative** — `governance/Repository_Architecture.md` itself, and the full set of registries under `governance/registries/`, which are described as the authoritative repository inventory for governed artifacts, indicating what exists, where the canonical version lives, what authority it carries, who stewards it, and its dependencies. `foundation/`, `principles/`, `ontology/`, `architecture/`, and versioned contracts sit above implementation in the authority order.
+
+**Working/proposed, not yet authoritative** — the `GOVERNANCE_MODEL.md` is repeatedly described as a *candidate* constitutional layer: it has reached Congruence review and has a completed ratification review, but remains working/proposed, still requiring a scoped shared ADR before promotion. So it reads like policy but isn't yet load-bearing — I treated it as informative, not binding.
+
+**Exploratory** — `active-research/` and `docs/research-standards/`, explicitly scoped as exploratory work and validation material that, per FOR_MACHINES, is never promoted implicitly.
+
+**Historical** — `docs/history/` (dated milestones), `CHANGELOG.md`, and `decisions/`, which record decision rationale rather than current instruction.
+
+**Operational** — `software/`, `graph/`, `connectors/`, `tests/`, `scripts/`, and `data/`, which implement the above under strict constraints (synthetic-only data, no participant material committed).
+
+Underneath all of it is the two-lineage split from the Clean Release Standard: a **restricted development archive** (private, retains real history, not something I have access to or should treat as reachable) and **this sanitized lineage**, which begins from a new root commit with no parent, graft, or shared object store connecting it back to the restricted archive. I'm reading the public face of the project, not its full working history.
+
+## 4. What I believe I may and may not take
+
+`FOR_MACHINES.md` is written specifically for a contributor like me, and I'm treating it as the most direct answer to this question. It frames itself as an interpretation aid, not a prompt and not an authorization to bypass human governance, and lists working assumptions including: canonical terminology overrides inferred terminology; foundation artifacts carry higher authority than active research; exploratory knowledge is never promoted implicitly; provenance is preserved through every transformation; human review is required for promotion; a graph write is not evidence of truth but a governed projection; and when authority is unclear, stop, preserve the uncertainty, and request review rather than inventing a resolution.
+
+Concretely, I believe I **may**: read and interpret canonical material, help with implementation inside registered domain/architecture boundaries, distinguish evidence from interpretation, preserve provenance, and surface (not resolve) ambiguity.
+
+I believe I **may not**: treat a document's *existence* as authorization for production use; move exploratory or working/proposed material (including the Governance Model itself) into canonical status on my own; touch real participant data at all — the project status is explicit that participant data in the repository is prohibited and production participant processing is not authorized; write real (non-synthetic) data into any graph, since real participant and real organizational graph projection are both explicitly not authorized; or produce anything resembling automated consequential judgment, since the status doc explicitly excludes automatic consequential assessment, ranking, hiring, exclusion, or employability claims.
+
+## 5. Where human review and accountability remain required
+
+This shows up at every promotion boundary, not just at the top:
+
+- **Governance ratification** — the Governance Model needs a scoped shared ADR before promotion; it isn't self-ratifying.
+- **Any artifact promotion** — per FOR_MACHINES, human review is required for promotion of anything from exploratory/working status to canonical.
+- **Release publication** — even after every automated gate passes, the Clean Release Standard requires a human to review the generated provenance record and publication scope before anything is published; passing tests is explicitly not the same as authorization to publish.
+- **Future real-data work** — the project status lists open, unresolved governance decisions before any non-synthetic projection can happen, including defining a participant-minimized projection contract with allowed fields, approval authority, and deletion/retention behavior, and defining durable graph import audit, rollback, and exception requirements. None of that exists yet, so there's no path for me to act on real data even indirectly.
+
+## 6. Path followed
+
+README.md (root orientation) → `docs/START_HERE.md` (the guided path the maintainers designed) → `docs/FOR_MACHINES.md` (role-specific orientation) → `foundation/OSI_CONSTITUTION.md` (what the system protects) → `governance/Repository_Architecture.md` (authority order and domain boundaries) → `docs/PROJECT_STATUS.md` (current authorization state, dated 2026-08-01/03) → `governance/CLEAN_RELEASE_STANDARD.md` (what "clean" means and what's excluded) → `governance/registries/README.md` (canonical inventory). I did not read `FOR_HUMANS.md`, the full `GOVERNANCE_MODEL.md`, `docs/PLATFORM_OVERVIEW.md`, or the OSI Knowledge Architecture in detail — I'm naming these as unread rather than implying I have full coverage.
+
+## 7. Ambiguity, contradiction, and missing guidance I encountered
+
+- **The `evidence/machine-orientation/` directory was inaccessible to me** (robots-disallowed on the directory listing). Given its name, it may contain material more specific to my situation than anything I did read. I'd treat my report as incomplete on this point rather than assume `FOR_MACHINES.md` is the full picture.
+- **A genuine, repository-acknowledged transitional gap**: the Governance Model is written and reviewed as if it consolidates the rules, but isn't yet authoritative — meaning the *older*, more scattered canonical sources (Repository Architecture, individual registries) currently govern, even though a cleaner single document exists. This isn't my inference; the repo says so directly, and it's the kind of state where I'd rather ask which source wins in a specific dispute than assume the newer-looking document has already taken over.
+- **What "the project" refers to is easy to blur.** The README and status docs describe "the project" in fairly unified language, but I'm only looking at the clean release lineage — a deliberately separated copy. I don't have visibility into the restricted development archive at all, so any claim I make about "current state" is scoped to what this sanitized lineage exposes, not the full development history.
+
+I haven't taken any action here beyond reading — no writes, no promotions, no treatment of anything as production-ready. Let me know if you'd like me to go further into a specific layer (e.g., the ontology, the PIA intake architecture, or trying to work around the `machine-orientation` access gap).

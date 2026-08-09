@@ -1,0 +1,2 @@
+intake_session_id,participant_id,purpose,processing_scope,consent_status,confidentiality,retention_class,processing_state,created_by,created_at,updated_at,supersedes_intake_session_id
+PIA-9001-INT-001,PIA-9001,Synthetic validation of credential intake Phase 1,definition_resolution|application_linkage|dry_run_projection,granted,participant_private,synthetic_test,ready_for_review,synthetic-fixture,2026-07-26T00:00:00Z,2026-07-26T00:00:00Z,
