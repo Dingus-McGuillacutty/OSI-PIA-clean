@@ -1,3 +1,8 @@
 title: OSI-PIA
 description: Public articles and standards for Organizational Systems Intelligence and Professional Identity Architecture.
 theme: minima
+
+header_pages:
+  - index.md
+  - publications/index.md
+  - publications/articles/index.md
