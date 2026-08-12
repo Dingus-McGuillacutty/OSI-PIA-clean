@@ -123,10 +123,13 @@ It does not begin with the question:
 > Does this person match the expected résumé pattern?
 It begins with:
 > What capability is demonstrated by the evidence?
+
 That shift changes the work of identifying qualified candidates for their actual abilities and potential to succeed. Not candidates as potential placeholders. Not as disposable or interchangeable. 
 Instead of treating a résumé as the primary object, PIA treats the résumé as a downstream projection of a deeper professional identity structure.
 The goal is not to inflate a person’s experience or produce marketing language. The goal is to preserve evidence, interpret it carefully, and make capability legible without flattening the person.
+
 A PIA-style professional identity output may organize experience around questions such as:
+
 - What was the purpose of the role or activity?
 - What did the person actually do?
 - What impact did that work have?
@@ -134,6 +137,7 @@ A PIA-style professional identity output may organize experience around question
 - What capability appears across multiple contexts?
 - What evidence supports that interpretation?
 - What should not be inferred?
+
 This kind of structure is slower than a keyword scan. But it may be better suited to understanding people whose capability is real but not obvious in standard formats.
 
 ## What OSI Is Trying to Measure
