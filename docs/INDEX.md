@@ -6,6 +6,15 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 
 ## Start Here
 
+## Public Publications
+
+- [Publications](publications/)
+- [Articles](publications/articles/)
+- [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](publications/articles/2026-0811_Hiring-Translation-Problem)
+- [PIA Professional Identity and Resume Output Model](publications/standards/PIA_PROFESSIONAL_IDENTITY_OUTPUT_MODEL.md)
+
+##
+
 1. [Guided Start Here](START_HERE.md)
 2. [Project Status](PROJECT_STATUS.md)
 3. [Platform Overview](PLATFORM_OVERVIEW.md)
