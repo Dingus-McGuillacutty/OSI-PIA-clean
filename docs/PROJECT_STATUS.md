@@ -50,6 +50,14 @@ linked canonical documents govern when they differ from this summary.
 
 ## Executive state
 
+## Current Public Status
+
+As of August 2026, OSI-PIA has an active public GitHub Pages site, a
+published first article, documentation assurance records, registry and link
+validation, and an enabled public discussion channel. The project remains an
+active research and development system. It is not a production hiring,
+employment-screening, psychological-assessment, or personnel-decision tool.
+
 OSI-PIA is a governed research-and-engineering project with two peer domains:
 
 - **OSI** examines organizational systems, conditions, relationships, and
