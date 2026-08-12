@@ -21,6 +21,25 @@ and inspect the exact relationships directly.
 
 Each pair answers a bounded question:
 
+## Live graph evidence preview
+
+The two live pairs below are the actual Neo4j captures from the validated
+synthetic runs. The PIA pair shows an evidence-to-capability mapping; the OSI
+pair shows an evidence-to-observation mapping. Detailed explanations continue
+below.
+
+### PIA — live sandbox
+
+![PIA live graph evidence](images/PIA_SANDBOX_RUN_B58CF1C470F3_GRAPH.png)
+
+![PIA live path details](images/PIA_SANDBOX_RUN_B58CF1C470F3_PATHS.png)
+
+### OSI — live sandbox
+
+![OSI live graph evidence](images/OSI_SANDBOX_RUN_5B57152868B4_GRAPH.png)
+
+![OSI live path details](images/OSI_SANDBOX_RUN_5B57152868B4_PATHS.png)
+
 1. Where did a PIA representation come from?
 2. Why is existing capability not producing results?
 3. Which structural relationship creates a dependency bottleneck?
