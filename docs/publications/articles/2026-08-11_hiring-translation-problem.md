@@ -4,6 +4,13 @@ date: 2026-08-11
 status: draft
 project: OSI-PIA
 publication_type: article
+artifact_id: publication-article-hiring-translation-001
+domain: shared
+layer: publication
+authority: supporting
+status: active
+version: "0.1"
+owner: publication-stewardship
 ---
 
 # Hiring Does Not Have a Talent Problem. It Has a Translation Problem.

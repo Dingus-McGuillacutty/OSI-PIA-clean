@@ -1,5 +1,12 @@
 ---
+artifact_id: public-documentation-landing-001
 title: "OSI-PIA"
+domain: shared
+layer: publication
+authority: supporting
+status: active
+version: "1.0"
+owner: repository-governance
 ---
 
 **Organizational Systems Intelligence** and **Professional Identity Architecture** are early-stage frameworks for understanding how human capability is recognized, preserved, translated, and deployed.

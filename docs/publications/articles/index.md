@@ -1,5 +1,12 @@
 ---
+artifact_id: publication-articles-index-001
 title: "Articles"
+domain: shared
+layer: publication
+authority: supporting
+status: active
+version: "1.0"
+owner: publication-stewardship
 ---
 
 # OSI-PIA Articles
@@ -8,7 +15,7 @@ Public essays on hiring, capability recognition, professional identity, organiza
 
 ## Current Articles
 
-- [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](2026-08-11_hiring-translation-problem.html)
+- [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](2026-08-11_hiring-translation-problem.md)
 
 ## Planned Series
 
@@ -19,7 +26,7 @@ Public essays on hiring, capability recognition, professional identity, organiza
    How automated filters and AI screening can reject qualified people before human review.
 
 3. **Real Capability vs. Manufactured Polish**  
-   How generative AI weakens traditional résumé and interview signals.
+   How generative AI weakens traditional rÃ©sumÃ© and interview signals.
 
 4. **Hidden Workers and Capability Leakage**  
    Why organizations claim talent scarcity while overlooking available capability.
@@ -38,3 +45,5 @@ Public essays on hiring, capability recognition, professional identity, organiza
 These articles are public-facing interpretations of OSI-PIA research and development. They do not include private participant data, restricted participant signatures, contact information, identifiable participant narratives, or confidential source material unless separately approved for publication.
 
 OSI-PIA is an active development project. These articles do not describe a finished hiring product, employment-screening system, or validated personnel-selection tool.
+
+
