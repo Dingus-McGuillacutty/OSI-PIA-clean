@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+  <rect width="1200" height="640" fill="#f4f8f6"/>
+  <text x="48" y="58" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123b43">OSI synthetic sandbox projection</text>
+  <text x="48" y="92" font-family="Arial, sans-serif" font-size="16" fill="#56727a">Live validation run: OSI-SANDBOX-RUN-29E4D175CD97 · synthetic only · validator no-write</text>
+  <g stroke="#187f70" stroke-width="4" fill="none">
+    <path d="M220 250 C330 180 390 180 500 250"/><path d="M220 330 C330 330 390 330 500 330"/><path d="M220 410 C330 480 390 480 500 410"/>
+    <path d="M700 250 C790 250 840 250 930 250"/><path d="M700 330 C790 330 840 330 930 330"/><path d="M700 410 C790 410 840 410 930 410"/>
+  </g>
+  <g fill="#187f70"><path d="M492 240 l18 10 -18 10z"/><path d="M492 320 l18 10 -18 10z"/><path d="M492 400 l18 10 -18 10z"/><path d="M922 240 l18 10 -18 10z"/><path d="M922 320 l18 10 -18 10z"/><path d="M922 400 l18 10 -18 10z"/></g>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g fill="#e4f1ed" stroke="#187f70" stroke-width="2"><rect x="70" y="205" width="150" height="90" rx="14"/><rect x="70" y="285" width="150" height="90" rx="14"/><rect x="70" y="365" width="150" height="90" rx="14"/></g>
+    <g fill="#fff" stroke="#187f70" stroke-width="2"><rect x="500" y="205" width="200" height="90" rx="14"/><rect x="500" y="285" width="200" height="90" rx="14"/><rect x="500" y="365" width="200" height="90" rx="14"/></g>
+    <g fill="#e4f1ed" stroke="#187f70" stroke-width="2"><rect x="940" y="205" width="190" height="90" rx="14"/><rect x="940" y="285" width="190" height="90" rx="14"/><rect x="940" y="365" width="190" height="90" rx="14"/></g>
+    <g fill="#123b43" font-size="16" font-weight="700"><text x="145" y="242">Source</text><text x="145" y="322">Source</text><text x="145" y="402">Source</text><text x="600" y="242">Evidence</text><text x="600" y="322">Evidence</text><text x="600" y="402">Evidence</text><text x="1035" y="242">Observation</text><text x="1035" y="322">Observation</text><text x="1035" y="402">Observation</text></g>
+    <g fill="#56727a" font-size="12"><text x="145" y="265">OSI-SYN-SRC-001</text><text x="145" y="345">OSI-SYN-SRC-002</text><text x="145" y="425">OSI-SYN-SRC-003</text><text x="600" y="265">OSI-SYN-EVD-001</text><text x="600" y="345">OSI-SYN-EVD-002</text><text x="600" y="425">OSI-SYN-EVD-003</text><text x="1035" y="265">OSI-SYN-OBS-001</text><text x="1035" y="345">OSI-SYN-OBS-002</text><text x="1035" y="425">OSI-SYN-OBS-003</text></g>
+  </g>
+  <rect x="48" y="530" width="1104" height="64" rx="12" fill="#fff" stroke="#c5ddd6"/>
+  <text x="72" y="558" font-family="Arial, sans-serif" font-size="15" fill="#123b43" font-weight="700">Validated structure</text><text x="72" y="581" font-family="Arial, sans-serif" font-size="14" fill="#56727a">1 organization · 3 source/evidence/observation paths · properties valid · idempotent</text>
+</svg>

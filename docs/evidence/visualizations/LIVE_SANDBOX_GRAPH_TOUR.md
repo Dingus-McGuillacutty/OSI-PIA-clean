@@ -1,6 +1,6 @@
-# Live Sandbox Graph Tour
+﻿# Live Sandbox Graph Tour
 
-**Classification:** Synthetic demonstration — no real participant data.
+**Classification:** Synthetic demonstration â€” no real participant data.
 
 This tour pairs five conceptual diagrams with implementation views derived from
 the validated PIA-Sandbox and OSI-Sandbox projections. The implementation views
@@ -37,7 +37,7 @@ flowchart LR
 flowchart LR
   E["Evidence\nPIA-SYN-EVD-001"]
   C["Capability\nCAP-PIA-HANDOFF-MANAGEMENT"]
-  E -->|SUPPORTS\nPIA-SYN-MAP-001 · confidence 0.70| C
+  E -->|SUPPORTS\nPIA-SYN-MAP-001 Â· confidence 0.70| C
 ```
 
 The validated sandbox projection proves the exact `Evidence -[SUPPORTS]->
@@ -47,7 +47,7 @@ record and is not exposed in this public-safe view.
 ### What this demonstrates
 
 PIA can project a reviewed, bounded interpretation into a graph without
-turning a résumé claim or opaque score into an unsupported fact.
+turning a rÃ©sumÃ© claim or opaque score into an unsupported fact.
 
 ## 2. Capability blockage
 
@@ -73,7 +73,7 @@ flowchart LR
   Q -.-> B["Condition requiring review\nnot a capability verdict"]
 ```
 
-The OSI sandbox uses `Organization → Source → Evidence → ObservationCandidate`
+The OSI sandbox uses `Organization â†’ Source â†’ Evidence â†’ ObservationCandidate`
 and the `SUPPORTS_OBSERVATION` relationship. It stores an observed condition;
 it does not silently convert that condition into an individual deficiency.
 
@@ -196,3 +196,14 @@ The corresponding assurance records are the PIA and OSI sandbox projection
 milestones in `docs/history/`. A future live Neo4j capture may be added beside
 these diagrams only when it can be reproduced without exposing credentials,
 local paths, raw participant material, or connection details.
+
+## Live OSI sandbox walkthrough
+
+The following paired screenshots come from validated run OSI-SANDBOX-RUN-29E4D175CD97.
+
+![Live OSI sandbox graph topology](images/OSI_SANDBOX_RUN_29E4D175CD97_GRAPH.png)
+
+![Live OSI sandbox exact paths](images/OSI_SANDBOX_RUN_29E4D175CD97_PATHS.png)
+
+The graph view shows topology; the table view shows exact HAS_SOURCE, CONTAINS_EVIDENCE, and SUPPORTS_OBSERVATION paths. Both views are synthetic-only.
+
