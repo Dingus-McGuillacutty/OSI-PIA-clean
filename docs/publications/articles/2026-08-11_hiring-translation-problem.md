@@ -98,6 +98,7 @@ The traditional résumé asks people to compress a complex human development his
 - bullets;
 - credentials;
 - keywords.
+
 That format can be useful. It is quick. It is familiar. 
 It allows comparison, but it is also lossy.
 Resumes often struggle to show how capability actually develops across roles. They struggle to represent learning, judgment, trust-building, informal leadership, systems thinking, operational repair, and cross-domain transfer.
