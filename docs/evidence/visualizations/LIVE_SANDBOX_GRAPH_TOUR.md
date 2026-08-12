@@ -223,30 +223,7 @@ This tour is indexed under both Evidence and Publication Assurance. It is:
 - reviewed before publication.
 
 The corresponding assurance records are the PIA and OSI sandbox projection
-milestones in `docs/history/`. A future live Neo4j capture may be added beside
-these diagrams only when it can be reproduced without exposing credentials,
-local paths, raw participant material, or connection details.
-
-## Live OSI sandbox walkthrough
-
-The following paired screenshots come from validated run OSI-SANDBOX-RUN-29E4D175CD97.
-
-![Live OSI sandbox graph topology](images/OSI_SANDBOX_RUN_29E4D175CD97_GRAPH.png)
-
-![Live OSI sandbox exact paths](images/OSI_SANDBOX_RUN_29E4D175CD97_PATHS.png)
-
-The graph view shows topology; the table view shows exact HAS_SOURCE, CONTAINS_EVIDENCE, and SUPPORTS_OBSERVATION paths. Both views are synthetic-only.
-
-## PIA live sandbox walkthrough
-
-These paired screenshots show the focused PIA synthetic path from validated run
-`PIA-SANDBOX-RUN-B58CF1C470F3`:
-
-![Live PIA graph path](images/PIA_SANDBOX_RUN_B58CF1C470F3_GRAPH.png)
-
-![Live PIA path details](images/PIA_SANDBOX_RUN_B58CF1C470F3_PATHS.png)
-
-The graph and table views show one `Evidence -[SUPPORTS]-> Capability` path.
-The selected evidence is synthetic and the bounded capability representation
-does not establish competence, performance, or a general professional score.
+milestones in `docs/history/`. The canonical live captures are shown once near
+the top of this page; older capture files remain in the image directory for
+historical reproducibility but are not repeated here.
 
