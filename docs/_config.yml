@@ -3,6 +3,5 @@ description: Public articles and standards for Organizational Systems Intelligen
 theme: minima
 
 header_pages:
-  - index.md
-  - publications/index.md
+  - publications/
   - publications/articles/index.md
