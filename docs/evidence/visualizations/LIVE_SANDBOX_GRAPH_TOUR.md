@@ -8,6 +8,11 @@ use the exact synthetic labels and relationship vocabulary exercised by the
 assurance scripts; they are deliberately small, reusable graph views rather
 than database screenshots.
 
+Later in this page, the **Live OSI sandbox walkthrough** section shows the
+actual Neo4j graph view and matching path table from a validated synthetic run.
+Those images let you compare the conceptual diagrams with the implementation
+and inspect the exact relationships directly.
+
 Each pair answers a bounded question:
 
 1. Where did a PIA representation come from?
