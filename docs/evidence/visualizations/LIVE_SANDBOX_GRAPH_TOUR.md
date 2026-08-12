@@ -8,6 +8,12 @@ use the exact synthetic labels and relationship vocabulary exercised by the
 assurance scripts; they are deliberately small, reusable graph views rather
 than database screenshots.
 
+The tour includes both sides of the system: PIA shows how reviewed evidence is
+bounded into a capability representation, while OSI shows how source-grounded
+evidence becomes an organizational observation. Scroll down to the **PIA live
+sandbox walkthrough** and **Live OSI sandbox walkthrough** sections to see the
+actual graph and path-table images from those validated runs.
+
 Later in this page, the **Live OSI sandbox walkthrough** section shows the
 actual Neo4j graph view and matching path table from a validated synthetic run.
 Those images let you compare the conceptual diagrams with the implementation
