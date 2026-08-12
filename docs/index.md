@@ -2,8 +2,6 @@
 title: "OSI-PIA"
 ---
 
-# OSI-PIA
-
 **Organizational Systems Intelligence** and **Professional Identity Architecture** are early-stage frameworks for understanding how human capability is recognized, preserved, translated, and deployed.
 
 This project explores a central problem:
@@ -16,10 +14,12 @@ OSI-PIA is being developed as a research, documentation, and prototype ecosystem
 
 ## New Here?
 
-Start with the public articles for the clearest introduction to the problem space.
+Start with the guided orientation, then choose the path that matches your
+interest.
 
-- [Articles](publications/articles/)
-- [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](publications/articles/2026-08-11_hiring-translation-problem.md)
+- [Start Here](START_HERE.md)
+- [Read the public articles](publications/articles/)
+- [See the current project status](PROJECT_STATUS.md)
 
 ---
 
@@ -27,7 +27,6 @@ Start with the public articles for the clearest introduction to the problem spac
 
 ### Understand the Project
 
-- [Start Here](START_HERE.md)
 - [Platform Overview](PLATFORM_OVERVIEW.md)
 - [Project Status](PROJECT_STATUS.md)
 - [Glossary](GLOSSARY.md)
@@ -37,7 +36,7 @@ Start with the public articles for the clearest introduction to the problem spac
 
 - [Publications](publications/)
 - [Articles](publications/articles/)
-- [Publication Framework](publications/README.md)
+- [Publication Framework](publications/)
 - [PIA Professional Identity and Resume Output Model](publications/standards/PIA_PROFESSIONAL_IDENTITY_OUTPUT_MODEL.md)
 
 ### Explore the Architecture
