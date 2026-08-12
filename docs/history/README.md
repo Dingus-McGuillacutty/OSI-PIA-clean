@@ -16,6 +16,7 @@ governance review attached to the affected artifacts.
 | 2026-08-01 | [OSI synthetic organizational-evidence assurance](MILESTONE_2026-08-01_OSI_SYNTHETIC_ORGANIZATIONAL_EVIDENCE_ASSURANCE.md) | Synthetic organizational package and no-write assurance through a bounded observation candidate |
 | 2026-08-01 | [OSI synthetic sandbox projection assurance](MILESTONE_2026-08-01_OSI_SYNTHETIC_SANDBOX_PROJECTION_ASSURANCE.md) | Repeatable synthetic organization-to-observation sandbox path with read-only no-duplication validation |
 | 2026-08-02 | [OSI expanded synthetic projection package](MILESTONE_2026-08-02_OSI_EXPANDED_SYNTHETIC_PROJECTION.md) | Three source-grounded synthetic observations projected and validated with no duplicate structure |
+| 2026-08-12 | [PIA live synthetic sandbox validation](MILESTONE_2026-08-12_PIA_LIVE_SANDBOX_VALIDATION.md) | Live PIA synthetic evidence-to-capability write, read-only validation, and paired graph walkthrough |
 
 ## Interpretation
 

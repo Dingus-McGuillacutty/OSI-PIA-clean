@@ -212,3 +212,16 @@ The following paired screenshots come from validated run OSI-SANDBOX-RUN-29E4D17
 
 The graph view shows topology; the table view shows exact HAS_SOURCE, CONTAINS_EVIDENCE, and SUPPORTS_OBSERVATION paths. Both views are synthetic-only.
 
+## PIA live sandbox walkthrough
+
+These paired screenshots show the focused PIA synthetic path from validated run
+`PIA-SANDBOX-RUN-B58CF1C470F3`:
+
+![Live PIA graph path](images/PIA_SANDBOX_RUN_B58CF1C470F3_GRAPH.png)
+
+![Live PIA path details](images/PIA_SANDBOX_RUN_B58CF1C470F3_PATHS.png)
+
+The graph and table views show one `Evidence -[SUPPORTS]-> Capability` path.
+The selected evidence is synthetic and the bounded capability representation
+does not establish competence, performance, or a general professional score.
+
