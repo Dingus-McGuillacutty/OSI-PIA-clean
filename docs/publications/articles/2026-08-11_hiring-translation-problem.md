@@ -37,10 +37,11 @@ When that happens, modern, layered hiring systems may not see a person with tran
 Hiring systems may see an organization's best candidates as a mismatch for what the machine-readable part of the system expects. A human in the hiring process may not even know their next top performer exists at all. 
 ## The System Is Built to Recognize Familiarity
 Harvard Business School’s “Hidden Workers” research describes how hiring processes designed to find “perfect” candidates efficiently can systematically exclude qualified workers, including caregivers, veterans, formerly incarcerated people, people with disabilities, and others whose work histories do not fit conventional patterns.[^hbs-hidden-workers]
-That framing matters because it shifts the question from:
-> "Are there enough qualified people?" 
-to 
-> "What kinds of qualified people has the system been designed not to see?".
+That framing matters because it shifts the question:
+
+> The issue is not only whether enough qualified people exist.  
+> The issue is what kinds of qualified people the system has been designed not to see.
+
 In the HBS and Accenture hidden-workers report, automated talent systems are described as often missing “the perfectly capable.” The report identifies hidden workers as a large group of people whose potential is restricted by the way hiring systems define, filter, and interpret qualifications.[^accenture-hidden-workers]
 That is not merely an ethical issue, although it is certainly that. It is also an operational issue.
 If a hiring process excludes qualified people before human review, the organization does not just harm applicants. It damages its own access to capability.
