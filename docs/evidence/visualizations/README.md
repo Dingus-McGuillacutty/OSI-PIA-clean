@@ -19,3 +19,7 @@ The live-sandbox tour is also a publication-safe evidence artifact. It uses
 synthetic identifiers and exact validated relationship vocabulary while
 excluding credentials, local paths, raw participant material, and connection
 details.
+
+The `images/` directory contains saved, publication-safe SVG views for the
+five focal graph states used by the live tour. Mermaid remains the editable
+conceptual source; these SVGs are the rendered visual evidence assets.

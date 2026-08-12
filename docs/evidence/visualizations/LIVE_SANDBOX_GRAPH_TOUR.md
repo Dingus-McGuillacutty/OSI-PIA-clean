@@ -19,6 +19,8 @@ Each pair answers a bounded question:
 
 ## 1. PIA evidence chain
 
+![Synthetic PIA evidence chain](images/pia-evidence-chain.svg)
+
 ### Conceptual model
 
 ```mermaid
@@ -48,6 +50,8 @@ PIA can project a reviewed, bounded interpretation into a graph without
 turning a résumé claim or opaque score into an unsupported fact.
 
 ## 2. Capability blockage
+
+![Capability blockage](images/capability-blockage.svg)
 
 ### Conceptual model
 
@@ -79,6 +83,8 @@ OSI can preserve organizational conditions as distinct observations so that
 capability absence and capability blockage remain analytically separable.
 
 ## 3. Bridge/dependency bottleneck
+
+![Bridge and dependency bottleneck](images/bridge-bottleneck.svg)
 
 ### Conceptual model
 
@@ -117,6 +123,8 @@ a state change.
 
 ## 4. State transition
 
+![Organizational state transition](images/state-transition.svg)
+
 ### Conceptual model
 
 ```mermaid
@@ -143,6 +151,8 @@ OSI is designed to compare graph states and propagation effects, not merely to
 describe a static collection of nodes.
 
 ## 5. Governed cross-domain mapping
+
+![Governed cross-domain mapping](images/governed-cross-domain-mapping.svg)
 
 ### Conceptual model
 
