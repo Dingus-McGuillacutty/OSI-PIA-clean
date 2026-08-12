@@ -20,6 +20,11 @@ and a case-correct `docs/index.md` landing path. The landing page now gives
 outside readers a coherent route into orientation, publications, architecture,
 evidence, research, and project status.
 
+GitHub Pages was configured to deploy the `main` branch's `/docs` folder. The
+first public article, *Hiring Does Not Have a Talent Problem. It Has a
+Translation Problem.*, was published through that surface as the initial
+example of a governed OSI-PIA public communication.
+
 ## Documentation assurance repair
 
 The first publication-facing release exposed documentation drift that had not
@@ -54,7 +59,8 @@ The release was committed as:
 The public documentation surface is now subject to the same evidence,
 provenance, registry, and assurance expectations as the implementation. GitHub
 Pages is therefore treated as a publication surface, not as an ungoverned copy
-of repository files.
+of repository files. The first article demonstrates the complete path from a
+governed Markdown source to a rendered public page.
 
 ## Boundary
 
