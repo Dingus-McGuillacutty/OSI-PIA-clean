@@ -10,7 +10,7 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 
 - [Publications](publications/)
 - [Articles](publications/articles/)
-- [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](publications/articles/2026-08-11_hiring-translation-problem)
+- [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](publications/articles/2026-08-11_hiring-translation-problem.md)
 - [PIA Professional Identity and Resume Output Model](publications/standards/PIA_PROFESSIONAL_IDENTITY_OUTPUT_MODEL.md)
 
 ##
