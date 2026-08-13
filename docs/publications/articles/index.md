@@ -15,8 +15,8 @@ Public essays on hiring, capability recognition, professional identity, organiza
 
 ## Current Articles
 
-- [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](2026-08-11_hiring-translation-problem.md)
-- [The False Negative Machine](2026-08-13_false-negative-machine.md)
+- [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](2026-08-11_hiring-translation-problem.html)
+- [The False Negative Machine](2026-08-13_false-negative-machine.html)
 
 ## Planned Series
 
