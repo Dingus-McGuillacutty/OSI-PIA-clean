@@ -27,7 +27,7 @@ Public essays on hiring, capability recognition, professional identity, organiza
    How automated filters and AI screening can reject qualified people before human review.
 
 3. **Real Capability vs. Manufactured Polish**  
-   How generative AI weakens traditional rÃ©sumÃ© and interview signals.
+   How generative AI weakens traditional résumé and interview signals.
 
 4. **Hidden Workers and Capability Leakage**  
    Why organizations claim talent scarcity while overlooking available capability.

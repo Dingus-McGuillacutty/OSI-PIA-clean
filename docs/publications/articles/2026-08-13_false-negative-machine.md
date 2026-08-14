@@ -29,7 +29,7 @@ The first problem is translation.
 
 The second problem is what happens when organizations automate decisions based on a bad translation.
 
-A rÃ©sumÃ© is not a person. A keyword match is not capability. A score is not judgment. A ranking is not a complete evaluation. But in modern hiring systems, these representations can quietly become stand-ins for the person themselves.
+A résumé is not a person. A keyword match is not capability. A score is not judgment. A ranking is not a complete evaluation. But in modern hiring systems, these representations can quietly become stand-ins for the person themselves.
 
 That is where false negatives enter the system.
 
@@ -37,7 +37,7 @@ A system can accurately determine that a representation failed its criteria with
 
 That distinction matters.
 
-A candidate may be rejected because the rÃ©sumÃ© did not parse cleanly. Because the job title did not match the expected title family. Because the candidate used different language than the job description. Because their strongest evidence came from military service, caregiving, self-directed learning, informal leadership, cross-domain work, or operational repair work that does not fit a standard career template.
+A candidate may be rejected because the résumé did not parse cleanly. Because the job title did not match the expected title family. Because the candidate used different language than the job description. Because their strongest evidence came from military service, caregiving, self-directed learning, informal leadership, cross-domain work, or operational repair work that does not fit a standard career template.
 
 The system may record only one fact:
 
@@ -53,24 +53,24 @@ That is not the same thing as proving that the person lacked capability.
 
 In a technical sense, a false negative occurs when a system classifies something as absent even though it is actually present.
 
-In hiring, the â€œsomethingâ€ is capability.
+In hiring, the “something” is capability.
 
-The system may decide that a person is not a match, not qualified, not competitive, or not worth advancing. But that decision may be based on a limited representation of the person: a rÃ©sumÃ©, profile, score, assessment result, work history field, degree field, keyword field, or parsed employment record.
+The system may decide that a person is not a match, not qualified, not competitive, or not worth advancing. But that decision may be based on a limited representation of the person: a résumé, profile, score, assessment result, work history field, degree field, keyword field, or parsed employment record.
 
 The danger is not only that a machine makes a mistake.
 
 The danger is that a limited proxy can become an organizational fact. A missing keyword becomes missing skill. A nontraditional path becomes lack of relevance. An employment gap becomes risk. A different industry becomes non-fit. A failed parsing event becomes silence. A low score becomes a decision no human ever seriously examines.
 
-The False Negative Machine does not prove that a person cannot do the work. It proves that the personâ€™s representation failed the systemâ€™s recognition test.
+The False Negative Machine does not prove that a person cannot do the work. It proves that the person’s representation failed the system’s recognition test.
 
 
 ## The Chain of Disappearance
 
 False negatives usually do not happen in one dramatic moment. They happen through a chain.
 
-A person submits a rÃ©sumÃ©. The rÃ©sumÃ© is parsed. The parsed data is classified. The classification is compared to job criteria. Keywords, job titles, credentials, years of experience, and other proxy signals are weighted. The candidate may be ranked, scored, filtered, or sorted into a workflow.
+A person submits a résumé. The résumé is parsed. The parsed data is classified. The classification is compared to job criteria. Keywords, job titles, credentials, years of experience, and other proxy signals are weighted. The candidate may be ranked, scored, filtered, or sorted into a workflow.
 
-At each step, uncertainty exists. Did the system parse the rÃ©sumÃ© correctly? Did it understand the candidateâ€™s work in context? Did it recognize equivalent experience? Did it distinguish between missing evidence and unread evidence? Did it treat career transitions, nonlinear paths, or cross-domain capability as potential value or as noise?
+At each step, uncertainty exists. Did the system parse the résumé correctly? Did it understand the candidate’s work in context? Did it recognize equivalent experience? Did it distinguish between missing evidence and unread evidence? Did it treat career transitions, nonlinear paths, or cross-domain capability as potential value or as noise?
 
 Did it route the candidate to a human reviewer or pass over a qualified candidate on a weekend and send a rejection letter with no input from or to an actual person?
 
@@ -91,11 +91,11 @@ The machine-readable representation moves through the system. The person does no
 
 ## From Bad Translation to Automated Rejection
 
-In my article [â€œHiring Does Not Have a Talent Problem. It Has a Translation Problemâ€](https://dingus-mcguillacutty.github.io/OSI-PIA-clean/publications/articles/2026-08-11_hiring-translation-problem.html), I argued that hiring often has trouble understanding people whose experience does not match the preferred pattern for a role. The issue is not only whether qualified people exist. The issue is whether their capability is translated into a form the hiring system can recognize.
+In my article [“Hiring Does Not Have a Talent Problem. It Has a Translation Problem”](https://dingus-mcguillacutty.github.io/OSI-PIA-clean/publications/articles/2026-08-11_hiring-translation-problem.html), I argued that hiring often has trouble understanding people whose experience does not match the preferred pattern for a role. The issue is not only whether qualified people exist. The issue is whether their capability is translated into a form the hiring system can recognize.
 
 Systems that produce and maintain false negatives add the next layer. When bad translations are automated, the failure can scale.
 
-This is not only a problem with artificial intelligence. Traditional applicant tracking systems can filter candidates through rigid keyword logic, Boolean rules, required fields, knockout questions, title matching, and formatting assumptions. AI-enabled systems may add semantic matching, scoring, ranking, contextual inference, rÃ©sumÃ© summarization, automated assessments, or predictive models, but they can still carry forward the same assumptions already built into hiring systems over time.
+This is not only a problem with artificial intelligence. Traditional applicant tracking systems can filter candidates through rigid keyword logic, Boolean rules, required fields, knockout questions, title matching, and formatting assumptions. AI-enabled systems may add semantic matching, scoring, ranking, contextual inference, résumé summarization, automated assessments, or predictive models, but they can still carry forward the same assumptions already built into hiring systems over time.
 
 The technology changes, but the core risk remains:
 
@@ -112,7 +112,7 @@ When that distinction collapses, false negatives become easier to produce and ha
 
 The False Negative Machine becomes more serious when many employers rely on similar tools, similar vendor logic, similar screening practices, or similar assumptions about what qualified looks like.
 
-Stanford researchers studying algorithmic monocultures in hiring analyzed millions of applicants and 4 million job applications screened through algorithms built by the same vendor ecosystem. Stanford HAIâ€™s public summary describes the dataset as 3.4 million people submitting 4 million applications to roughly 1,700 postings across 150 employers and 11 sectors.[^stanford-arxiv][^stanford-hai]
+Stanford researchers studying algorithmic monocultures in hiring analyzed millions of applicants and 4 million job applications screened through algorithms built by the same vendor ecosystem. Stanford HAI’s public summary describes the dataset as 3.4 million people submitting 4 million applications to roughly 1,700 postings across 150 employers and 11 sectors.[^stanford-arxiv][^stanford-hai]
 
 The important point is not that every employer uses the same tool.
 
@@ -143,13 +143,13 @@ A more defensible concern is narrower and more important:
 
 **A representational failure can become systemic even without a literal blacklist.**
 
-If many employers use similar tools, similar thresholds, similar rÃ©sumÃ© conventions, similar assessment models, similar job-description language, or similar ideas of what a qualified candidate should look like, then the same person may fail recognition again and again.
+If many employers use similar tools, similar thresholds, similar résumé conventions, similar assessment models, similar job-description language, or similar ideas of what a qualified candidate should look like, then the same person may fail recognition again and again.
 
 The applicant may experience the pattern as a lockout. The underlying mechanism may be repeated misrecognition. That distinction matters.
 
-â€œA universal blacklistâ€ is a panic narrative.
+“A universal blacklist” is a panic narrative.
 
-â€œA concentrated recognition system that can produce correlated rejectionâ€ is a governance problem.
+“A concentrated recognition system that can produce correlated rejection” is a governance problem.
 
 The difference is not cosmetic. It is structural. It changes the solution.
 
@@ -203,12 +203,12 @@ The question may also become:
 
 **Was the selection procedure valid, documented, monitored, explainable, and tested for adverse impact in the context where it was deployed?**
 
-That is a much higher standard than â€œthe vendor said the tool was fair.â€
+That is a much higher standard than “the vendor said the tool was fair.”
 
 
 ## Governance Is Not Optional
 
-NISTâ€™s AI Risk Management Framework gives useful language for this problem. It emphasizes that trustworthy AI systems should be valid and reliable, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.[^nist-ai-rmf]
+NIST’s AI Risk Management Framework gives useful language for this problem. It emphasizes that trustworthy AI systems should be valid and reliable, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.[^nist-ai-rmf]
 
 That may sound abstract, but in hiring it becomes concrete.
 
@@ -237,7 +237,7 @@ Fairness also requires acknowledging that employers are responding to real signa
 
 Candidates are using AI too.
 
-Some use AI to rewrite rÃ©sumÃ©s, mass-produce cover letters, optimize keywords, generate answers, or perform during assessments and interviews. Some of that use is reasonable. Some of it is deceptive or makes already-weak hiring signals even less reliable.
+Some use AI to rewrite résumés, mass-produce cover letters, optimize keywords, generate answers, or perform during assessments and interviews. Some of that use is reasonable. Some of it is deceptive or makes already-weak hiring signals even less reliable.
 
 That matters because it creates a trust spiral. Employers use automation because applicant volume is overwhelming. Candidates use automation because employer systems feel opaque and unresponsive. Employers distrust polished applications because they may be AI-generated. Candidates distrust screening systems because they may never reach a human.
 
@@ -247,7 +247,7 @@ The result is a labor market where more activity does not necessarily mean more 
 
 Less trust.
 
-That is the bridge to the planned next article in this series, **â€œReal Capability vs. Manufactured Polish.â€**
+That is the bridge to the planned next article in this series, **“Real Capability vs. Manufactured Polish.”**
 
 The false negative problem is one side of the failure: real capability can be rejected because the representation does not fit. The false positive problem is the other side: polished representation can pass through the system without proving underlying capability.
 
@@ -260,7 +260,7 @@ Professional Identity Architecture, or PIA, begins with a different question.
 
 Not:
 
-**Does this person match the expected rÃ©sumÃ© pattern?**
+**Does this person match the expected résumé pattern?**
 
 But:
 
@@ -268,11 +268,11 @@ But:
 
 That shift matters because it separates the person from the format.
 
-A rÃ©sumÃ© may still be useful. A profile may still be useful. A certification, title, degree, work history, project, training record, or assessment may still provide evidence.
+A résumé may still be useful. A profile may still be useful. A certification, title, degree, work history, project, training record, or assessment may still provide evidence.
 
 But none of those artifacts should be mistaken for the whole person.
 
-PIA treats the rÃ©sumÃ© as a downstream projection of a deeper professional identity structure. It asks what the person has actually done, what conditions they operated under, what problems they solved, what systems they improved, what judgment they demonstrated, what they learned, and what capability is reasonably supported by the evidence.
+PIA treats the résumé as a downstream projection of a deeper professional identity structure. It asks what the person has actually done, what conditions they operated under, what problems they solved, what systems they improved, what judgment they demonstrated, what they learned, and what capability is reasonably supported by the evidence.
 
 That does not eliminate uncertainty.
 
@@ -286,7 +286,7 @@ The goal is to stop collapsing weak representation into final judgment.
 
 Organizational Systems Intelligence, or OSI, looks at the organizational side of the same problem.
 
-If PIA asks how a personâ€™s capability can be represented more accurately, OSI asks how organizations create, lose, misread, block, or fail to deploy capability.
+If PIA asks how a person’s capability can be represented more accurately, OSI asks how organizations create, lose, misread, block, or fail to deploy capability.
 
 In hiring, that means looking at the system of recognition itself: which candidates are removed before human review, which criteria are genuinely job-relevant, which tools are shaping recommendations, and which costs remain invisible.
 
@@ -323,42 +323,42 @@ The next problem is the mirror image:
 
 If real capability can be rejected because the representation fails, then polished representation can also be accepted without proving capability.
 
-That is where the next article in this series, **â€œReal Capability vs. Manufactured Polish,â€** begins.
+That is where the next article in this series, **“Real Capability vs. Manufactured Polish,”** begins.
 
 ## Sources
 
-[^stanford-arxiv]: Rishi Bommasani, Sarah Bana, Kathleen A. Creel, Dan Jurafsky, and Percy Liang, â€œAlgorithmic Monocultures in Hiring,â€ arXiv, 2026.  
+[^stanford-arxiv]: Rishi Bommasani, Sarah Bana, Kathleen A. Creel, Dan Jurafsky, and Percy Liang, “Algorithmic Monocultures in Hiring,” arXiv, 2026.  
 https://arxiv.org/abs/2605.27371
 
-[^stanford-hai]: Stanford Institute for Human-Centered Artificial Intelligence, â€œAI Hiring Tools Can Yield Racial Bias and Systemic Rejection,â€ 2026.  
+[^stanford-hai]: Stanford Institute for Human-Centered Artificial Intelligence, “AI Hiring Tools Can Yield Racial Bias and Systemic Rejection,” 2026.  
 https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection
 
-[^cloudapper]: CloudApper, â€œAI Resume Screening vs. Traditional ATS Filters.â€ Industry/vendor explanation of screening mechanics and marketing claims.  
+[^cloudapper]: CloudApper, “AI Resume Screening vs. Traditional ATS Filters.” Industry/vendor explanation of screening mechanics and marketing claims.  
 https://www.cloudapper.ai/talent-acquisition/ai-resume-screening-vs-traditional-ats-filters/#How_AI_Screens_Resumes
 
-[^skillhub]: SkillHub, â€œATS & AI Resume Filters Guide.â€ Candidate-side explanation of rÃ©sumÃ© parsing, formatting, keywords, and ATS legibility.  
+[^skillhub]: SkillHub, “ATS & AI Resume Filters Guide.” Candidate-side explanation of résumé parsing, formatting, keywords, and ATS legibility.  
 https://skillhub.com/blog/ats-ai-resume-filters-guide
 
-[^ibm-ai-adoption]: IBM Newsroom, â€œData Suggests Growth in Enterprise Adoption of AI is Due to Widespread Deployment by Early Adopters,â€ January 10, 2024.  
+[^ibm-ai-adoption]: IBM Newsroom, “Data Suggests Growth in Enterprise Adoption of AI is Due to Widespread Deployment by Early Adopters,” January 10, 2024.  
 https://newsroom.ibm.com/2024-01-10-Data-Suggests-Growth-in-Enterprise-Adoption-of-AI-is-Due-to-Widespread-Deployment-by-Early-Adopters
 
-[^bbc-ai-hiring]: BBC Worklife, â€œAI hiring tools may be filtering out the best job applicants,â€ February 2024.  
+[^bbc-ai-hiring]: BBC Worklife, “AI hiring tools may be filtering out the best job applicants,” February 2024.  
 https://www.bbc.com/worklife/article/20240214-ai-recruiting-hiring-software-bias-discrimination
 
-[^lampani-linkedin]: Richie Lampani, â€œAI Didnâ€™t Blacklist You Across the Entire Job Market,â€ LinkedIn, June 22, 2026. Used as a practitioner counterpoint distinguishing the Stanford research from viral overclaims about universal blacklisting.  
+[^lampani-linkedin]: Richie Lampani, “AI Didn’t Blacklist You Across the Entire Job Market,” LinkedIn, June 22, 2026. Used as a practitioner counterpoint distinguishing the Stanford research from viral overclaims about universal blacklisting.  
 https://www.linkedin.com/pulse/ai-didnt-blacklist-you-across-entire-job-market-richie-lampani-odioe/
 
-[^management-consulted]: Management Consulted, â€œHow AI Is Getting Candidates Blacklisted.â€ Practitioner discussion of employer responses to candidate AI use in recruiting and interviews.  
+[^management-consulted]: Management Consulted, “How AI Is Getting Candidates Blacklisted.” Practitioner discussion of employer responses to candidate AI use in recruiting and interviews.  
 https://managementconsulted.com/podcast/how-ai-is-getting-candidates-blacklisted/
 
-[^reuters-workday]: Reuters, Daniel Wiessner, â€œWorkday must face California lawsuit over AI bias in job screening tools,â€ June 22, 2026.  
+[^reuters-workday]: Reuters, Daniel Wiessner, “Workday must face California lawsuit over AI bias in job screening tools,” June 22, 2026.  
 https://www.reuters.com/legal/government/workday-must-face-california-lawsuit-over-ai-bias-job-screening-tools-2026-06-22/
 
-[^aba-workday]: American Bar Association, Business Law Today, â€œWhy AI Hiring Discrimination Claims Are More Dangerous to Employers Than They Look,â€ June 2026.  
+[^aba-workday]: American Bar Association, Business Law Today, “Why AI Hiring Discrimination Claims Are More Dangerous to Employers Than They Look,” June 2026.  
 https://www.americanbar.org/groups/business_law/resources/business-law-today/2026-june/ai-hiring-discrimination-claims-employers/
 
-[^eeoc-title-vii]: U.S. Equal Employment Opportunity Commission, â€œAssessing Adverse Impact in Software, Algorithms, and Artificial Intelligence Used in Employment Selection Procedures Under Title VII of the Civil Rights Act of 1964,â€ technical assistance resource, 2023.  
+[^eeoc-title-vii]: U.S. Equal Employment Opportunity Commission, “Assessing Adverse Impact in Software, Algorithms, and Artificial Intelligence Used in Employment Selection Procedures Under Title VII of the Civil Rights Act of 1964,” technical assistance resource, 2023.  
 https://www.eeoc.gov/select-issues-assessing-adverse-impact-software-algorithms-and-artificial-intelligence-used-employment
 
-[^nist-ai-rmf]: National Institute of Standards and Technology, â€œArtificial Intelligence Risk Management Framework,â€ AI RMF 1.0.  
+[^nist-ai-rmf]: National Institute of Standards and Technology, “Artificial Intelligence Risk Management Framework,” AI RMF 1.0.  
 https://www.nist.gov/itl/ai-risk-management-framework
