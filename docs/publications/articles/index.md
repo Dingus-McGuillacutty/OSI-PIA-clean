@@ -17,6 +17,7 @@ Public essays on hiring, capability recognition, professional identity, organiza
 
 - [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](2026-08-11_hiring-translation-problem.html)
 - [The False Negative Machine](2026-08-13_false-negative-machine.html)
+- [Real Capability vs. Manufactured Polish](2026-08-18_real-capability-vs-manufactured-polish.html)
 
 ## Planned Series
 

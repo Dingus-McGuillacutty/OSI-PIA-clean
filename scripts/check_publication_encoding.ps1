@@ -26,7 +26,7 @@ foreach ($file in $files) {
     if (-not $text.StartsWith("---`r`n") -and -not $text.StartsWith("---`n")) {
         $failures += "$($file.Name): YAML front matter must begin at byte 1"
     }
-    if ($text -match 'Ã|Â|â|�|ƒ') {
+    if ($text -match '\u00C3|\u00C2|\u00E2|\uFFFD|\u0192') {
         $failures += "$($file.Name): mojibake character detected"
     }
 }
