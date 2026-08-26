@@ -26,6 +26,10 @@ create ontology, authorize diagnostics, or support consequential decisions.
 - [Evidence Case 002 — False Capability Signal](demonstrations/OSI_Evidence_Case_002_False_Capability_Signal.md)
 - [Evidence Case 003 — Misattribution of Failure](demonstrations/OSI_Evidence_Case_003_Misattribution_of_Failure.md)
 
+## Show the data
+
+- [Case-to-data map](CASE_DATA_MAP.md) — exact synthetic IDs, test coverage, and stated gaps
+
 ## Graph evidence visualizations
 
 - [Graph Evidence Tour](visualizations/GRAPH_EVIDENCE_TOUR.md)

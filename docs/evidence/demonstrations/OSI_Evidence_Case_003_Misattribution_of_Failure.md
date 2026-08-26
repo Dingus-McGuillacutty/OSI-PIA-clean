@@ -5,7 +5,7 @@ domain: osi
 layer: evidence
 authority: supporting
 status: proposed
-version: "0.1"
+version: "0.2"
 owner: osi-research
 lifecycle_state: formulation
 evidence_class: synthetic_demonstration
@@ -84,3 +84,9 @@ individual responsibility.
 
 Synthetic demonstration supporting diagnostic research. It does not evaluate
 or rank an individual, establish causality, or authorize a personnel decision.
+
+## Show the data
+
+This case is **not yet instantiated** in the current synthetic fixture. See the
+[case-to-data map](../CASE_DATA_MAP.md) for the exact gap and the next required
+data increment.

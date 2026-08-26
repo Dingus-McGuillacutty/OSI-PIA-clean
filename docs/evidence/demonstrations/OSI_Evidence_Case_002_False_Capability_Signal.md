@@ -5,7 +5,7 @@ domain: osi
 layer: evidence
 authority: supporting
 status: proposed
-version: "0.1"
+version: "0.2"
 owner: osi-research
 lifecycle_state: formulation
 evidence_class: synthetic_demonstration
@@ -80,3 +80,9 @@ separates observable performance from organizational resilience.
 
 Synthetic demonstration only. It does not evaluate individuals, establish
 organizational health, prove causality, or support a consequential decision.
+
+## Show the data
+
+This case has a **bounded match** to `OSI-SYN-SRC-003` → `OSI-SYN-EVD-003` →
+`OSI-SYN-OBS-003`. See the [case-to-data map](../CASE_DATA_MAP.md) for the
+exact fixture links and limits.

@@ -5,7 +5,7 @@ domain: osi
 layer: evidence
 authority: supporting
 status: proposed
-version: "0.1"
+version: "0.2"
 owner: osi-research
 lifecycle_state: formulation
 evidence_class: synthetic_demonstration
@@ -88,3 +88,9 @@ before concluding that capability deficiencies exist.
 Synthetic demonstration for research and validation purposes only. It does not
 evaluate individuals, assign responsibility, establish causality, or authorize
 a consequential organizational decision.
+
+## Show the data
+
+This case has a **partial** tested alignment to `OSI-SYN-SRC-002` →
+`OSI-SYN-EVD-002` → `OSI-SYN-OBS-002`. See the [case-to-data map](../CASE_DATA_MAP.md)
+for the exact fixture links and the limits of this proxy.
