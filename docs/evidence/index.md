@@ -1,3 +1,14 @@
+---
+artifact_id: publication-evidence-index-001
+title: "Evidence"
+domain: shared
+layer: publication
+authority: supporting
+status: active
+version: "1.0"
+owner: repository-governance
+---
+
 # OSI Evidence and Demonstrations
 
 This area contains synthetic demonstrations, controlled validation records, and

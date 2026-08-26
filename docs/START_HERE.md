@@ -1,3 +1,14 @@
+---
+artifact_id: publication-start-here-001
+title: "Start Here"
+domain: shared
+layer: publication
+authority: supporting
+status: active
+version: "1.0"
+owner: repository-governance
+---
+
 # Start Here
 
 This repository contains the Organizational Systems Intelligence (OSI) and Professional Identity Architecture (PIA) systems.

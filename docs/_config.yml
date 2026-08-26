@@ -5,4 +5,9 @@ url: "https://dingus-mcguillacutty.github.io"
 baseurl: "/OSI-PIA-clean"
 
 header_pages:
-  - publications/articles/index.md
+  - START_HERE.md
+  - SEE_IT_WORK.md
+  - evidence/index.md
+  - PROJECT_STATUS.md
+  - research-standards/README.md
+  - REPOSITORY.md

@@ -4,7 +4,7 @@ domain: shared
 layer: governance
 authority: canonical
 status: active
-version: "1.6"
+version: "1.7"
 owner: repository-governance
 ---
 
@@ -18,7 +18,12 @@ Registry.
 
 | Artifact ID | Name | Domain | Layer | Authority | Status | Owner | Version | Canonical Location | Depends On |
 |---|---|---|---|---|---|---|---|---|---|
-| `public-documentation-landing-001` | OSI-PIA Public Documentation Landing | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.0` | [Public landing](../../docs/index.md) | `standard-publication-001` |
+| `public-documentation-landing-001` | OSI-PIA Public Documentation Landing | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.1` | [Public landing](../../docs/index.md) | `standard-publication-001` |
+| `publication-start-here-001` | OSI-PIA Start Here | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.0` | [Start Here](../../docs/START_HERE.md) | `standard-publication-001` |
+| `publication-see-it-work-001` | OSI-PIA See It Work Guide | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.0` | [See It Work](../../docs/SEE_IT_WORK.md) | `standard-publication-001` |
+| `publication-evidence-index-001` | OSI-PIA Evidence Index | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.0` | [Evidence](../../docs/evidence/index.md) | `standard-publication-001` |
+| `publication-research-index-001` | OSI-PIA Research Index | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.0` | [Research](../../docs/research-standards/README.md) | `standard-publication-001` |
+| `publication-repository-link-001` | OSI-PIA Repository Link | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.0` | [Repository](../../docs/REPOSITORY.md) | `standard-publication-001` |
 | `publication-articles-index-001` | OSI-PIA Articles Index | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `1.0` | [Articles](../../docs/publications/articles/index.md) | `standard-publication-001` |
 | `publication-article-hiring-translation-001` | Hiring Does Not Have a Talent Problem. It Has a Translation Problem. | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [Hiring translation article](../../docs/publications/articles/2026-08-11_hiring-translation-problem.md) | `standard-publication-001` |
 | `publication-pia-anti-report-001` | PIA Synthetic Annotated Anti-Report | `pia` | `publication` | `supporting` | `active` | `publication-maintainers` | `unversioned` | [Synthetic Annotated Anti-Report](../../docs/publications/examples/AntiPatterns/PIA_Synthetic_Annotated_AntiReport.md) | `standard-publication-001`<br>`principle-pia-measurement-001` |

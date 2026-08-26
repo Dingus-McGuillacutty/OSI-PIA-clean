@@ -5,87 +5,62 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "1.0"
+version: "1.1"
 owner: repository-governance
 ---
 
-**Organizational Systems Intelligence** and **Professional Identity Architecture** are early-stage frameworks for understanding how human capability is recognized, preserved, translated, and deployed.
+OSI-PIA is an early-stage research and prototype ecosystem for understanding how human capability is recognized, preserved, translated, and deployed.
 
-This project explores a central problem:
+It begins with a central problem:
 
 > Organizations often lose or misread human capability because their systems are better at processing surface signals than understanding evidence.
 
-OSI-PIA is being developed as a research, documentation, and prototype ecosystem. It is not a finished hiring product, employment screening tool, or personnel decision system.
+The project is not a finished hiring product, employment-screening tool, or personnel-decision system.
 
 ---
 
-## New Here?
+## Two connected lenses
 
-Start with the guided orientation, then choose the path that matches your
-interest.
+**PIA — Professional Identity Architecture** focuses on the person-side of the system: helping a participant make evidence, experience, preparation, and capability visible without reducing them to a score or permanent label.
+
+**OSI — Organizational Systems Intelligence** focuses on the organization-side: examining how conditions, relationships, and system state shape whether capability can be recognized and put to use.
+
+---
+
+## Choose your path
+
+### Understand the System
+
+Begin with the plain-language orientation, then use the overview and concept map to understand the project’s terms and structure.
 
 - [Start Here](START_HERE.md)
-- [Read the public articles](publications/articles/)
-- [See the current project status](PROJECT_STATUS.md)
-
----
-
-## Explore the Project
-
-### Understand the Project
-
 - [Platform Overview](PLATFORM_OVERVIEW.md)
-- [Project Status](PROJECT_STATUS.md)
-- [Glossary](GLOSSARY.md)
 - [Concept Map](CONCEPT_MAP.md)
 
-### Read the Publications
+### See It Work
 
-- [Publications](publications/)
-- [Articles](publications/articles/)
-- [Publication Framework](publications/)
-- [PIA Professional Identity and Resume Output Model](publications/standards/PIA_PROFESSIONAL_IDENTITY_OUTPUT_MODEL.md)
+Follow a guided proof path through existing synthetic demonstrations and graph evidence. These materials show what the system can distinguish; they do not establish claims about real people or organizations.
 
-### Explore the Architecture
-
-- [Architecture](architecture/)
-- [Components](components/)
-- [Contracts](contracts/)
-- [Research Standards](research-standards/)
-
-### Review Evidence and Demonstrations
-
-- [Evidence](evidence/)
-- [Runbooks](runbooks/)
+- [See It Work](SEE_IT_WORK.md)
+- [Evidence and Demonstrations](evidence/)
 
 ---
 
-## Current Development Status
+## Current status and boundaries
 
-OSI-PIA is in active development.
+OSI-PIA is in active development. Public materials document the current research, evidence, assurance work, and prototype boundaries.
 
-Current work includes:
+The project does not authorize production, public, or unsupervised real-participant processing, nor automatic consequential assessment, ranking, hiring, or exclusion decisions. Public demonstrations are synthetic or controlled; private participant evidence and restricted source material are not published here.
 
-- documenting public-facing standards;
-- developing capability-centered professional identity outputs;
-- refining evidence and assurance boundaries;
-- building publication structures for articles and working papers;
-- exploring how hiring and organizational systems misread or lose capability.
+- [Read the full Project Status](PROJECT_STATUS.md)
 
-The public materials on this site are curated for sharing and review. Internal research, participant evidence, private source documents, and restricted participant narratives are not published here.
 
----
+## Continue exploring
 
-## Development Boundary
+For public interpretation and deeper technical review:
 
-OSI-PIA is not currently a production hiring screen, employment decision system, psychological assessment, or validated personnel-selection tool.
-
-The current purpose is to explore evidence-based ways of representing capability while preserving human agency, privacy, provenance, and interpretive caution.
-
----
-
-## Full Documentation Index
-
-For contributors or technical review, see the full documentation map:
-
-- [Full OSI-PIA Documentation Index](OSI_PIA_DOCUMENTATION_INDEX.md)
+- [Research](research-standards/README.md)
+- [Public articles](publications/articles/)
+- [Architecture and contracts](architecture/)
+- [Full Documentation Index](OSI_PIA_DOCUMENTATION_INDEX.md)
+- [Repository on GitHub](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean)

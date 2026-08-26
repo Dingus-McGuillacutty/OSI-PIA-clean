@@ -1,3 +1,14 @@
+---
+artifact_id: publication-research-index-001
+title: "Research"
+domain: shared
+layer: publication
+authority: supporting
+status: active
+version: "1.0"
+owner: repository-governance
+---
+
 # Research
 
 This directory contains hypotheses, experiments, and future possibilities that have not yet become architectural commitments.
