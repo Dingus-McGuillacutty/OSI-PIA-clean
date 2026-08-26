@@ -9,8 +9,6 @@ version: "1.1"
 owner: repository-governance
 ---
 
-# See It Work
-
 This is a short proof path through the existing public demonstrations. It is
 not a second documentation set.
 

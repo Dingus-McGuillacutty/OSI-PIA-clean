@@ -9,8 +9,6 @@ version: "1.1"
 owner: repository-governance
 ---
 
-# Start Here
-
 This repository contains the Organizational Systems Intelligence (OSI) and Professional Identity Architecture (PIA) systems.
 
 If you are new, use this orientation path:

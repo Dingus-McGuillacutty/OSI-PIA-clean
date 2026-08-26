@@ -9,8 +9,6 @@ version: "1.0"
 owner: repository-governance
 ---
 
-# Repository
-
 The complete source repository contains the project’s documentation,
 architecture, contracts, assurance materials, research records, and software.
 

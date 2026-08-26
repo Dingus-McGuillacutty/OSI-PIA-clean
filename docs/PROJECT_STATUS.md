@@ -12,8 +12,6 @@ last_reviewed: "2026-08-03"
 review_cycle: milestone
 ---
 
-# OSI-PIA Project Status
-
 ## Purpose and reading rule
 
 This is the single orientation point for the project's present state. It is a

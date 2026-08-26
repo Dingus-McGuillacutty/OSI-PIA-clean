@@ -9,8 +9,6 @@ version: "1.0"
 owner: repository-governance
 ---
 
-# OSI Evidence and Demonstrations
-
 This area contains synthetic demonstrations, controlled validation records, and
 research examples of OSI reasoning. These documents show what a method or
 system could distinguish; they are not evidence about a real organization,

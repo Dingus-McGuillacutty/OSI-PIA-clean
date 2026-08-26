@@ -10,8 +10,6 @@ owner: osi-research
 lifecycle_state: validation
 ---
 
-# OSI Evidence Case-to-Data Map
-
 This map answers the visitor question: **“Show me which tested data supports
 this case.”** It connects the public case narratives to the participant-free
 synthetic package and states where the connection is only partial or has not
