@@ -43,6 +43,7 @@ Follow a guided proof path through existing synthetic demonstrations and graph e
 
 - [See It Work](SEE_IT_WORK.md)
 - [Evidence and Demonstrations](evidence/)
+- [Read the public articles](publications/articles/)
 
 ---
 
