@@ -18,8 +18,9 @@ Public essays on hiring, capability recognition, professional identity, organiza
 - [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](2026-08-11_hiring-translation-problem.html)
 - [The False Negative Machine](2026-08-13_false-negative-machine.html)
 - [Real Capability vs. Manufactured Polish](2026-08-18_real-capability-vs-manufactured-polish.html)
+- [Hidden Workers and Capability Leakage](2026-08-29_hidden-workers-capability-leakage.html)
 
-## Planned Series
+## Upcoming Series
 
 1. **Hiring Does Not Have a Talent Problem. It Has a Translation Problem.**  
    Hiring systems often fail because they misread capability.
@@ -29,9 +30,6 @@ Public essays on hiring, capability recognition, professional identity, organiza
 
 3. **Real Capability vs. Manufactured Polish**  
    How generative AI weakens traditional résumé and interview signals.
-
-4. **Hidden Workers and Capability Leakage**  
-   Why organizations claim talent scarcity while overlooking available capability.
 
 5. **The Wrong Metrics Are Steering the System**  
    Why speed, automation, and headcount reduction are not the same as capability.
