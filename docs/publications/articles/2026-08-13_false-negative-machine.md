@@ -1,7 +1,7 @@
 ---
 title: "The False Negative Machine"
 date: 2026-08-13
-status: published 
+status: active
 project: OSI-PIA
 publication_type: article
 artifact_id: publication-article-false-negative-001

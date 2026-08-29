@@ -420,7 +420,13 @@ class GovernanceValidator:
                 if target is None:
                     continue
                 self.counts["markdown_links"] += 1
-                if not target.exists():
+                # GitHub Pages/Jekyll emits HTML routes from Markdown sources;
+                # accept the route when its source file is present locally.
+                generated_route = (
+                    target.suffix.lower() == ".html"
+                    and target.with_suffix(".md").exists()
+                )
+                if not target.exists() and not generated_route:
                     self.error(
                         f"{self.relative(path)}: unresolved Markdown link "
                         f"{match.group(1)!r}"

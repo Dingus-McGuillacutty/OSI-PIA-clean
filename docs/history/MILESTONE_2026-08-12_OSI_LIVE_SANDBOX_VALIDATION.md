@@ -4,7 +4,7 @@ title: OSI Live Synthetic Sandbox Validation
 domain: osi
 layer: assurance
 authority: working
-status: validated
+status: active
 version: "0.1"
 owner: osi-architecture
 lifecycle_state: validation

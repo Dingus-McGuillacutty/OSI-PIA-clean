@@ -1,7 +1,7 @@
 ---
 title: "Real Capability vs. Manufactured Polish"
 date: 2026-08-18
-status: draft
+status: active
 project: OSI-PIA
 publication_type: article
 artifact_id: publication-article-manufactured-polish-001
