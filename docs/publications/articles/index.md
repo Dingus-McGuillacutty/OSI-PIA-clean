@@ -19,6 +19,7 @@ Public essays on hiring, capability recognition, professional identity, organiza
 - [The False Negative Machine](2026-08-13_false-negative-machine.html)
 - [Real Capability vs. Manufactured Polish](2026-08-18_real-capability-vs-manufactured-polish.html)
 - [Hidden Workers and Capability Leakage](2026-08-29_hidden-workers-capability-leakage.html)
+- [The Wrong Metrics Are Steering the System](2026-08-29_wrong-metrics-steering-system.html)
 
 ## Upcoming Series
 
@@ -30,9 +31,6 @@ Public essays on hiring, capability recognition, professional identity, organiza
 
 3. **Real Capability vs. Manufactured Polish**  
    How generative AI weakens traditional résumé and interview signals.
-
-5. **The Wrong Metrics Are Steering the System**  
-   Why speed, automation, and headcount reduction are not the same as capability.
 
 6. **What PIA Is Trying to Build**  
    An early-stage framework for translating career evidence into demonstrated capability.
