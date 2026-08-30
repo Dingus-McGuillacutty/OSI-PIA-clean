@@ -21,22 +21,18 @@ Public essays on hiring, capability recognition, professional identity, organiza
 - [Hidden Workers and Capability Leakage](2026-08-29_hidden-workers-capability-leakage.html)
 - [The Wrong Metrics Are Steering the System](2026-08-29_wrong-metrics-steering-system.html)
 
-## Upcoming Series
+## Next Articles
 
-1. **Hiring Does Not Have a Talent Problem. It Has a Translation Problem.**  
-   Hiring systems often fail because they misread capability.
-
-2. **The False Negative Machine**  
-   How automated filters and AI screening can reject qualified people before human review.
-
-3. **Real Capability vs. Manufactured Polish**  
-   How generative AI weakens traditional résumé and interview signals.
-
-6. **What PIA Is Trying to Build**  
+6. **What PIA/PCA Is Trying to Build**
    An early-stage framework for translating career evidence into demonstrated capability.
 
 7. **What OSI Is Trying to Measure**  
    An early-stage model for identifying where organizations create, lose, misread, or fail to deploy capability.
+
+## Related Capability Evidence Systems Articles
+
+- **The Future Is Not the Perfect Résumé**
+- **Poking a Hole in the Fog of ATS War**
 
 ## Publication Boundary
 
