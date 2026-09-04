@@ -1,13 +1,10 @@
 ---
-title: "Hidden Workers and Capability Leakage"
-date: 2026-08-29
-status: active
-project: OSI-PIA
-publication_type: article
 artifact_id: publication-article-hidden-workers-capability-leakage-001
+title: "Hidden Workers and Capability Leakage"
 domain: shared
 layer: publication
 authority: supporting
+status: active
 version: "0.2"
 owner: publication-stewardship
 series: "Hiring and Capability Recognition"

@@ -11,8 +11,12 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 - [Publications](publications/)
 - [Articles](publications/articles/)
 - [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](publications/articles/2026-08-11_hiring-translation-problem.md)
+- [The False Negative Machine](publications/articles/2026-08-13_false-negative-machine.md)
+- [Real Capability vs. Manufactured Polish](publications/articles/2026-08-18_real-capability-vs-manufactured-polish.md)
 - [Hidden Workers and Capability Leakage](publications/articles/2026-08-29_hidden-workers-capability-leakage.md)
 - [The Wrong Metrics Are Steering the System](publications/articles/2026-08-29_wrong-metrics-steering-system.md)
+- [The Future Is Not the Perfect Résumé](publications/articles/2026-08-29_future-not-perfect-resume.md)
+- [Poking a Hole in the Fog of ATS War](publications/articles/2026-08-29_poking-hole-ats-war.md)
 - [PIA Professional Identity and Resume Output Model](publications/standards/PIA_PROFESSIONAL_IDENTITY_OUTPUT_MODEL.md)
 
 ##

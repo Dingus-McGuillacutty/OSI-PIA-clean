@@ -31,8 +31,8 @@ Public essays on hiring, capability recognition, professional identity, organiza
 
 ## Related Capability Evidence Systems Articles
 
-- **The Future Is Not the Perfect Résumé**
-- **Poking a Hole in the Fog of ATS War**
+- [The Future Is Not the Perfect Résumé](2026-08-29_future-not-perfect-resume.html)
+- [Poking a Hole in the Fog of ATS War](2026-08-29_poking-hole-ats-war.html)
 
 ## Publication Boundary
 

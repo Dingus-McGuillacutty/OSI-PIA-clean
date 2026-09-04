@@ -1,13 +1,10 @@
 ---
-title: "Real Capability vs. Manufactured Polish"
-date: 2026-08-18
-status: active
-project: OSI-PIA
-publication_type: article
 artifact_id: publication-article-manufactured-polish-001
+title: "Real Capability vs. Manufactured Polish"
 domain: shared
 layer: publication
 authority: supporting
+status: active
 version: "0.1"
 owner: publication-stewardship
 series: "Hiring and Capability Recognition"

@@ -1,13 +1,10 @@
 ---
-title: "The Wrong Metrics Are Steering the System"
-date: 2026-08-29
-status: active
-project: OSI-PIA
-publication_type: article
 artifact_id: publication-article-wrong-metrics-001
+title: "The Wrong Metrics Are Steering the System"
 domain: shared
 layer: publication
 authority: supporting
+status: active
 version: "0.2"
 owner: publication-stewardship
 series: "Hiring and Capability Recognition"
@@ -191,6 +188,8 @@ That distinction is not technical decoration.
 
 It is the center of the problem.
 
+SHRM’s AI+HI discussion frames the same issue from inside HR: speed alone is not the goal. The challenge is activating AI in ways that improve quality, reduce bias, expand access to opportunity, and preserve human judgment. That framing matters because it shifts the question away from whether AI is present and toward what outcome the system is designed to produce.[^shrm-ai-hi]
+
 ## What OSI Measures
 
 Organizational Systems Intelligence, or OSI, starts from the organizational side of this failure.
@@ -304,3 +303,6 @@ https://www.inc.com/kit-eaton/this-report-explains-why-hiring-has-stalled-and-wh
 
 [^softchoice-brutal-normal]: Softchoice, “The new brutal normal: Inside tech’s broken hiring market,” November 26, 2025. Source text reviewed from user-provided article text.  
 https://www.softchoice.com/blogs/culture/the-new-brutal-normal-inside-tech-s-broken-hiring-market
+
+[^shrm-ai-hi]: SHRM, “Insights from Oracle: Activating AI for Smarter Recruitment and Workforce Planning,” AI+HI Project. Discusses AI in sourcing, screening, skills matching, internal mobility, workforce planning, and the importance of preserving human judgment in decisions about people.
+https://www.shrm.org/topics-tools/flagships/ai-hi/activating-ai-for-smarter-recruitment-workforce-planning

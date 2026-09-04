@@ -1,16 +1,15 @@
 ---
-title: "Hiring Does Not Have a Talent Problem. It Has a Translation Problem."
-date: 2026-08-11
-status: draft
-project: OSI-PIA
-publication_type: article
 artifact_id: publication-article-hiring-translation-001
+title: "Hiring Does Not Have a Talent Problem. It Has a Translation Problem."
 domain: shared
 layer: publication
 authority: supporting
 status: active
 version: "0.1"
 owner: publication-stewardship
+series: "Hiring and Capability Recognition"
+series_part: 1
+permalink: /publications/articles/2026-08-11_hiring-translation-problem.html
 ---
 
 # Hiring Does Not Have a Talent Problem. It Has a Translation Problem.
@@ -24,7 +23,7 @@ I am developing Organizational Systems Intelligence (OSI) and Professional Ident
 Many organizations describe their hiring problem as a talent shortage.
 That may be partly true in some fields, regions, and labor markets. But it is not the whole problem.
 A growing body of research and reporting points to a deeper failure: modern hiring systems often struggle to recognize capability when it does not arrive in the expected format.
-The problem is not simply that organizations cannot find capable people. The problem is that capability has to pass through a long chain of translation before a person is understood:
+The problem is not simply that organizations cannot find capable people. The problem is that capability has to pass through a long chain of translation before a person is understood. That chain is not purely technical. It includes software, human bandwidth, timing, recruiter attention, job-description design, communication practices, and organizational assumptions. In other words, the problem is not only whether a machine reads a résumé correctly. It is whether the whole hiring system preserves enough signal for interpretation.
 
 - a résumé format;
 - job-posting language;
@@ -44,11 +43,10 @@ When that happens, modern, layered hiring systems may not see a person with tran
 Hiring systems may see an organization's best candidates as a mismatch for what the machine-readable part of the system expects. A human in the hiring process may not even know their next top performer exists at all. 
 ## The System Is Built to Recognize Familiarity
 Harvard Business School’s “Hidden Workers” research describes how hiring processes designed to find “perfect” candidates efficiently can systematically exclude qualified workers, including caregivers, veterans, formerly incarcerated people, people with disabilities, and others whose work histories do not fit conventional patterns.[^hbs-hidden-workers]
-That framing matters because it shifts the question:
-
-> The issue is not only whether enough qualified people exist.  
-> The issue is what kinds of qualified people the system has been designed not to see.
-
+That framing matters because it shifts the question from:
+> "Are there enough qualified people?"
+to
+> "What kinds of qualified people has the system been designed not to see?"
 In the HBS and Accenture hidden-workers report, automated talent systems are described as often missing “the perfectly capable.” The report identifies hidden workers as a large group of people whose potential is restricted by the way hiring systems define, filter, and interpret qualifications.[^accenture-hidden-workers]
 That is not merely an ethical issue, although it is certainly that. It is also an operational issue.
 If a hiring process excludes qualified people before human review, the organization does not just harm applicants. It damages its own access to capability.
@@ -105,7 +103,6 @@ The traditional résumé asks people to compress a complex human development his
 - bullets;
 - credentials;
 - keywords.
-
 That format can be useful. It is quick. It is familiar. 
 It allows comparison, but it is also lossy.
 Resumes often struggle to show how capability actually develops across roles. They struggle to represent learning, judgment, trust-building, informal leadership, systems thinking, operational repair, and cross-domain transfer.
@@ -130,13 +127,10 @@ It does not begin with the question:
 > Does this person match the expected résumé pattern?
 It begins with:
 > What capability is demonstrated by the evidence?
-
 That shift changes the work of identifying qualified candidates for their actual abilities and potential to succeed. Not candidates as potential placeholders. Not as disposable or interchangeable. 
 Instead of treating a résumé as the primary object, PIA treats the résumé as a downstream projection of a deeper professional identity structure.
 The goal is not to inflate a person’s experience or produce marketing language. The goal is to preserve evidence, interpret it carefully, and make capability legible without flattening the person.
-
 A PIA-style professional identity output may organize experience around questions such as:
-
 - What was the purpose of the role or activity?
 - What did the person actually do?
 - What impact did that work have?
@@ -144,7 +138,6 @@ A PIA-style professional identity output may organize experience around question
 - What capability appears across multiple contexts?
 - What evidence supports that interpretation?
 - What should not be inferred?
-
 This kind of structure is slower than a keyword scan. But it may be better suited to understanding people whose capability is real but not obvious in standard formats.
 
 ## What OSI Is Trying to Measure
