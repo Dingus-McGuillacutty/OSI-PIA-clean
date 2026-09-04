@@ -20,14 +20,8 @@ Public essays on hiring, capability recognition, professional identity, organiza
 - [Real Capability vs. Manufactured Polish](2026-08-18_real-capability-vs-manufactured-polish.html)
 - [Hidden Workers and Capability Leakage](2026-08-29_hidden-workers-capability-leakage.html)
 - [The Wrong Metrics Are Steering the System](2026-08-29_wrong-metrics-steering-system.html)
-
-## Next Articles
-
-6. **What PIA/PCA Is Trying to Build**
-   An early-stage framework for translating career evidence into demonstrated capability.
-
-7. **What OSI Is Trying to Measure**  
-   An early-stage model for identifying where organizations create, lose, misread, or fail to deploy capability.
+- [What PIA/PCA Is Trying to Build](2026-09-03_what-pia-pca-is-trying-to-build.html)
+- [What OSI Is Trying to Measure](2026-09-03_what-osi-is-trying-to-measure.html)
 
 ## Related Capability Evidence Systems Articles
 

@@ -17,6 +17,8 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 - [The Wrong Metrics Are Steering the System](publications/articles/2026-08-29_wrong-metrics-steering-system.md)
 - [The Future Is Not the Perfect Résumé](publications/articles/2026-08-29_future-not-perfect-resume.md)
 - [Poking a Hole in the Fog of ATS War](publications/articles/2026-08-29_poking-hole-ats-war.md)
+- [What PIA/PCA Is Trying to Build](publications/articles/2026-09-03_what-pia-pca-is-trying-to-build.md)
+- [What OSI Is Trying to Measure](publications/articles/2026-09-03_what-osi-is-trying-to-measure.md)
 - [PIA Professional Identity and Resume Output Model](publications/standards/PIA_PROFESSIONAL_IDENTITY_OUTPUT_MODEL.md)
 
 ##
