@@ -160,6 +160,15 @@ competence.
 
 ------------------------------------------------------------------------
 
+## High-Energy but Non-Authoritative Subsystem
+
+*Informal project vocabulary.* A human or machine component capable of
+increasing throughput, ideation, or apparent clarity without thereby gaining
+authority to validate, promote, or govern claims. First observed in the
+caffeinated human subsystem.
+
+------------------------------------------------------------------------
+
 ## Purple Squirrel
 
 Highly cross-functional individual whose value exceeds conventional job
