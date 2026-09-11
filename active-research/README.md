@@ -17,6 +17,8 @@ The documentation boundary and research standards are defined in
   transitions.
 - [`questions/`](questions/) contains proposed research questions and hypotheses
   that remain exploratory until evidence and validation justify advancement.
+- [`notes/`](notes/) preserves exploratory language and observations that may
+  later become bounded research questions; notes do not create authority.
 - [`RESEARCH_BACKLOG.md`](RESEARCH_BACKLOG.md) holds early ideas that are not
   yet mature enough to become numbered research questions.
 
