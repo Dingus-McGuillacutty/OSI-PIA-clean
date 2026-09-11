@@ -19,6 +19,8 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 - [Poking a Hole in the Fog of ATS War](publications/articles/2026-08-29_poking-hole-ats-war.md)
 - [What PIA/PCA Is Trying to Build](publications/articles/2026-09-03_what-pia-pca-is-trying-to-build.md)
 - [What OSI Is Trying to Measure](publications/articles/2026-09-03_what-osi-is-trying-to-measure.md)
+- [The False Negative Stack](publications/articles/2026-09-10_false-negative-stack.md)
+- [Access Is Not Authority](publications/articles/2026-09-10_access-is-not-authority.md)
 - [PIA Professional Identity and Resume Output Model](publications/standards/PIA_PROFESSIONAL_IDENTITY_OUTPUT_MODEL.md)
 
 ##

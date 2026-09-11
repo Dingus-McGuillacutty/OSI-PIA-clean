@@ -5,7 +5,7 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "1.0"
+version: "1.1"
 owner: publication-stewardship
 ---
 
@@ -22,6 +22,8 @@ Public essays on hiring, capability recognition, professional identity, organiza
 - [The Wrong Metrics Are Steering the System](2026-08-29_wrong-metrics-steering-system.html)
 - [What PIA/PCA Is Trying to Build](2026-09-03_what-pia-pca-is-trying-to-build.html)
 - [What OSI Is Trying to Measure](2026-09-03_what-osi-is-trying-to-measure.html)
+- [The False Negative Stack](2026-09-10_false-negative-stack.html)
+- [Access Is Not Authority](2026-09-10_access-is-not-authority.html)
 
 ## Related Capability Evidence Systems Articles
 
