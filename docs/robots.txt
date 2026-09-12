@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dingus-mcguillacutty.github.io/OSI-PIA-clean/sitemap.xml

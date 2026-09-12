@@ -1,6 +1,11 @@
 ﻿# OSI-PIA
 ## Organizational Systems Intelligence and Professional Identity Architecture
 
+**OSI = Organizational Systems Intelligence**
+**PIA = Professional Identity Architecture**
+
+Public documentation: <https://dingus-mcguillacutty.github.io/OSI-PIA-clean/>
+
 > The repository is the canonical record of the OSI-PIA project.
 > Conversations generate ideas; repository documents preserve, distinguish,
 > and integrate them.
