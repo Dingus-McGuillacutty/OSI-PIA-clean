@@ -5,8 +5,9 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "1.1"
+version: "1.2"
 owner: publication-stewardship
+description: "Public essays about professional identity, demonstrated capability, skills-based hiring, ATS limitations, organizational systems, and human-centered AI."
 ---
 
 # OSI-PIA Articles
@@ -35,5 +36,11 @@ Public essays on hiring, capability recognition, professional identity, organiza
 These articles are public-facing interpretations of OSI-PIA research and development. They do not include private participant data, restricted participant signatures, contact information, identifiable participant narratives, or confidential source material unless separately approved for publication.
 
 OSI-PIA is an active development project. These articles do not describe a finished hiring product, employment-screening system, or validated personnel-selection tool.
+
+## Continue exploring
+
+- [Start Here](../../START_HERE.md)
+- [Research questions and methods](../../research-standards/README.md)
+- [Synthetic evidence and graph demonstrations](../../evidence/index.md)
 
 

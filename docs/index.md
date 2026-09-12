@@ -5,11 +5,12 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "1.1"
+version: "1.2"
 owner: repository-governance
+description: "Public orientation to Organizational Systems Intelligence and Professional Identity Architecture: evidence-grounded capability, professional identity, skills-based hiring, organizational systems, and trustworthy machine participation."
 ---
 
-OSI-PIA is an early-stage research and prototype ecosystem for understanding how human capability is recognized, preserved, translated, and deployed.
+OSI-PIA is an early-stage research and prototype ecosystem for understanding how human capability is recognized, preserved, translated, and deployed across professional identity and organizational systems.
 
 It begins with a central problem:
 
@@ -65,3 +66,28 @@ For public interpretation and deeper technical review:
 - [Architecture and contracts](architecture/)
 - [Full Documentation Index](OSI_PIA_DOCUMENTATION_INDEX.md)
 - [Repository on GitHub](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean)
+
+## Explore by meta-topic
+
+These six public meta-topics provide different entry points into the same
+coherent knowledge environment. They are navigation groupings, not new
+authority categories.
+
+- **Capability and Professional Identity** — [PIA/PCA direction](publications/articles/2026-09-03_what-pia-pca-is-trying-to-build.html)
+- **Evidence-Grounded Evaluation** — [synthetic evidence and demonstrations](evidence/index.md)
+- **Hiring and Recruiting** — [public articles](publications/articles/index.md)
+- **ATS and Translation Failure** — [False Negative Machine](publications/articles/2026-08-13_false-negative-machine.html) and [Hiring Translation](publications/articles/2026-08-11_hiring-translation-problem.html)
+- **Organizational Capability** — [what OSI is trying to measure](publications/articles/2026-09-03_what-osi-is-trying-to-measure.html)
+- **Human-Centered Machine Participation** — [research questions and methods](research-standards/README.md) and [For Machines](FOR_MACHINES.md)
+
+Discoverability should improve semantic legibility, not distort project
+identity. Search language is used here to help readers find the work; it does
+not change the project's boundaries or authorize automated hiring decisions.
+
+## Continue exploring
+
+These hubs connect the public explanation layer:
+
+- [Research questions and methods](research-standards/README.md)
+- [Synthetic evidence and graph demonstrations](evidence/index.md)
+- [Public articles on capability and hiring](publications/articles/index.md)

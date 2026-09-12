@@ -50,4 +50,12 @@ implementation boundary, what has been demonstrated, what remains gated, and
 the next governed decisions. Detailed milestones remain in
 [history/](history/README.md).
 
+## Public hubs
+
+- [Start Here](START_HERE.md) — guided orientation for new readers.
+- [Evidence](evidence/index.md) — synthetic demonstrations and validation.
+- [Research](research-standards/README.md) — exploratory questions and methods.
+- [Public articles](publications/articles/index.md) — plain-language discussion
+  of capability, hiring, ATS limits, and organizational systems.
+
 
