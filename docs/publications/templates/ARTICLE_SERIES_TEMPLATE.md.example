@@ -1,0 +1,33 @@
+---
+artifact_id: publication-article-series-replace-me-001
+title: "Replace with article title"
+domain: shared
+layer: publication
+authority: supporting
+status: proposed
+version: "0.1"
+owner: publication-stewardship
+series: "Replace with series name"
+series_part: 1
+permalink: /publications/articles/YYYY-MM-DD_replace-with-slug.html
+---
+
+# Replace with article title
+
+## Replace with a useful subtitle
+
+This article is part of the **Replace with series name** sequence. Explain how
+it relates to the preceding and following pieces without assuming that a
+series is canonical authority.
+
+## Article
+
+Develop the bounded, evidence-grounded argument here.
+
+## What this does not establish
+
+Keep limitations, uncertainty, and non-authorized uses visible.
+
+## Continue the series
+
+Link to the series index and related research, evidence, or foundation records.

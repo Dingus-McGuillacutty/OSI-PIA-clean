@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import json
 import re
 import subprocess
 import sys
@@ -61,6 +62,10 @@ ALLOWED_LIFECYCLE_STATES = {
     "promotion",
     "stewardship",
 }
+
+METADATA_CONTRACT_RELATIVE = Path(
+    "data/contracts/osi_pia_artifact_metadata_contract_v0.1.json"
+)
 
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 NAMESPACED_ID_RE = re.compile(r"^(shared|osi|pia|implementation):[a-z0-9][a-z0-9_]*$")
@@ -168,6 +173,12 @@ class GovernanceValidator:
     def __init__(self, root: Path) -> None:
         self.root = root.resolve()
         self.errors: list[str] = []
+        self.allowed_domains = set(ALLOWED_DOMAINS)
+        self.allowed_authorities = set(ALLOWED_AUTHORITIES)
+        self.allowed_statuses = set(ALLOWED_STATUSES)
+        self.allowed_review_cycles = set(ALLOWED_REVIEW_CYCLES)
+        self.allowed_lifecycle_states = set(ALLOWED_LIFECYCLE_STATES)
+        self.load_metadata_contract()
         self.counts = {
             "registry_rows": 0,
             "metadata_artifacts": 0,
@@ -176,6 +187,21 @@ class GovernanceValidator:
             "tracked_paths": 0,
             "privacy_signatures": 0,
         }
+
+    def load_metadata_contract(self) -> None:
+        path = self.root / METADATA_CONTRACT_RELATIVE
+        try:
+            contract = json.loads(path.read_text(encoding="utf-8"))
+            vocabularies = contract["controlled_vocabularies"]
+            self.allowed_domains = set(vocabularies["domains"])
+            self.allowed_authorities = set(vocabularies["authorities"])
+            self.allowed_statuses = set(vocabularies["statuses"])
+            self.allowed_review_cycles = set(vocabularies["review_cycles"])
+            self.allowed_lifecycle_states = set(vocabularies["lifecycle_states"])
+        except (OSError, json.JSONDecodeError, KeyError, TypeError) as exc:
+            self.error(
+                f"{METADATA_CONTRACT_RELATIVE.as_posix()}: cannot load metadata contract ({exc})"
+            )
 
     def relative(self, path: Path) -> str:
         try:
@@ -237,28 +263,28 @@ class GovernanceValidator:
                 )
             else:
                 artifacts[artifact_id] = (path, metadata)
-            if metadata["domain"] not in ALLOWED_DOMAINS:
+            if metadata["domain"] not in self.allowed_domains:
                 self.error(
                     f"{self.relative(path)}: invalid domain {metadata['domain']!r}"
                 )
-            if metadata["authority"] not in ALLOWED_AUTHORITIES:
+            if metadata["authority"] not in self.allowed_authorities:
                 self.error(
                     f"{self.relative(path)}: invalid authority "
                     f"{metadata['authority']!r}"
                 )
-            if metadata["status"] not in ALLOWED_STATUSES:
+            if metadata["status"] not in self.allowed_statuses:
                 self.error(
                     f"{self.relative(path)}: invalid status {metadata['status']!r}"
                 )
             lifecycle = metadata.get("lifecycle_state")
-            if lifecycle and lifecycle not in ALLOWED_LIFECYCLE_STATES:
+            if lifecycle and lifecycle not in self.allowed_lifecycle_states:
                 self.error(
                     f"{self.relative(path)}: invalid lifecycle_state {lifecycle!r}"
                 )
             cycle = metadata.get("review_cycle")
             last_reviewed = metadata.get("last_reviewed")
             if cycle:
-                if cycle not in ALLOWED_REVIEW_CYCLES:
+                if cycle not in self.allowed_review_cycles:
                     self.error(
                         f"{self.relative(path)}: invalid review_cycle {cycle!r}"
                     )
@@ -307,17 +333,17 @@ class GovernanceValidator:
                 domain = clean_cell(row.values["Domain"])
                 authority = clean_cell(row.values["Authority"])
                 status = clean_cell(row.values["Status"])
-                if domain not in ALLOWED_DOMAINS:
+                if domain not in self.allowed_domains:
                     self.error(
                         f"{self.relative(source)}: {artifact_id} has invalid domain "
                         f"{domain!r}"
                     )
-                if authority not in ALLOWED_AUTHORITIES:
+                if authority not in self.allowed_authorities:
                     self.error(
                         f"{self.relative(source)}: {artifact_id} has invalid authority "
                         f"{authority!r}"
                     )
-                if status not in ALLOWED_STATUSES:
+                if status not in self.allowed_statuses:
                     self.error(
                         f"{self.relative(source)}: {artifact_id} has invalid status "
                         f"{status!r}"

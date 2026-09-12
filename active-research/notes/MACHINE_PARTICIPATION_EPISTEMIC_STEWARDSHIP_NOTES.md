@@ -4,7 +4,7 @@ title: "Machine Participation and Epistemic Stewardship — Working Notes"
 domain: shared
 layer: active-research
 authority: working
-status: exploratory
+status: proposed
 version: "0.1.0"
 owner: research-governance
 lifecycle_state: exploration

@@ -4,7 +4,8 @@ title: "Claude Access, Discoverability, and Conservative Source Admission"
 domain: shared
 layer: evidence
 authority: working
-status: observed
+status: active
+lifecycle_state: observation
 version: "0.1.0"
 owner: research-governance
 test_stage: stage-0-access-follow-up
@@ -127,4 +128,3 @@ environments, or establish cross-model conformance.
 - [ExplainX analysis of the Anthropic report](https://www.explainx.ai/blog/anthropic-threat-intelligence-report-september-2026)
 - [Claude Sonnet 5/high orientation record](../scored-results/claude-sonnet-5-high-run-001.md)
 - [Claude Sonnet 5/high adversarial record](../scored-results/claude-sonnet-5-high-adversarial-governance-001.md)
-

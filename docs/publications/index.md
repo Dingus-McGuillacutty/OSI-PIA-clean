@@ -10,6 +10,7 @@ Public-facing articles, standards, working papers, technical reports, validation
 
 - [Articles](articles/)
 - [Standards](standards/)
+- [Article templates](templates/README.md)
 - [Publication Framework](README.md)
 - [PIA Professional Identity and Resume Output Model](standards/PIA_PROFESSIONAL_IDENTITY_OUTPUT_MODEL.md)
 

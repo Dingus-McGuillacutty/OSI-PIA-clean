@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dingus-mcguillacutty.github.io/OSI-PIA-clean/data/contracts/osi_pia_artifact_metadata_contract_v0.1.json",
+  "title": "OSI-PIA Artifact Metadata Contract",
+  "version": "0.1.0",
+  "status": "active",
+  "required": [
+    "artifact_id",
+    "domain",
+    "layer",
+    "authority",
+    "status",
+    "version",
+    "owner"
+  ],
+  "controlled_vocabularies": {
+    "domains": ["shared", "osi", "pia", "implementation", "test"],
+    "authorities": ["canonical", "supporting", "working", "historical"],
+    "statuses": [
+      "active",
+      "proposed",
+      "review-required",
+      "deprecated",
+      "superseded",
+      "retired"
+    ],
+    "lifecycle_states": [
+      "observation",
+      "exploration",
+      "formulation",
+      "congruence",
+      "validation",
+      "promotion",
+      "stewardship"
+    ],
+    "review_cycles": [
+      "annual",
+      "semiannual",
+      "quarterly",
+      "milestone",
+      "event-driven"
+    ]
+  },
+  "rules": {
+    "artifact_id_pattern": "^[a-z0-9][a-z0-9-]*$",
+    "registry_required": true,
+    "registry_same_commit": true,
+    "review_cycle_requires_last_reviewed": true
+  }
+}

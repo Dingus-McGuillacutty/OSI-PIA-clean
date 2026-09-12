@@ -1,0 +1,32 @@
+---
+artifact_id: publication-article-replace-me-001
+title: "Replace with article title"
+domain: shared
+layer: publication
+authority: supporting
+status: proposed
+version: "0.1"
+owner: publication-stewardship
+permalink: /publications/articles/YYYY-MM-DD_replace-with-slug.html
+---
+
+# Replace with article title
+
+## Replace with a useful subtitle
+
+## Publication note
+
+State the article's purpose, research or development status, and boundaries.
+
+## Article
+
+Write the evidence-grounded argument here. Distinguish source material,
+observations, interpretations, uncertainty, and implications.
+
+## Limitations and uncertainty
+
+State what the article does not establish and what remains open.
+
+## Related material
+
+Link to the relevant foundation, research, evidence, or prior articles.

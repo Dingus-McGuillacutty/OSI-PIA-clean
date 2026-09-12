@@ -4,7 +4,7 @@ domain: shared
 layer: governance
 authority: canonical
 status: active
-version: "1.3"
+version: "1.4"
 owner: repository-governance
 ---
 
@@ -30,6 +30,8 @@ principle.
 | `research-question-governed-knowledge-development-010` | Governed Knowledge Architecture and Developmental Properties | `shared` | `research` | `supporting` | `proposed` | `knowledge-governance` | `0.1.0` | [RQ-010](../../active-research/questions/RQ-00X_GOVERNED_KNOWLEDGE_DEVELOPMENT.md) | `architecture-knowledge-governance-001`<br>`repo-architecture-001` |
 | `history-research-foundation-crosswalk-001` | Research to Foundation Crosswalk | `shared` | `history` | `supporting` | `active` | `knowledge-governance` | `1.0.0` | [Research to Foundation Crosswalk](../../docs/history/RESEARCH_TO_FOUNDATION_CROSSWALK.md) | `architecture-knowledge-governance-001`<br>`repo-architecture-001` |
 | `research-backlog-001` | Active Research Backlog | `shared` | `research` | `supporting` | `active` | `knowledge-governance` | `0.1.0` | [Active Research Backlog](../../active-research/RESEARCH_BACKLOG.md) | `architecture-knowledge-governance-001` |
+| `research-note-machine-participation-epistemic-stewardship-001` | Machine Participation and Epistemic Stewardship Working Notes | `shared` | `active-research` | `working` | `proposed` | `research-governance` | `0.1.0` | [Machine participation notes](../../active-research/notes/MACHINE_PARTICIPATION_EPISTEMIC_STEWARDSHIP_NOTES.md) | `research-machine-orientation-conformance-001` |
+| `finding-machine-orientation-claude-access-admission-001` | Claude Access, Discoverability, and Conservative Source Admission | `shared` | `evidence` | `working` | `active` | `research-governance` | `0.1.0` | [Claude access finding](../../evidence/machine-orientation/findings/claude-access-discoverability-and-admission-001.md) | `research-machine-orientation-conformance-001` |
 
 ## Promotion boundary
 

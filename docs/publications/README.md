@@ -48,6 +48,11 @@ Markdown is the canonical repository source. RTF, DOCX, PDF, HTML, and other pre
   resume/professional-identity outputs, its separation from participant review
   and methodology outputs, and a fully synthetic redacted example.
 
+## Article templates
+
+- [Publication Template Guide](templates/README.md) — standard front matter,
+  structure, and pre-publication checks.
+
 ## Required Analytical Discipline
 
 Interpretive publications should preserve the sequence:

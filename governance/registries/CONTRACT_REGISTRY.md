@@ -4,7 +4,7 @@ domain: shared
 layer: governance
 authority: canonical
 status: active
-version: "1.8"
+version: "1.9"
 owner: repository-governance
 ---
 
@@ -33,6 +33,7 @@ Documentation and machine-readable projections remain distinct artifacts.
 | `contract-pia-protected-evidence-extraction-json-001` | PIA Protected Evidence Extraction Machine-Readable Contract | `pia` | `contract` | `supporting` | `proposed` | `pia-intake` | `0.1.0` | [Machine-readable protected evidence extraction contract](../../data/contracts/pia_protected_evidence_extraction_contract_v0.1.json) | `contract-pia-protected-evidence-extraction-001` |
 | `contract-shared-import-001` | OSI-PIA Import Contract | `shared` | `contract` | `canonical` | `active` | `graph-maintainers` | `0.1` | [Import Contract](../../docs/contracts/OSI_PIA_Import_Contract_v0.1.md) | `contract-shared-data-graph-001` |
 | `contract-shared-validation-001` | OSI-PIA Validation Contract | `shared` | `contract` | `canonical` | `active` | `assurance-maintainers` | `0.1` | [Validation Contract](../../docs/contracts/OSI_PIA_Validation_Contract_v0.1.md) | `contract-shared-import-001` |
+| `contract-shared-artifact-metadata-001` | OSI-PIA Artifact Metadata Contract | `shared` | `contract` | `canonical` | `active` | `repository-governance` | `0.1.0` | [Artifact metadata contract](../../docs/contracts/OSI_PIA_Artifact_Metadata_Contract_v0.1.md) | `standard-registry-001` |
 | `contract-osi-organizational-evidence-001` | OSI Organizational Evidence Package Contract | `osi` | `contract` | `working` | `proposed` | `osi-architecture` | `0.1` | [Organizational evidence package contract](../../docs/contracts/OSI_Organizational_Evidence_Package_Contract_v0.1.md) | `architecture-osi-domain-001`<br>`contract-shared-validation-001` |
 | `contract-osi-synthetic-sandbox-projection-001` | OSI Synthetic Sandbox Projection Contract | `osi` | `contract` | `working` | `proposed` | `osi-architecture` | `0.1` | [Synthetic sandbox projection contract](../../docs/contracts/OSI_Synthetic_Sandbox_Projection_Contract_v0.1.md) | `contract-osi-organizational-evidence-001`<br>`architecture-graph-platform-001` |
 | `contract-shared-data-graph-yaml-001` | Machine-Readable Data and Graph Contract | `shared` | `contract` | `supporting` | `active` | `graph-maintainers` | `0.1.0` | [YAML contract](../../data/contracts/osi_pia_contract_v0.1.yaml) | `contract-shared-data-graph-001` |
