@@ -59,6 +59,38 @@ Complete this section for every run:
 | Known system instructions | Pending |
 | Real participant material used | **No** |
 
+## Discoverability intervention record
+
+This experiment includes a discrete public-discoverability intervention so
+retrieval conditions can be compared with the earlier baseline rather than
+treated as an untracked documentation change.
+
+### Baseline — 2026-09-11
+
+- The repository and Pages site were public and directly reachable.
+- A sitemap and crawler guidance were present.
+- Ordinary search did not reliably surface the project.
+- Some outside-machine environments could not discover or admit the source.
+
+### Intervention
+
+The public documentation hubs were given consistent, plain-language semantic
+signals for capability and professional identity, evidence-grounded evaluation,
+hiring and recruiting, ATS and translation failure, organizational capability,
+and human-centered machine participation. Cross-links among the public hubs
+were strengthened, and the hub versions were synchronized with the publication
+registry.
+
+**Intervention commit:** `d440781` (`docs: improve public semantic discoverability`)
+
+### Observation plan
+
+Repeat the same exact-name, conceptual, and site-restricted searches used at
+baseline after deployment has had time to propagate. Record crawl/index status,
+query visibility, Pages retrieval, and machine source admission separately.
+Immediate absence from search is not by itself evidence that the intervention
+failed; indexing and ranking are temporally asynchronous.
+
 ## Conditions
 
 ### 0. Repository accessibility verification
