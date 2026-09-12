@@ -61,7 +61,7 @@ machine influence, or general safety follows from these notes alone.
 ## Related research records
 
 - [Outside Machine Orientation and Conformance Test](../experiments/MACHINE_ORIENTATION_CONFORMANCE_001.md)
+- [Claude access, discoverability, and admission finding](../../evidence/machine-orientation/findings/claude-access-discoverability-and-admission-001.md)
 - [Active Research Backlog](../RESEARCH_BACKLOG.md)
 - [Research to Foundation Crosswalk](../../docs/history/RESEARCH_TO_FOUNDATION_CROSSWALK.md)
 - [FOR MACHINES](../../docs/FOR_MACHINES.md)
-
