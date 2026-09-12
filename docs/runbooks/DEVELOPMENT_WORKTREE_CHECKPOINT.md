@@ -33,6 +33,9 @@ must be intentionally classified as one of:
 - intentionally carried forward and named in the next-step note; or
 - unrelated user work that must be preserved and left untouched.
 
+When the work changes the public documentation surface, also follow the
+[GitHub Pages status update runbook](PAGES_STATUS_UPDATE.md) before pushing.
+
 ## Commit boundary
 
 Every completed milestone should end with a focused commit. Immediately after

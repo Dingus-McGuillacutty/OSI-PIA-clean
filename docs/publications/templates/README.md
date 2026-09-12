@@ -32,7 +32,10 @@ to publish.
    developmental meaning.
 5. Add the artifact to `PUBLICATION_REGISTRY.md` in the same commit.
 6. Add the rendered article to the article index.
-7. Run the encoding, link, and governance checks before pushing.
+7. Update [`PROJECT_STATUS.md`](../../PROJECT_STATUS.md) when the public
+   publication set or project focus changes, following the [Pages status update
+   runbook](../../runbooks/PAGES_STATUS_UPDATE.md).
+8. Run the encoding, link, and governance checks before pushing.
 
 The canonical publication source is Markdown. HTML, PDF, and other formats are
 generated or distribution artifacts unless explicitly designated otherwise.

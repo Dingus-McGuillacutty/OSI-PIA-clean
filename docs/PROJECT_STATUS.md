@@ -5,7 +5,7 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "0.5.0"
+version: "0.5.1"
 owner: repository-governance
 lifecycle_state: validation
 last_reviewed: "2026-09-11"
@@ -25,7 +25,7 @@ linked canonical documents govern when they differ from this summary.
 ```json
 {
   "project": "OSI-PIA",
-  "as_of": "2026-08-01",
+  "as_of": "2026-09-11",
   "overall_authority": "working",
   "overall_status": "proposed",
   "production_participant_processing": "not_authorized",
@@ -35,7 +35,7 @@ linked canonical documents govern when they differ from this summary.
     "real_participant_projection": "not_authorized",
     "real_organizational_projection": "not_authorized"
   },
-  "current_focus": "OSI synthetic organizational-evidence assurance and governed participant-minimized projection readiness",
+  "current_focus": "governed artifact metadata, publication authoring, semantic discoverability, and machine participation conformance",
   "canonical_sources": [
     "README.md",
     "ROADMAP.md",
@@ -61,6 +61,12 @@ The public article series now includes the machine-participation sequence
 Right and Still Wrong*, alongside the earlier capability, hiring, ATS, and
 organizational-systems articles. Publication remains a supporting explanation
 layer and does not promote exploratory research into canonical authority.
+
+Artifact metadata is now governed through a versioned machine-readable contract
+and validator-backed controlled vocabularies. Publication creation follows a
+documented, reusable template path for individual articles and article series;
+metadata remains an interface for interpretation, not a substitute for human
+review or stewardship.
 
 OSI-PIA is a governed research-and-engineering project with two peer domains:
 

@@ -17,6 +17,7 @@ governance review attached to the affected artifacts.
 | 2026-08-01 | [OSI synthetic sandbox projection assurance](MILESTONE_2026-08-01_OSI_SYNTHETIC_SANDBOX_PROJECTION_ASSURANCE.md) | Repeatable synthetic organization-to-observation sandbox path with read-only no-duplication validation |
 | 2026-08-02 | [OSI expanded synthetic projection package](MILESTONE_2026-08-02_OSI_EXPANDED_SYNTHETIC_PROJECTION.md) | Three source-grounded synthetic observations projected and validated with no duplicate structure |
 | 2026-08-12 | [PIA live synthetic sandbox validation](MILESTONE_2026-08-12_PIA_LIVE_SANDBOX_VALIDATION.md) | Live PIA synthetic evidence-to-capability write, read-only validation, and paired graph walkthrough |
+| 2026-09-11 | [Metadata contract and publication templates](MILESTONE_2026-09_METADATA_CONTRACT_AND_PUBLICATION_TEMPLATES.md) | Artifact metadata became a governed machine interface and publication authoring gained versioned reusable templates |
 
 ## Interpretation
 

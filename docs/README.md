@@ -12,6 +12,7 @@ This directory is the organized documentation system for Organizational Systems 
 | [`history/`](history/README.md) | Milestones and architectural evolution |
 | [`evidence/`](evidence/README.md) | Synthetic demonstrations, controlled validation records, and research examples |
 | [`runbooks/DEVELOPMENT_WORKTREE_CHECKPOINT.md`](runbooks/DEVELOPMENT_WORKTREE_CHECKPOINT.md) | Worktree, verification, commit, and clean-release checkpoint |
+| [`runbooks/PAGES_STATUS_UPDATE.md`](runbooks/PAGES_STATUS_UPDATE.md) | Periodic source-status update and rendered GitHub Pages verification |
 | `active-research/` | Hypotheses and exploratory work not yet promoted into architecture |
 | `principles/` | Enduring engineering and ethical commitments |
 | `GLOSSARY.md` | Reader-oriented terminology guide |

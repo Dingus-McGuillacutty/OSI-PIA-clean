@@ -4,7 +4,7 @@ domain: shared
 layer: governance
 authority: canonical
 status: active
-version: "2.1"
+version: "2.2"
 owner: repository-governance
 ---
 
@@ -41,7 +41,7 @@ Registry.
 | `publication-article-gate-right-still-wrong-001` | When the Gate Is Right and Still Wrong | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [When the Gate Is Right and Still Wrong](../../docs/publications/articles/2026-09-11_when-the-gate-is-right-and-still-wrong.md) | `standard-publication-001` |
 | `publication-template-guide-001` | Publication Template Guide | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `1.0` | [Publication Template Guide](../../docs/publications/templates/README.md) | `standard-publication-001` |
 | `publication-pia-anti-report-001` | PIA Synthetic Annotated Anti-Report | `pia` | `publication` | `supporting` | `active` | `publication-maintainers` | `unversioned` | [Synthetic Annotated Anti-Report](../../docs/publications/examples/AntiPatterns/PIA_Synthetic_Annotated_AntiReport.md) | `standard-publication-001`<br>`principle-pia-measurement-001` |
-| `publication-project-status-001` | OSI-PIA Project Status | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `0.5.0` | [Project Status](../../docs/PROJECT_STATUS.md) | `governance-model-001`<br>`architecture-pia-intake-subsystem-001`<br>`architecture-graph-platform-001` |
+| `publication-project-status-001` | OSI-PIA Project Status | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `0.5.1` | [Project Status](../../docs/PROJECT_STATUS.md) | `governance-model-001`<br>`architecture-pia-intake-subsystem-001`<br>`architecture-graph-platform-001` |
 | `evidence-osi-case-001` | OSI Evidence Case 001 — Capability Blockage | `osi` | `evidence` | `supporting` | `proposed` | `osi-research` | `0.2` | [Capability Blockage](../../docs/evidence/demonstrations/OSI_Evidence_Case_001_Capability_Blockage.md) | `standard-publication-001`<br>`principle-osi-foundational-001` |
 | `evidence-osi-case-002` | OSI Evidence Case 002 — False Capability Signal | `osi` | `evidence` | `supporting` | `proposed` | `osi-research` | `0.2` | [False Capability Signal](../../docs/evidence/demonstrations/OSI_Evidence_Case_002_False_Capability_Signal.md) | `standard-publication-001`<br>`principle-osi-foundational-001` |
 | `evidence-osi-case-003` | OSI Evidence Case 003 — Misattribution of Failure | `osi` | `evidence` | `supporting` | `proposed` | `osi-research` | `0.2` | [Misattribution of Failure](../../docs/evidence/demonstrations/OSI_Evidence_Case_003_Misattribution_of_Failure.md) | `standard-publication-001`<br>`principle-osi-foundational-001` |
