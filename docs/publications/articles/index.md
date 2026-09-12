@@ -5,7 +5,7 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "1.2"
+version: "1.3"
 owner: publication-stewardship
 description: "Public essays about professional identity, demonstrated capability, skills-based hiring, ATS limitations, organizational systems, and human-centered AI."
 ---
@@ -25,6 +25,7 @@ Public essays on hiring, capability recognition, professional identity, organiza
 - [What OSI Is Trying to Measure](2026-09-03_what-osi-is-trying-to-measure.html)
 - [The False Negative Stack](2026-09-10_false-negative-stack.html)
 - [Access Is Not Authority](2026-09-10_access-is-not-authority.html)
+- [When the Gate Is Right and Still Wrong](2026-09-11_when-the-gate-is-right-and-still-wrong.html)
 
 ## Related Capability Evidence Systems Articles
 

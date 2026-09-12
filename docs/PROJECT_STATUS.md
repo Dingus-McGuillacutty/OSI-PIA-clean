@@ -5,10 +5,10 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "0.4.0"
+version: "0.5.0"
 owner: repository-governance
 lifecycle_state: validation
-last_reviewed: "2026-08-03"
+last_reviewed: "2026-09-11"
 review_cycle: milestone
 ---
 
@@ -50,11 +50,17 @@ linked canonical documents govern when they differ from this summary.
 
 ## Current Public Status
 
-As of August 2026, OSI-PIA has an active public GitHub Pages site, a
-published first article, documentation assurance records, registry and link
-validation, and an enabled public discussion channel. The project remains an
-active research and development system. It is not a production hiring,
+As of September 2026, OSI-PIA has an active public GitHub Pages site, a
+published public article series, documentation assurance records, registry and
+link validation, and an enabled public discussion channel. The project remains
+an active research and development system. It is not a production hiring,
 employment-screening, psychological-assessment, or personnel-decision tool.
+
+The public article series now includes the machine-participation sequence
+*The False Negative Stack*, *Access Is Not Authority*, and *When the Gate Is
+Right and Still Wrong*, alongside the earlier capability, hiring, ATS, and
+organizational-systems articles. Publication remains a supporting explanation
+layer and does not promote exploratory research into canonical authority.
 
 OSI-PIA is a governed research-and-engineering project with two peer domains:
 
