@@ -10,6 +10,10 @@ Read in order:
    How PIA may infer specific capabilities from documented behavior while
    preserving evidence limits.
 
+4. Human-Centered Capability Infrastructure.md
+   How shared PIA/OSI systems should return understandable, portable, and
+   useful capability value to the person represented.
+
 These documents establish the philosophical and engineering standards
 governing all subsequent architecture, methodology, implementation,
 and research within the OSI project.
@@ -17,3 +21,6 @@ and research within the OSI project.
 The third document is a PIA-specific working proposal. It is testable and
 registered but does not supersede canonical governance before review and
 promotion.
+
+The fourth document is a shared working proposal. It guides current design and
+interoperability work but remains subject to governance review and promotion.

@@ -163,6 +163,12 @@ a bounded claim, not a person's worth or universal potential. The [Clean
 Release Standard](../governance/CLEAN_RELEASE_STANDARD.md) and repository
 validation enforce a participant-data-free committed tree.
 
+The working [Human-Centered Capability Infrastructure principle](../principles/Human-Centered%20Capability%20Infrastructure.md)
+adds a shared design test: capability infrastructure should make a person's
+capability understandable, portable, actionable, and developable for that
+person—not merely more useful to institutions or technical intermediaries.
+It remains proposed pending governance review.
+
 ## Next governed decisions
 
 1. Define a participant-minimized projection contract: allowed fields,

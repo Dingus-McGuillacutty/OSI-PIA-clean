@@ -4,7 +4,7 @@ domain: shared
 layer: governance
 authority: canonical
 status: active
-version: "1.1"
+version: "1.2"
 owner: repository-governance
 ---
 
@@ -22,6 +22,7 @@ principles that constrain architecture and implementation.
 | `principle-osi-hippocratic-001` | OSI Hippocratic Principle | `osi` | `governance` | `canonical` | `active` | `osi-governance` | `unversioned` | [OSI Hippocratic Principle](../../governance/OSI%20Hippocratic%20Principle.md) | `principle-osi-foundational-001` |
 | `principle-pia-measurement-001` | PIA Measurement Doctrine | `pia` | `governance` | `canonical` | `active` | `pia-governance` | `unversioned` | [PIA Measurement Doctrine](../../governance/PIA_MEASUREMENT_DOCTRINE.md) | `adr-pia-0001`<br>`ontology-shared-meta-001` |
 | `principle-pia-behavioral-inference-001` | PIA Behavioral Capability Inference Principle | `pia` | `principle` | `working` | `proposed` | `pia-ontology` | `0.2.0` | [Behavioral Capability Inference Principle](../../principles/PIA%20Behavioral%20Capability%20Inference%20Principle.md) | `principle-pia-measurement-001`<br>`ontology-shared-meta-001` |
+| `principle-shared-human-centered-capability-infrastructure-001` | Human-Centered Capability Infrastructure | `shared` | `principle` | `working` | `proposed` | `architecture-maintainers` | `0.1.0` | [Human-Centered Capability Infrastructure](../../principles/Human-Centered%20Capability%20Infrastructure.md) | `principle-shared-engineering-001`<br>`principle-pia-measurement-001`<br>`principle-osi-hippocratic-001` |
 | `principle-architecture-supporting-001` | Supporting Architectural Principles | `shared` | `principle` | `supporting` | `active` | `architecture-maintainers` | `unversioned` | [Architectural principles](../../docs/principles/architectural_principles.md) | `principle-shared-engineering-001` |
 | `principle-hippocratic-supporting-001` | Supporting Hippocratic Principle | `osi` | `principle` | `supporting` | `review-required` | `osi-governance` | `unversioned` | [Hippocratic principle reference](../../docs/principles/hippocratic_principle.md) | `principle-osi-hippocratic-001` |
 
