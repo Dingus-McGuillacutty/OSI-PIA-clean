@@ -5,10 +5,10 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "0.5.1"
+version: "0.5.2"
 owner: repository-governance
 lifecycle_state: validation
-last_reviewed: "2026-09-11"
+last_reviewed: "2026-09-16"
 review_cycle: milestone
 ---
 
@@ -25,7 +25,7 @@ linked canonical documents govern when they differ from this summary.
 ```json
 {
   "project": "OSI-PIA",
-  "as_of": "2026-09-11",
+  "as_of": "2026-09-16",
   "overall_authority": "working",
   "overall_status": "proposed",
   "production_participant_processing": "not_authorized",
@@ -35,7 +35,7 @@ linked canonical documents govern when they differ from this summary.
     "real_participant_projection": "not_authorized",
     "real_organizational_projection": "not_authorized"
   },
-  "current_focus": "governed artifact metadata, publication authoring, semantic discoverability, and machine participation conformance",
+  "current_focus": "governed artifact metadata, publication authoring, semantic discoverability, literature positioning, standards interoperability, and machine participation conformance",
   "canonical_sources": [
     "README.md",
     "ROADMAP.md",
@@ -67,6 +67,20 @@ and validator-backed controlled vocabularies. Publication creation follows a
 documented, reusable template path for individual articles and article series;
 metadata remains an interface for interpretation, not a substitute for human
 review or stewardship.
+
+The project now maintains a living [Project Bibliography](publications/PROJECT_BIBLIOGRAPHY.md)
+with 32 article-cited source locators and seven research-candidate sources for
+PIA and OSI positioning. A working [Literature-Positioning Matrix](../active-research/methodology/LITERATURE_POSITIONING_MATRIX.md)
+and accompanying [PIA/OSI positioning notes](../active-research/notes/PIA_OSI_LITERATURE_POSITIONING_NOTES.md)
+separate established findings, recombination, and open propositions; they do
+not make novelty or causal claims. This checkpoint is recorded in the
+[literature bibliography and positioning milestone](history/MILESTONE_2026-09_LITERATURE_BIBLIOGRAPHY_POSITIONING.md).
+
+A provisional [PIA ↔ Open Skills / LER Crosswalk](../active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md)
+now defines the working boundary between PIA's richer evidence-and-inference
+layer, a future semantic translation socket, established portable standards,
+and OSI's organizational receiving conditions. It is not canonical architecture
+or an authorization to export participant data.
 
 OSI-PIA is a governed research-and-engineering project with two peer domains:
 
@@ -161,6 +175,8 @@ validation enforce a participant-data-free committed tree.
    accessibility, and independent review.
 4. Decide whether to ratify or revise the Governance Model through the scoped
    shared ADR required by its ratification review.
+5. Review the seven bibliography candidates and update the literature-positioning
+   matrix only after recording source-level limits and temporal scope.
 
 ## Canonical detail
 
@@ -171,4 +187,6 @@ validation enforce a participant-data-free committed tree.
 - [PIA Reference Database](../architecture/graph_ontology/PIA_Reference_Database.md) â€” participant-graph scope and acceptance boundary.
 - [Sandbox Projection Assurance Milestone](history/MILESTONE_2026-07-30_PIA_SYNTHETIC_SANDBOX_PROJECTION_ASSURANCE.md) â€” tested synthetic graph mechanics.
 - [Repository Registries](../governance/registries/README.md) â€” governed artifact inventory and authority state.
+- [Literature bibliography and positioning milestone](history/MILESTONE_2026-09_LITERATURE_BIBLIOGRAPHY_POSITIONING.md) â€” source intake and positioning checkpoint.
+- [PIA ↔ Open Skills / LER Crosswalk](../active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md) â€” provisional interoperability boundary.
 

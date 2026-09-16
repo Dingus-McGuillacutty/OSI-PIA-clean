@@ -5,14 +5,17 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "1.3"
+version: "1.4"
 owner: publication-stewardship
-description: "Public essays about professional identity, demonstrated capability, skills-based hiring, ATS limitations, organizational systems, and human-centered AI."
+description: "Public essays about professional identity, demonstrated capability, evidence-grounded evaluation, skills-based hiring, ATS and résumé translation failure, organizational capability, open-skills and LER interoperability, and human-centered AI."
 ---
 
 # OSI-PIA Articles
 
-Public essays on hiring, capability recognition, professional identity, organizational systems, and ethical AI-assisted interpretation.
+Public essays on hiring, capability recognition, professional identity,
+evidence-grounded evaluation, ATS and résumé translation failure,
+organizational systems, open-skills and LER interoperability, and ethical
+AI-assisted interpretation.
 
 ## Current Articles
 

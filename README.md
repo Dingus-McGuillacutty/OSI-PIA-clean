@@ -14,6 +14,12 @@ Public documentation: <https://dingus-mcguillacutty.github.io/OSI-PIA-clean/>
 
 Organizational Systems Intelligence is a research and engineering project for understanding how people, capabilities, relationships, organizational conditions, and state changes interact within human cooperative systems.
 
+The public research also examines evidence-grounded capability inference,
+professional identity, skills-based hiring, applicant-tracking-system (ATS)
+translation failure, open-skills and Learning and Employment Record (LER)
+interoperability, organizational capability, and human-centered machine
+participation.
+
 Professional Identity Architecture is a peer domain focused on
 participant-controlled evidence, experience, capabilities, development, and
 bounded assessment while keeping source facts separate from analytical

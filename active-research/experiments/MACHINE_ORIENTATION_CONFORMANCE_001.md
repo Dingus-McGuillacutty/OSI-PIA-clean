@@ -5,7 +5,7 @@ domain: shared
 layer: active-research
 authority: working
 status: proposed
-version: "0.1.0"
+version: "0.2.0"
 owner: research-governance
 ---
 
@@ -82,6 +82,21 @@ were strengthened, and the hub versions were synchronized with the publication
 registry.
 
 **Intervention commit:** `d440781` (`docs: improve public semantic discoverability`)
+
+### Follow-on semantic positioning update — 2026-09-16
+
+The public metadata and hub language was extended after the bibliography and
+PIA/OSI literature-positioning work. It now names open-skills and Learning and
+Employment Record (LER) interoperability, evidence-grounded capability
+inference, capability utilization and absorption, ATS and résumé translation
+failure, provenance, temporal authority, and epistemic stewardship. The six
+meta-topics remain the navigation structure; the added phrases are plain-language
+entry vocabulary, not new authority categories or keyword claims.
+
+This follow-on is intended to improve semantic legibility while preserving the
+project identity and boundaries. It does not establish search ranking, guarantee
+machine retrieval, or authorize automated hiring, credentialing, or consequential
+action.
 
 ### Observation plan
 

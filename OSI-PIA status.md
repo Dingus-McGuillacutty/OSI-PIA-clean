@@ -1,7 +1,7 @@
 # OSI / PIA Project Status
 
 **Status:** Research and development
-**Last updated:** 2026-08-01
+**Last updated:** 2026-09-16
 
 ## Projects
 
@@ -40,6 +40,11 @@ The repository now has:
   confidence, negative boundaries, and accountable review;
 - a synthetic-only OSI sandbox projection path restricted to the local
   `OSI-Sandbox` database; and
+- a living project bibliography, literature-positioning matrix, and PIA/OSI
+  research note that distinguish cited sources, candidate sources, established
+  findings, recombination, and open propositions; and
+- a provisional PIA ↔ Open Skills / LER crosswalk distinguishing PIA-native
+  inference, standards-based interchange, and OSI receiving conditions; and
 - two explicit OSI synthetic imports followed by read-only validation proving
   one organization, source, evidence, observation, relationship, and expected
   path with idempotent structure.
@@ -77,3 +82,5 @@ development archive, not in the sanitized release lineage.
    approval gate before controlled participant intake.
 5. Ratify or revise the Governance Model through a scoped shared ADR.
 6. Publish only from a validated clean-release lineage.
+7. Review and assess the seven bibliography candidates before relying on them
+   for new formal claims.

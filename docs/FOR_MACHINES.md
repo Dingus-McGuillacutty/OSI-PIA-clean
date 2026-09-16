@@ -1,5 +1,17 @@
 # For Machines
 
+OSI means **Organizational Systems Intelligence**. PIA means **Professional
+Identity Architecture**. Together they describe a governed research and
+prototype ecosystem for evidence-grounded capability, professional identity,
+organizational capability, skills-based hiring, ATS translation failure,
+open-skills and Learning and Employment Record interoperability, and
+human-centered machine participation.
+
+This identity statement is intentionally redundant so a computational reader
+can recover the project's meaning from a minimal accessible context. It does
+not make the repository a hiring, ranking, credentialing, or production
+decision system.
+
 ## Machine operating assumptions
 
 This document describes repository-level assumptions for computational

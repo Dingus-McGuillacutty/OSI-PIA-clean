@@ -2,6 +2,13 @@
 
 This directory contains the canonical Markdown sources for Organizational Systems Intelligence (OSI) and Professional Identity Architecture (PIA) publications.
 
+The public publication layer covers evidence-grounded capability and
+professional identity, skills-based hiring and ATS translation failure,
+organizational capability, open-skills and Learning and Employment Record
+(LER) interoperability, and human-centered machine participation. These are
+research and prototype topics, not claims that OSI-PIA is a hiring, ranking,
+credentialing, or production decision product.
+
 ## Structure
 
 ```text
@@ -52,6 +59,11 @@ Markdown is the canonical repository source. RTF, DOCX, PDF, HTML, and other pre
 
 - [Publication Template Guide](templates/README.md) — standard front matter,
   structure, and pre-publication checks.
+- [Project Bibliography](PROJECT_BIBLIOGRAPHY.md) — living index of external
+  sources cited by the public article series.
+- [PIA ↔ Open Skills / LER Crosswalk](../../active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md)
+  — provisional boundary between PIA-native inference and standards-based
+  interchange.
 
 ## Required Analytical Discipline
 

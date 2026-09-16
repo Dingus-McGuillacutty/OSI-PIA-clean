@@ -4,7 +4,7 @@ domain: shared
 layer: governance
 authority: canonical
 status: active
-version: "2.2"
+version: "2.4"
 owner: repository-governance
 ---
 
@@ -18,14 +18,14 @@ Registry.
 
 | Artifact ID | Name | Domain | Layer | Authority | Status | Owner | Version | Canonical Location | Depends On |
 |---|---|---|---|---|---|---|---|---|---|
-| `public-documentation-landing-001` | OSI-PIA Public Documentation Landing | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.2` | [Public landing](../../docs/index.md) | `standard-publication-001` |
+| `public-documentation-landing-001` | OSI-PIA Public Documentation Landing | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.3` | [Public landing](../../docs/index.md) | `standard-publication-001` |
 | `publication-start-here-001` | OSI-PIA Start Here | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.1` | [Start Here](../../docs/START_HERE.md) | `standard-publication-001` |
 | `publication-see-it-work-001` | OSI-PIA See It Work Guide | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.1` | [See It Work](../../docs/SEE_IT_WORK.md) | `standard-publication-001` |
-| `publication-evidence-index-001` | OSI-PIA Evidence Index | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.1` | [Evidence](../../docs/evidence/index.md) | `standard-publication-001` |
+| `publication-evidence-index-001` | OSI-PIA Evidence Index | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.2` | [Evidence](../../docs/evidence/index.md) | `standard-publication-001` |
 | `evidence-osi-case-data-map-001` | OSI Evidence Case-to-Data Map | `osi` | `evidence` | `supporting` | `proposed` | `osi-research` | `0.1` | [Case-to-data map](../../docs/evidence/CASE_DATA_MAP.md) | `standard-publication-001`<br>`evidence-osi-case-001`<br>`evidence-osi-case-002`<br>`evidence-osi-case-003` |
-| `publication-research-index-001` | OSI-PIA Research Index | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.1` | [Research](../../docs/research-standards/README.md) | `standard-publication-001` |
+| `publication-research-index-001` | OSI-PIA Research Index | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.2` | [Research](../../docs/research-standards/README.md) | `standard-publication-001` |
 | `publication-repository-link-001` | OSI-PIA Repository Link | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.0` | [Repository](../../docs/REPOSITORY.md) | `standard-publication-001` |
-| `publication-articles-index-001` | OSI-PIA Articles Index | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `1.3` | [Articles](../../docs/publications/articles/index.md) | `standard-publication-001` |
+| `publication-articles-index-001` | OSI-PIA Articles Index | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `1.4` | [Articles](../../docs/publications/articles/index.md) | `standard-publication-001` |
 | `publication-article-hiring-translation-001` | Hiring Does Not Have a Talent Problem. It Has a Translation Problem. | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [Hiring translation article](../../docs/publications/articles/2026-08-11_hiring-translation-problem.md) | `standard-publication-001` |
 | `publication-article-false-negative-001` | The False Negative Machine | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [False Negative Machine](../../docs/publications/articles/2026-08-13_false-negative-machine.md) | `standard-publication-001` |
 | `publication-article-manufactured-polish-001` | Real Capability vs. Manufactured Polish | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [Manufactured Polish](../../docs/publications/articles/2026-08-18_real-capability-vs-manufactured-polish.md) | `standard-publication-001` |
@@ -40,8 +40,9 @@ Registry.
 | `publication-article-access-is-not-authority-001` | Access Is Not Authority | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [Access Is Not Authority](../../docs/publications/articles/2026-09-10_access-is-not-authority.md) | `standard-publication-001` |
 | `publication-article-gate-right-still-wrong-001` | When the Gate Is Right and Still Wrong | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [When the Gate Is Right and Still Wrong](../../docs/publications/articles/2026-09-11_when-the-gate-is-right-and-still-wrong.md) | `standard-publication-001` |
 | `publication-template-guide-001` | Publication Template Guide | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `1.0` | [Publication Template Guide](../../docs/publications/templates/README.md) | `standard-publication-001` |
+| `publication-project-bibliography-001` | OSI-PIA Project Bibliography | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.2` | [Project Bibliography](../../docs/publications/PROJECT_BIBLIOGRAPHY.md) | `standard-publication-001` |
 | `publication-pia-anti-report-001` | PIA Synthetic Annotated Anti-Report | `pia` | `publication` | `supporting` | `active` | `publication-maintainers` | `unversioned` | [Synthetic Annotated Anti-Report](../../docs/publications/examples/AntiPatterns/PIA_Synthetic_Annotated_AntiReport.md) | `standard-publication-001`<br>`principle-pia-measurement-001` |
-| `publication-project-status-001` | OSI-PIA Project Status | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `0.5.1` | [Project Status](../../docs/PROJECT_STATUS.md) | `governance-model-001`<br>`architecture-pia-intake-subsystem-001`<br>`architecture-graph-platform-001` |
+| `publication-project-status-001` | OSI-PIA Project Status | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `0.5.2` | [Project Status](../../docs/PROJECT_STATUS.md) | `governance-model-001`<br>`architecture-pia-intake-subsystem-001`<br>`architecture-graph-platform-001` |
 | `evidence-osi-case-001` | OSI Evidence Case 001 — Capability Blockage | `osi` | `evidence` | `supporting` | `proposed` | `osi-research` | `0.2` | [Capability Blockage](../../docs/evidence/demonstrations/OSI_Evidence_Case_001_Capability_Blockage.md) | `standard-publication-001`<br>`principle-osi-foundational-001` |
 | `evidence-osi-case-002` | OSI Evidence Case 002 — False Capability Signal | `osi` | `evidence` | `supporting` | `proposed` | `osi-research` | `0.2` | [False Capability Signal](../../docs/evidence/demonstrations/OSI_Evidence_Case_002_False_Capability_Signal.md) | `standard-publication-001`<br>`principle-osi-foundational-001` |
 | `evidence-osi-case-003` | OSI Evidence Case 003 — Misattribution of Failure | `osi` | `evidence` | `supporting` | `proposed` | `osi-research` | `0.2` | [Misattribution of Failure](../../docs/evidence/demonstrations/OSI_Evidence_Case_003_Misattribution_of_Failure.md) | `standard-publication-001`<br>`principle-osi-foundational-001` |

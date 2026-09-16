@@ -5,9 +5,9 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "1.1"
+version: "1.2"
 owner: repository-governance
-description: "Synthetic evidence and graph demonstrations showing how OSI and PIA preserve traceable capability and organizational-system reasoning without using real participant data."
+description: "Synthetic evidence and graph demonstrations showing how OSI and PIA preserve traceable capability, evidence provenance, confidence boundaries, and organizational-system reasoning without using real participant data."
 ---
 
 This area contains synthetic demonstrations, controlled validation records, and

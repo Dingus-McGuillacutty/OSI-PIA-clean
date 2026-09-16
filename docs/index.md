@@ -5,12 +5,17 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "1.2"
+version: "1.3"
 owner: repository-governance
-description: "Public orientation to Organizational Systems Intelligence and Professional Identity Architecture: evidence-grounded capability, professional identity, skills-based hiring, organizational systems, and trustworthy machine participation."
+description: "Public orientation to Organizational Systems Intelligence and Professional Identity Architecture: evidence-grounded capability inference, professional identity, skills-based hiring, ATS translation failure, open-skills and Learning and Employment Record interoperability, organizational capability, and trustworthy human-centered machine participation."
 ---
 
-OSI-PIA is an early-stage research and prototype ecosystem for understanding how human capability is recognized, preserved, translated, and deployed across professional identity and organizational systems.
+OSI-PIA is an early-stage research and prototype ecosystem for understanding
+how human capability is evidenced, recognized, preserved, translated, and
+deployed across professional identity and organizational systems. Its working
+research connects capability evidence, skills-based hiring, ATS translation,
+open-skills and LER interoperability, organizational capability, and
+human-centered machine participation.
 
 It begins with a central problem:
 
@@ -74,11 +79,12 @@ coherent knowledge environment. They are navigation groupings, not new
 authority categories.
 
 - **Capability and Professional Identity** — [PIA/PCA direction](publications/articles/2026-09-03_what-pia-pca-is-trying-to-build.html)
-- **Evidence-Grounded Evaluation** — [synthetic evidence and demonstrations](evidence/index.md)
-- **Hiring and Recruiting** — [public articles](publications/articles/index.md)
-- **ATS and Translation Failure** — [False Negative Machine](publications/articles/2026-08-13_false-negative-machine.html) and [Hiring Translation](publications/articles/2026-08-11_hiring-translation-problem.html)
-- **Organizational Capability** — [what OSI is trying to measure](publications/articles/2026-09-03_what-osi-is-trying-to-measure.html)
-- **Human-Centered Machine Participation** — [research questions and methods](research-standards/README.md) and [For Machines](FOR_MACHINES.md)
+- **Capability and Professional Identity** — professional identity, demonstrated capability, capability evidence, capability inference, portable capability records, and [PIA/PCA direction](publications/articles/2026-09-03_what-pia-pca-is-trying-to-build.html)
+- **Evidence-Grounded Evaluation** — evidence provenance, evidence chains, confidence, bounded assessment, negative boundaries, synthetic evidence, and [demonstrations](evidence/index.md)
+- **Hiring and Recruiting** — skills-based hiring, recruiting, hidden workers, job searching, capability recognition, and [public articles](publications/articles/index.md)
+- **ATS and Translation Failure** — applicant tracking systems, ATS filters, résumé translation, hiring false negatives, AI screening, and [False Negative Machine](publications/articles/2026-08-13_false-negative-machine.html) and [Hiring Translation](publications/articles/2026-08-11_hiring-translation-problem.html)
+- **Organizational Capability** — organizational systems, capability utilization, capability absorption, trust, flow, mobility, and [what OSI is trying to measure](publications/articles/2026-09-03_what-osi-is-trying-to-measure.html)
+- **Human-Centered Machine Participation** — machine orientation, source admission, provenance, temporal authority, epistemic stewardship, trustworthy AI, and [research questions and methods](research-standards/README.md) and [For Machines](FOR_MACHINES.md)
 
 Discoverability should improve semantic legibility, not distort project
 identity. Search language is used here to help readers find the work; it does

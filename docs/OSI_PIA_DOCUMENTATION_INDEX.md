@@ -21,7 +21,15 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 - [What OSI Is Trying to Measure](publications/articles/2026-09-03_what-osi-is-trying-to-measure.md)
 - [The False Negative Stack](publications/articles/2026-09-10_false-negative-stack.md)
 - [Access Is Not Authority](publications/articles/2026-09-10_access-is-not-authority.md)
+- [Project Bibliography](publications/PROJECT_BIBLIOGRAPHY.md)
 - [PIA Professional Identity and Resume Output Model](publications/standards/PIA_PROFESSIONAL_IDENTITY_OUTPUT_MODEL.md)
+
+## Active Research and History
+
+- [Literature-Positioning Matrix](../active-research/methodology/LITERATURE_POSITIONING_MATRIX.md)
+- [PIA ↔ Open Skills / LER Crosswalk](../active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md)
+- [PIA and OSI Literature Positioning Notes](../active-research/notes/PIA_OSI_LITERATURE_POSITIONING_NOTES.md)
+- [Project Bibliography and PIA/OSI Literature Positioning Milestone](history/MILESTONE_2026-09_LITERATURE_BIBLIOGRAPHY_POSITIONING.md)
 
 ##
 
