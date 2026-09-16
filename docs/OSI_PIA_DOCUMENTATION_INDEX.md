@@ -22,6 +22,9 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 - [What OSI Is Trying to Measure](publications/articles/2026-09-03_what-osi-is-trying-to-measure.md)
 - [The False Negative Stack](publications/articles/2026-09-10_false-negative-stack.md)
 - [Access Is Not Authority](publications/articles/2026-09-10_access-is-not-authority.md)
+- [When the Gate Is Right and Still Wrong](publications/articles/2026-09-11_when-the-gate-is-right-and-still-wrong.md)
+- [Temporal Authority](publications/articles/2026-09-16_temporal-authority.md)
+- [Capability Infrastructure Should Belong to the People It Describes](publications/articles/2026-09-16_capability-infrastructure-belongs-to-people.md)
 - [Project Bibliography](publications/PROJECT_BIBLIOGRAPHY.md)
 - [PIA Professional Identity and Resume Output Model](publications/standards/PIA_PROFESSIONAL_IDENTITY_OUTPUT_MODEL.md)
 

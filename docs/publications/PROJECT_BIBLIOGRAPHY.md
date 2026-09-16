@@ -5,7 +5,7 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "0.2"
+version: "0.3"
 owner: publication-stewardship
 lifecycle_state: stewardship
 last_reviewed: "2026-09-16"
@@ -62,9 +62,9 @@ the OSI-PIA formulation is either novel or already established.
 
 **Bibliography review date:** 2026-09-16  
 **Source scope:** public article citations in the clean repository  
-**Article-cited source locators indexed:** 32  
-**Research-candidate source locators indexed:** 7  
-**Total external source locators indexed:** 39
+**Article-cited source locators indexed:** 41
+**Research-candidate source locators indexed:** 7
+**Total external source locators indexed:** 48
 
 ## Article citation map
 
@@ -78,6 +78,8 @@ the OSI-PIA formulation is either novel or already established.
 | [The Wrong Metrics Are Steering the System](articles/2026-08-29_wrong-metrics-steering-system.md) | Hiring-market, workforce-planning, and recruiting-metrics sources |
 | [What OSI Is Trying to Measure](articles/2026-09-03_what-osi-is-trying-to-measure.md) | Organizational capability, workforce-planning, and AI-risk sources |
 | [When the Gate Is Right and Still Wrong](articles/2026-09-11_when-the-gate-is-right-and-still-wrong.md) | Repository-access and machine-security source |
+| [Temporal Authority](articles/2026-09-16_temporal-authority.md) | Temporal validity, temporal jurisdiction, and capability-state transition sources |
+| [Capability Infrastructure Should Belong to the People It Describes](articles/2026-09-16_capability-infrastructure-belongs-to-people.md) | Open Skills/LER, digital credentials, capability portability, mobility, and organizational conversion sources |
 
 ## Research, policy, and primary guidance
 
@@ -137,6 +139,23 @@ or marked as independently reviewed. Their initial type labels are provisional.
 | `src-038` | [NBER — wage and promotion dynamics in internal labor markets](https://www.nber.org/papers/w6454) | Working paper | OSI | `unread` |
 | `src-039` | [Work-sample test validity meta-analysis](https://doi.org/10.1111/j.1744-6570.2005.00714.x) | Peer-reviewed meta-analysis | PIA | `unread` |
 
+## Sources added by Articles 8–9
+
+These sources are now linked by the two 2026-09-16 articles. Their article
+claims remain bounded by each source's own scope and temporal jurisdiction.
+
+| ID | Source and locator | Cited in |
+|---|---|---|
+| `src-040` | [Burning Glass Institute and NYU — *Sidetracked: The Hidden Crisis in Mid-Career Mobility*](https://www.burningglassinstitute.org/research/sidetracked) | Temporal Authority; Capability Infrastructure |
+| `src-041` | [Burning Glass Institute and OneTen — *Credential Fluency: The Hiring Advantage in the Race for Skills*](https://skillsright.org/wp-content/uploads/2026/03/Credential-Fluency_The-Hiring-Advantage-in-the-Race-for-Skills_OneTen_BGI_Report.pdf) | Capability Infrastructure |
+| `src-042` | [Burning Glass Institute and Tullman Family Office — *The Company You Keep*](https://www.burningglassinstitute.org/research/the-company-you-keep) | Capability Infrastructure |
+| `src-043` | [Open Skills Network — Rich Skill Descriptor](https://www.openskillsnetwork.org/rsd) | Capability Infrastructure |
+| `src-044` | [Credential Engine — Credential Transparency Description Language](https://credentialengine.org/credential-transparency/ctdl/) | Capability Infrastructure |
+| `src-045` | [1EdTech — Comprehensive Learner Record](https://www.1edtech.org/standards/clr) | Capability Infrastructure |
+| `src-046` | [1EdTech — Open Badges](https://www.1edtech.org/standards/open-badges) | Capability Infrastructure |
+| `src-047` | [W3C — Verifiable Credentials Data Model](https://www.w3.org/TR/vc-data-model/) | Capability Infrastructure |
+| `src-048` | [HR Open Standards — Trusted Career Profile](https://www.hropenstandards.org/news/official-release-of-the-trusted-career-profile-tcp) | Capability Infrastructure |
+
 ## Initial source-type triage
 
 This first-pass classification is deliberately provisional. It identifies the
@@ -158,6 +177,8 @@ ranking and does not imply that the source has been reviewed.
 | `src-034` | Scholarly article / repository copy | `unread` |
 | `src-035` | Intergovernmental research report | `unread` |
 | `src-038` | Working paper | `unread` |
+| `src-040`, `src-041`, `src-042` | University or think-tank / industry research report | `cited-unassessed` |
+| `src-043`, `src-044`, `src-045`, `src-046`, `src-047`, `src-048` | Primary standards or interoperability guidance | `cited-unassessed` |
 
 ## Maintenance rules
 

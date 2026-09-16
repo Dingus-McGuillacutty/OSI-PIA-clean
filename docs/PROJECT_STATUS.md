@@ -5,7 +5,7 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "0.5.2"
+version: "0.5.3"
 owner: repository-governance
 lifecycle_state: validation
 last_reviewed: "2026-09-16"
@@ -58,9 +58,12 @@ employment-screening, psychological-assessment, or personnel-decision tool.
 
 The public article series now includes the machine-participation sequence
 *The False Negative Stack*, *Access Is Not Authority*, and *When the Gate Is
-Right and Still Wrong*, alongside the earlier capability, hiring, ATS, and
-organizational-systems articles. Publication remains a supporting explanation
-layer and does not promote exploratory research into canonical authority.
+Right and Still Wrong*, followed by *Temporal Authority* and *Capability
+Infrastructure Should Belong to the People It Describes*. These extend the
+series from access and source authority into chronology, portability, and the
+participant as a primary beneficiary. Publication remains a supporting
+explanation layer and does not promote exploratory research into canonical
+authority.
 
 Artifact metadata is now governed through a versioned machine-readable contract
 and validator-backed controlled vocabularies. Publication creation follows a
@@ -69,7 +72,7 @@ metadata remains an interface for interpretation, not a substitute for human
 review or stewardship.
 
 The project now maintains a living [Project Bibliography](publications/PROJECT_BIBLIOGRAPHY.md)
-with 32 article-cited source locators and seven research-candidate sources for
+with 41 article-cited source locators and seven research-candidate sources for
 PIA and OSI positioning. A working [Literature-Positioning Matrix](../active-research/methodology/LITERATURE_POSITIONING_MATRIX.md)
 and accompanying [PIA/OSI positioning notes](../active-research/notes/PIA_OSI_LITERATURE_POSITIONING_NOTES.md)
 separate established findings, recombination, and open propositions; they do
