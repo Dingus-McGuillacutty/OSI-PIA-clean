@@ -50,6 +50,9 @@ Research documents should identify hypotheses, assumptions, available evidence, 
 - [PIA ↔ Open Skills / LER Crosswalk](../../active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md)
   — provisional boundary between PIA-native inference and standards-based
   interchange.
+- [Independent Convergence with the Open Skills / LER Field](../publications/briefs/2026-09-16_independent-convergence-open-skills-ler.md)
+  — project-history brief explaining the independent starting point and
+  resulting division of labor.
 
 ## Continue exploring
 

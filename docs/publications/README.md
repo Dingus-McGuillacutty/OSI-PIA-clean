@@ -59,6 +59,8 @@ Markdown is the canonical repository source. RTF, DOCX, PDF, HTML, and other pre
 
 - [Publication Template Guide](templates/README.md) — standard front matter,
   structure, and pre-publication checks.
+- [Briefs and Project Updates](briefs/index.md) — concise project-history and
+  development context that complements the full article series.
 - [Project Bibliography](PROJECT_BIBLIOGRAPHY.md) — living index of external
   sources cited by the public article series.
 - [PIA ↔ Open Skills / LER Crosswalk](../../active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md)

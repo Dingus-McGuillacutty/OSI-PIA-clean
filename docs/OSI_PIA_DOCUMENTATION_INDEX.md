@@ -10,6 +10,7 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 
 - [Publications](publications/)
 - [Articles](publications/articles/)
+- [Briefs and Project Updates](publications/briefs/)
 - [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](publications/articles/2026-08-11_hiring-translation-problem.md)
 - [The False Negative Machine](publications/articles/2026-08-13_false-negative-machine.md)
 - [Real Capability vs. Manufactured Polish](publications/articles/2026-08-18_real-capability-vs-manufactured-polish.md)

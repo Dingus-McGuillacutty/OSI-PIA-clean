@@ -82,6 +82,11 @@ layer, a future semantic translation socket, established portable standards,
 and OSI's organizational receiving conditions. It is not canonical architecture
 or an authorization to export participant data.
 
+The public [Briefs and Project Updates](publications/briefs/index.md) section
+now preserves concise project-history context alongside the article series. Its
+first brief records the independent convergence with the Open Skills/LER field
+and the resulting human-centered division of labor.
+
 OSI-PIA is a governed research-and-engineering project with two peer domains:
 
 - **OSI** examines organizational systems, conditions, relationships, and

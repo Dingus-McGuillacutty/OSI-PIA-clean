@@ -10,6 +10,7 @@ Public-facing articles, standards, working papers, technical reports, validation
 ## Start Here
 
 - [Articles](articles/)
+- [Briefs and Project Updates](briefs/)
 - [Standards](standards/)
 - [Article templates](templates/README.md)
 - [Project bibliography](PROJECT_BIBLIOGRAPHY.md) — article source index

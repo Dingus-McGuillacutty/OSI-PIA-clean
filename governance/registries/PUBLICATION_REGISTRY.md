@@ -4,7 +4,7 @@ domain: shared
 layer: governance
 authority: canonical
 status: active
-version: "2.4"
+version: "2.5"
 owner: repository-governance
 ---
 
@@ -26,6 +26,7 @@ Registry.
 | `publication-research-index-001` | OSI-PIA Research Index | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.2` | [Research](../../docs/research-standards/README.md) | `standard-publication-001` |
 | `publication-repository-link-001` | OSI-PIA Repository Link | `shared` | `publication` | `supporting` | `active` | `repository-governance` | `1.0` | [Repository](../../docs/REPOSITORY.md) | `standard-publication-001` |
 | `publication-articles-index-001` | OSI-PIA Articles Index | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `1.4` | [Articles](../../docs/publications/articles/index.md) | `standard-publication-001` |
+| `publication-briefs-index-001` | OSI-PIA Briefs and Project Updates | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `1.0` | [Briefs and Project Updates](../../docs/publications/briefs/index.md) | `standard-publication-001` |
 | `publication-article-hiring-translation-001` | Hiring Does Not Have a Talent Problem. It Has a Translation Problem. | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [Hiring translation article](../../docs/publications/articles/2026-08-11_hiring-translation-problem.md) | `standard-publication-001` |
 | `publication-article-false-negative-001` | The False Negative Machine | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [False Negative Machine](../../docs/publications/articles/2026-08-13_false-negative-machine.md) | `standard-publication-001` |
 | `publication-article-manufactured-polish-001` | Real Capability vs. Manufactured Polish | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [Manufactured Polish](../../docs/publications/articles/2026-08-18_real-capability-vs-manufactured-polish.md) | `standard-publication-001` |
@@ -39,6 +40,7 @@ Registry.
 | `publication-article-false-negative-stack-001` | The False Negative Stack | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [The False Negative Stack](../../docs/publications/articles/2026-09-10_false-negative-stack.md) | `standard-publication-001` |
 | `publication-article-access-is-not-authority-001` | Access Is Not Authority | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [Access Is Not Authority](../../docs/publications/articles/2026-09-10_access-is-not-authority.md) | `standard-publication-001` |
 | `publication-article-gate-right-still-wrong-001` | When the Gate Is Right and Still Wrong | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [When the Gate Is Right and Still Wrong](../../docs/publications/articles/2026-09-11_when-the-gate-is-right-and-still-wrong.md) | `standard-publication-001` |
+| `publication-brief-independent-convergence-open-skills-ler-001` | Project History Brief: Independent Convergence with the Open Skills / LER Field | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.1` | [Independent Convergence with the Open Skills / LER Field](../../docs/publications/briefs/2026-09-16_independent-convergence-open-skills-ler.md) | `standard-publication-001`<br>`publication-project-bibliography-001`<br>`research-pia-ler-open-skills-crosswalk-001`<br>`principle-shared-human-centered-capability-infrastructure-001` |
 | `publication-template-guide-001` | Publication Template Guide | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `1.0` | [Publication Template Guide](../../docs/publications/templates/README.md) | `standard-publication-001` |
 | `publication-project-bibliography-001` | OSI-PIA Project Bibliography | `shared` | `publication` | `supporting` | `active` | `publication-stewardship` | `0.2` | [Project Bibliography](../../docs/publications/PROJECT_BIBLIOGRAPHY.md) | `standard-publication-001` |
 | `publication-pia-anti-report-001` | PIA Synthetic Annotated Anti-Report | `pia` | `publication` | `supporting` | `active` | `publication-maintainers` | `unversioned` | [Synthetic Annotated Anti-Report](../../docs/publications/examples/AntiPatterns/PIA_Synthetic_Annotated_AntiReport.md) | `standard-publication-001`<br>`principle-pia-measurement-001` |

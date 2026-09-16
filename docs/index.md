@@ -68,6 +68,7 @@ For public interpretation and deeper technical review:
 
 - [Research](research-standards/README.md)
 - [Public articles](publications/articles/)
+- [Briefs and project updates](publications/briefs/)
 - [Architecture and contracts](architecture/)
 - [Full Documentation Index](OSI_PIA_DOCUMENTATION_INDEX.md)
 - [Repository on GitHub](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean)

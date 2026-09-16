@@ -369,3 +369,6 @@ research steward should:
 This crosswalk is a research instrument. It does not authorize production
 exports, accreditation, hiring decisions, organizational diagnosis, or
 unsupervised machine action.
+
+For the development history behind this boundary, see the public
+[Independent Convergence with the Open Skills / LER Field brief](../../docs/publications/briefs/2026-09-16_independent-convergence-open-skills-ler.md).

@@ -7,6 +7,13 @@ Status: Stable
 
 These principles guide the development of Organizational Systems Intelligence. They are intended to outlive individual implementations and change only when the underlying philosophy of the platform changes.
 
+## Related working principle
+
+The [Human-Centered Capability Infrastructure principle](../../principles/Human-Centered%20Capability%20Infrastructure.md)
+is a shared `working/proposed` principle that applies these commitments across
+PIA, OSI, interoperability, and participant-facing systems. It remains subject
+to governance review and does not add a new stable principle until promoted.
+
 ## 1. Assurance before ingestion
 
 No information enters the platform until it has passed an explicit assurance process.
