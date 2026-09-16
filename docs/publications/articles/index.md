@@ -5,7 +5,7 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "1.4"
+version: "1.5"
 owner: publication-stewardship
 description: "Public essays about professional identity, demonstrated capability, evidence-grounded evaluation, skills-based hiring, ATS and résumé translation failure, organizational capability, open-skills and LER interoperability, and human-centered AI."
 ---
@@ -34,6 +34,12 @@ AI-assisted interpretation.
 
 - [The Future Is Not the Perfect Résumé](2026-08-29_future-not-perfect-resume.html)
 - [Poking a Hole in the Fog of ATS War](2026-08-29_poking-hole-ats-war.html)
+
+## Supplemental Project Briefs
+
+- [Independent Convergence with the Open Skills / LER Field](../briefs/2026-09-16_independent-convergence-open-skills-ler.html)
+  — project-history context for the PIA/LER crosswalk and human-centered
+  capability infrastructure principle.
 
 ## Publication Boundary
 
