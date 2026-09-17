@@ -4,7 +4,7 @@ domain: shared
 layer: governance
 authority: canonical
 status: active
-version: "1.6"
+version: "1.7"
 owner: repository-governance
 ---
 
@@ -37,6 +37,7 @@ principle.
 | `research-backlog-001` | Active Research Backlog | `shared` | `research` | `supporting` | `active` | `knowledge-governance` | `0.1.0` | [Active Research Backlog](../../active-research/RESEARCH_BACKLOG.md) | `architecture-knowledge-governance-001` |
 | `research-note-machine-participation-epistemic-stewardship-001` | Machine Participation and Epistemic Stewardship Working Notes | `shared` | `active-research` | `working` | `proposed` | `research-governance` | `0.1.0` | [Machine participation notes](../../active-research/notes/MACHINE_PARTICIPATION_EPISTEMIC_STEWARDSHIP_NOTES.md) | `research-machine-orientation-conformance-001` |
 | `finding-machine-orientation-claude-access-admission-001` | Claude Access, Discoverability, and Conservative Source Admission | `shared` | `evidence` | `working` | `active` | `research-governance` | `0.1.0` | [Claude access finding](../../evidence/machine-orientation/findings/claude-access-discoverability-and-admission-001.md) | `research-machine-orientation-conformance-001` |
+| `finding-machine-orientation-claude-assisted-pages-002` | Claude Sonnet 5 Assisted Pages Orientation | `shared` | `evidence` | `working` | `active` | `research-governance` | `0.1.0` | [Claude assisted Pages orientation](../../evidence/machine-orientation/findings/claude-sonnet-5-assisted-pages-orientation-002.md) | `research-machine-orientation-conformance-001`<br>`finding-machine-orientation-claude-access-admission-001` |
 
 ## Promotion boundary
 

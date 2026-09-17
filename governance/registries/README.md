@@ -42,7 +42,7 @@ IDs and one common field order.
 | `registry-ontology-001` | Ontology Registry | `shared` | `governance` | `canonical` | `active` | `repository-governance` | `1.2` | [Ontology Registry](ONTOLOGY_REGISTRY.md) | `standard-registry-001` |
 | `registry-principle-001` | Principle Registry | `shared` | `governance` | `canonical` | `active` | `repository-governance` | `1.2` | [Principle Registry](PRINCIPLE_REGISTRY.md) | `standard-registry-001` |
 | `registry-publication-001` | Publication Registry | `shared` | `governance` | `canonical` | `active` | `repository-governance` | `2.8` | [Publication Registry](PUBLICATION_REGISTRY.md) | `standard-registry-001` |
-| `registry-research-001` | Research Registry | `shared` | `governance` | `canonical` | `active` | `repository-governance` | `1.6` | [Research Registry](RESEARCH_REGISTRY.md) | `standard-registry-001` |
+| `registry-research-001` | Research Registry | `shared` | `governance` | `canonical` | `active` | `repository-governance` | `1.7` | [Research Registry](RESEARCH_REGISTRY.md) | `standard-registry-001` |
 | `registry-software-001` | Software Registry | `shared` | `governance` | `canonical` | `active` | `repository-governance` | `1.8` | [Software Registry](SOFTWARE_REGISTRY.md) | `standard-registry-001` |
 | `registry-standard-001` | Standard Registry | `shared` | `governance` | `canonical` | `active` | `repository-governance` | `1.3` | [Standard Registry](STANDARD_REGISTRY.md) | `standard-registry-001` |
 
