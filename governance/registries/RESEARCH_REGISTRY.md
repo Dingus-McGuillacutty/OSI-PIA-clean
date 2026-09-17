@@ -4,7 +4,7 @@ domain: shared
 layer: governance
 authority: canonical
 status: active
-version: "1.7"
+version: "1.8"
 owner: repository-governance
 ---
 
@@ -29,6 +29,7 @@ principle.
 | `milestone-metadata-contract-publication-templates-001` | Metadata Contract and Publication Templates | `shared` | `history` | `supporting` | `active` | `repository-governance` | `1.0.0` | [Metadata contract and publication templates](../../docs/history/MILESTONE_2026-09_METADATA_CONTRACT_AND_PUBLICATION_TEMPLATES.md) | `contract-shared-artifact-metadata-001`<br>`publication-template-guide-001` |
 | `milestone-literature-bibliography-positioning-001` | Project Bibliography and PIA/OSI Literature Positioning | `shared` | `history` | `supporting` | `active` | `research-governance` | `1.0.0` | [Literature bibliography and positioning milestone](../../docs/history/MILESTONE_2026-09_LITERATURE_BIBLIOGRAPHY_POSITIONING.md) | `publication-project-bibliography-001`<br>`research-literature-positioning-matrix-001`<br>`research-pia-osi-literature-positioning-001` |
 | `research-machine-orientation-conformance-001` | Outside Machine Orientation and Conformance Test | `shared` | `active-research` | `working` | `proposed` | `research-governance` | `0.2.0` | [Machine orientation conformance test](../../active-research/experiments/MACHINE_ORIENTATION_CONFORMANCE_001.md) | `architecture-osi-constitution-001`<br>`architecture-knowledge-lifecycle-001`<br>`architecture-knowledge-governance-001` |
+| `research-principle-enforcement-crosswalk-001` | Principle-to-Enforcement Crosswalk | `shared` | `active-research` | `working` | `proposed` | `research-governance` | `0.1` | [Principle-to-Enforcement Crosswalk](../../active-research/methodology/PRINCIPLE_TO_ENFORCEMENT_CROSSWALK.md) | `architecture-knowledge-governance-001`<br>`architecture-graph-platform-001`<br>`architecture-assurance-001`<br>`research-machine-orientation-conformance-001` |
 | `research-literature-positioning-matrix-001` | OSI-PIA Literature-Positioning Matrix | `shared` | `active-research` | `working` | `proposed` | `research-governance` | `0.2` | [Literature-Positioning Matrix](../../active-research/methodology/LITERATURE_POSITIONING_MATRIX.md) | `publication-project-bibliography-001`<br>`architecture-knowledge-governance-001` |
 | `research-pia-ler-open-skills-crosswalk-001` | PIA to Open Skills and Learning and Employment Record Crosswalk | `shared` | `active-research` | `working` | `proposed` | `research-governance` | `0.1` | [PIA ↔ Open Skills / LER Crosswalk](../../active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md) | `research-literature-positioning-matrix-001`<br>`publication-project-bibliography-001`<br>`architecture-knowledge-governance-001` |
 | `research-pia-osi-literature-positioning-001` | PIA and OSI Literature Positioning Notes | `shared` | `active-research` | `working` | `proposed` | `research-governance` | `0.1` | [PIA and OSI Literature Positioning Notes](../../active-research/notes/PIA_OSI_LITERATURE_POSITIONING_NOTES.md) | `publication-project-bibliography-001`<br>`research-literature-positioning-matrix-001` |

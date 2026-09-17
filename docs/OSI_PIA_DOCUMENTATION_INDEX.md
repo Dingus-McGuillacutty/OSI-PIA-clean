@@ -32,6 +32,7 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 
 - [Literature-Positioning Matrix](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/active-research/methodology/LITERATURE_POSITIONING_MATRIX.md)
 - [PIA <-> Open Skills / LER Crosswalk](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md)
+- [Principle-to-Enforcement Crosswalk](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/active-research/methodology/PRINCIPLE_TO_ENFORCEMENT_CROSSWALK.md)
 - [PIA and OSI Literature Positioning Notes](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/active-research/notes/PIA_OSI_LITERATURE_POSITIONING_NOTES.md)
 - [Project Bibliography and PIA/OSI Literature Positioning Milestone](history/MILESTONE_2026-09_LITERATURE_BIBLIOGRAPHY_POSITIONING.md)
 

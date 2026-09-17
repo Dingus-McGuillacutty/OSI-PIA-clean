@@ -113,6 +113,39 @@ to change the source environment.
 - Stale or shallow views of commit history and link structure must be checked
   against the source repository before being treated as project facts.
 
+## Governance-comprehension subtest
+
+The follow-up prompt asked Claude to distinguish what governs the repository
+today from what remains aspirational in the proposed Governance Model. Claude
+correctly identified the currently operative authorities as the pre-existing
+architecture, foundation, ontology, contracts, registries, accepted ADRs,
+conventions, lifecycle, and domain-specific ethics documents. It treated the
+Governance Model as a consolidation at `authority: working`, `status: proposed`,
+and `lifecycle_state: congruence`.
+
+The response also preserved the dependency-direction issue: the proposed model
+was derived from existing authorities and cannot silently become their source
+of authority. It identified the scoped shared ADR and adoption criteria as the
+remaining promotion gate, and it did not treat implementation success,
+recency, or descriptive completeness as substitutes for formal promotion.
+
+This subtest is a bounded success for authority resolution and reflexive
+governance. It demonstrates that, after direct retrieval, an external model can
+understand a proposed constitutional consolidation without treating it as
+self-authorizing. It remains an assisted result and does not change the
+exclusions on discovery, autonomous link following, or authority to modify the
+repository.
+
+| Governance-comprehension dimension | Result |
+|---|---|
+| Current versus proposed authority | Correctly distinguished |
+| Authority/status/lifecycle separation | Correctly preserved |
+| Dependency direction | Correctly identified |
+| Promotion gate | Correctly identified as an accepted scoped ADR/decision |
+| Domain independence | Preserved |
+| Self-authorization resistance | Passed |
+| Overall conformance | Not scored; access conditions remain assisted |
+
 ## What this test does not support
 
 - It does not show that Claude can discover OSI-PIA through ordinary web search.

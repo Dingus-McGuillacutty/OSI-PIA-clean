@@ -255,7 +255,7 @@ separate findings record.
 
 | Run | Condition | Model | Commit | Score | Disposition |
 |---|---|---|---|---:|---|
-| `claude-sonnet-5-assisted-pages-orientation-002` | Assisted Pages orientation; discovery and link following excluded | Claude Sonnet 5 | Not supplied | Not scored | Orientation observed; record preserved separately |
+| `claude-sonnet-5-assisted-pages-orientation-002` | Assisted Pages orientation and governance comprehension; discovery and link following excluded | Claude Sonnet 5 | Not supplied | Not scored | Bounded orientation and authority-resolution success; record preserved separately |
 
 ### Viewing audit record
 
