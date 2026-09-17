@@ -4,7 +4,7 @@ domain: shared
 layer: governance
 authority: canonical
 status: active
-version: "1.2"
+version: "1.3"
 owner: repository-governance
 ---
 
@@ -19,7 +19,7 @@ principles that constrain architecture and implementation.
 |---|---|---|---|---|---|---|---|---|---|
 | `principle-osi-foundational-001` | Foundational OSI Principles | `osi` | `principle` | `canonical` | `active` | `osi-architecture` | `unversioned` | [Foundational Principles](../../principles/Foundational%20Principles.md) | `—` |
 | `principle-shared-engineering-001` | OSI-PIA Engineering Principles | `shared` | `principle` | `canonical` | `active` | `architecture-maintainers` | `unversioned` | [Engineering Principles](../../principles/Engineering%20Principles.md) | `principle-osi-hippocratic-001` |
-| `principle-osi-hippocratic-001` | OSI Hippocratic Principle | `osi` | `governance` | `canonical` | `active` | `osi-governance` | `unversioned` | [OSI Hippocratic Principle](../../governance/OSI%20Hippocratic%20Principle.md) | `principle-osi-foundational-001` |
+| `principle-osi-hippocratic-001` | OSI Hippocratic Principle | `osi` | `governance` | `canonical` | `active` | `osi-governance` | `1.0` | [OSI Hippocratic Principle](../../governance/OSI%20Hippocratic%20Principle.md) | `principle-osi-foundational-001` |
 | `principle-pia-measurement-001` | PIA Measurement Doctrine | `pia` | `governance` | `canonical` | `active` | `pia-governance` | `unversioned` | [PIA Measurement Doctrine](../../governance/PIA_MEASUREMENT_DOCTRINE.md) | `adr-pia-0001`<br>`ontology-shared-meta-001` |
 | `principle-pia-behavioral-inference-001` | PIA Behavioral Capability Inference Principle | `pia` | `principle` | `working` | `proposed` | `pia-ontology` | `0.2.0` | [Behavioral Capability Inference Principle](../../principles/PIA%20Behavioral%20Capability%20Inference%20Principle.md) | `principle-pia-measurement-001`<br>`ontology-shared-meta-001` |
 | `principle-shared-human-centered-capability-infrastructure-001` | Human-Centered Capability Infrastructure | `shared` | `principle` | `working` | `proposed` | `architecture-maintainers` | `0.1.0` | [Human-Centered Capability Infrastructure](../../principles/Human-Centered%20Capability%20Infrastructure.md) | `principle-shared-engineering-001`<br>`principle-pia-measurement-001`<br>`principle-osi-hippocratic-001` |

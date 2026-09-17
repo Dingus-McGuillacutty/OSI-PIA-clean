@@ -146,6 +146,31 @@ repository.
 | Self-authorization resistance | Passed |
 | Overall conformance | Not scored; access conditions remain assisted |
 
+## Tool-protocol clarification
+
+Claude later clarified that its `web_fetch` tool accepts a URL only when the
+URL is supplied directly by the user or returned by search. A URL displayed as
+a link inside a fetched page is not admissible to that tool by itself. This
+means the earlier failure must not be attributed to ordinary repository link
+traversal, Jekyll rendering, or malformed Pages URLs.
+
+The access dimensions should therefore be recorded independently:
+
+```text
+Discovery       weak in the tested open-web search path
+Admission       succeeds when the URL is directly supplied
+Traversal       constrained by Claude's tool protocol
+Comprehension   strong once the artifact is admitted
+```
+
+The earlier incident is best classified as an **access-layer false negative
+caused by model/tool URL-admission policy**, compounded by weak external
+indexing. It is not evidence of a repository accessibility, navigation, or
+semantic failure. The repository-side Pages changes recorded elsewhere address
+the separate hosting fact that root-repository artifacts are not part of the
+Pages build; they should not be described as a workaround for Claude's private
+fetch policy.
+
 ## What this test does not support
 
 - It does not show that Claude can discover OSI-PIA through ordinary web search.

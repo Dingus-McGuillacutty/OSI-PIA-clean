@@ -1,3 +1,15 @@
+---
+artifact_id: principle-osi-hippocratic-001
+title: "OSI Hippocratic Principle"
+domain: osi
+layer: governance
+authority: canonical
+status: active
+version: "1.0"
+owner: osi-governance
+lifecycle_state: stewardship
+---
+
 # OSI Hippocratic Principle
 
 ## Status

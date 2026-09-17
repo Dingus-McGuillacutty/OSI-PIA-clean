@@ -123,6 +123,19 @@ If access fails, terminate orientation as a **valid environmental termination**.
 Record the access limitation and the model's behavior under uncertainty, but do
 not score repository orientation or infer a repository defect.
 
+Record the access layer as four separate dimensions rather than one binary
+result:
+
+| Dimension | Question |
+|---|---|
+| Discovery | Did the environment independently surface the repository or page? |
+| Admission | Did the tool permit the exact URL to be fetched? |
+| Traversal | Could the system follow an already visible link under its tool rules? |
+| Comprehension | Once admitted, could the system interpret the artifact accurately? |
+
+An admission or traversal failure must not be scored as a comprehension or
+repository-navigation failure without additional evidence.
+
 ### 1. Unprompted orientation
 
 Give only the public repository location and the role of a new computational
