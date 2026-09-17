@@ -32,7 +32,7 @@ and not an authorization to bypass human governance.
 - When authority is unclear, stop, preserve the uncertainty, and request
   review rather than inventing a resolution.
 
-The [OSI Philosophical Constitution](../foundation/OSI_CONSTITUTION.md),
-[Foundational Principles](../principles/Foundational%20Principles.md), and
-[Governance Model](../governance/GOVERNANCE_MODEL.md) provide the human,
+The [OSI Philosophical Constitution](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/foundation/OSI_CONSTITUTION.md),
+[Foundational Principles](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/principles/Foundational%20Principles.md), and
+[Governance Model](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/GOVERNANCE_MODEL.md) provide the human,
 philosophical, and operational context for these assumptions.

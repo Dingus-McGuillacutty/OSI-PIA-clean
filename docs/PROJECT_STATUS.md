@@ -5,7 +5,7 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "0.5.3"
+version: "0.5.4"
 owner: repository-governance
 lifecycle_state: validation
 last_reviewed: "2026-09-16"
@@ -73,13 +73,13 @@ review or stewardship.
 
 The project now maintains a living [Project Bibliography](publications/PROJECT_BIBLIOGRAPHY.md)
 with 41 article-cited source locators and seven research-candidate sources for
-PIA and OSI positioning. A working [Literature-Positioning Matrix](../active-research/methodology/LITERATURE_POSITIONING_MATRIX.md)
-and accompanying [PIA/OSI positioning notes](../active-research/notes/PIA_OSI_LITERATURE_POSITIONING_NOTES.md)
+PIA and OSI positioning. A working [Literature-Positioning Matrix](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/active-research/methodology/LITERATURE_POSITIONING_MATRIX.md)
+and accompanying [PIA/OSI positioning notes](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/active-research/notes/PIA_OSI_LITERATURE_POSITIONING_NOTES.md)
 separate established findings, recombination, and open propositions; they do
 not make novelty or causal claims. This checkpoint is recorded in the
 [literature bibliography and positioning milestone](history/MILESTONE_2026-09_LITERATURE_BIBLIOGRAPHY_POSITIONING.md).
 
-A provisional [PIA ↔ Open Skills / LER Crosswalk](../active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md)
+A provisional [PIA <-> Open Skills / LER Crosswalk](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md)
 now defines the working boundary between PIA's richer evidence-and-inference
 layer, a future semantic translation socket, established portable standards,
 and OSI's organizational receiving conditions. It is not canonical architecture
@@ -88,7 +88,10 @@ or an authorization to export participant data.
 The public [Briefs and Project Updates](publications/briefs/index.md) section
 now preserves concise project-history context alongside the article series. Its
 first brief records the independent convergence with the Open Skills/LER field
-and the resulting human-centered division of labor.
+and the resulting human-centered division of labor. The [Start Here](START_HERE.md)
+orientation now links directly into the public publications, article series,
+briefs, and bibliography so repository and Pages navigation share one reading
+path.
 
 OSI-PIA is a governed research-and-engineering project with two peer domains:
 
@@ -116,18 +119,18 @@ remain distinct and traceable.
 | Participant outputs | Working participant preview, technical companion, correction path, and dry-run manifest are implemented | No published report or production participant claim is authorized |
 | Graph mechanics | One embedded synthetic assertion was imported twice into local `PIA-Sandbox`, then read-only validation proved no duplicate nodes, relationship, or path | Real participant projection, production target use, and durable import audit remain gated |
 | OSI organizational evidence assurance | A participant-free synthetic organizational package is validated from organization and provenance records through a bounded observation candidate | No OSI diagnostic, Trust/Flow/Health construct, or organizational decision is authorized |
-| OSI graph mechanics | Three embedded synthetic organization â†’ source â†’ evidence â†’ observation paths were imported twice into local `OSI-Sandbox`; read-only validation proved three paths with no duplicate structure | Real organizational projection, `osi-reference` import, production target use, and diagnostics remain gated |
+| OSI graph mechanics | Three embedded synthetic organization -> source -> evidence -> observation paths were imported twice into local `OSI-Sandbox`; read-only validation proved three paths with no duplicate structure | Real organizational projection, `osi-reference` import, production target use, and diagnostics remain gated |
 
 ## Current evidence flow
 
 ```text
 Source material
-  â†’ protected intake and provenance
-  â†’ extraction and evidence review
-  â†’ bounded mapping proposal and separate review
-  â†’ participant preview + technical companion + dry-run manifest
-  â†’ synthetic-only sandbox projection assurance
-  â†’ future authorized participant-minimized projection
+  -> protected intake and provenance
+  -> extraction and evidence review
+  -> bounded mapping proposal and separate review
+  -> participant preview + technical companion + dry-run manifest
+  -> synthetic-only sandbox projection assurance
+  -> future authorized participant-minimized projection
 ```
 
 At every arrow, the system is intended to preserve source identity, limits,
@@ -160,18 +163,18 @@ imports, and any organizational diagnostic or analytic claim.
 
 ## Current governance position
 
-The proposed [Governance Model](../governance/GOVERNANCE_MODEL.md) has reached
+The proposed [Governance Model](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/GOVERNANCE_MODEL.md) has reached
 Congruence and has a completed ratification review, but remains
-`working/proposed`. The [ratification review](../governance/GOVERNANCE_MODEL_RATIFICATION_REVIEW.md)
+`working/proposed`. The [ratification review](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/GOVERNANCE_MODEL_RATIFICATION_REVIEW.md)
 requires a scoped shared ADR before promotion.
 
-The [PIA Measurement Doctrine](../governance/PIA_MEASUREMENT_DOCTRINE.md) is
+The [PIA Measurement Doctrine](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/PIA_MEASUREMENT_DOCTRINE.md) is
 the practical interpretive safeguard: the system evaluates evidence supporting
 a bounded claim, not a person's worth or universal potential. The [Clean
-Release Standard](../governance/CLEAN_RELEASE_STANDARD.md) and repository
+Release Standard](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/CLEAN_RELEASE_STANDARD.md) and repository
 validation enforce a participant-data-free committed tree.
 
-The working [Human-Centered Capability Infrastructure principle](../principles/Human-Centered%20Capability%20Infrastructure.md)
+The working [Human-Centered Capability Infrastructure principle](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/principles/Human-Centered%20Capability%20Infrastructure.md)
 adds a shared design test: capability infrastructure should make a person's
 capability understandable, portable, actionable, and developable for that
 person—not merely more useful to institutions or technical intermediaries.
@@ -194,13 +197,13 @@ It remains proposed pending governance review.
 
 ## Canonical detail
 
-- [Project README](../README.md) â€” project purpose and repository orientation.
-- [Roadmap](../ROADMAP.md) â€” milestones and dependency order.
-- [PIA Intake Subsystem Framework](../architecture/pia-intake/PIA_Intake_Subsystem_Framework.md) â€” proposed intake architecture and agent boundaries.
-- [Graph Architecture](../architecture/graph_ontology/Graph_Architecture.md) â€” canonical graph roles and domain separation.
-- [PIA Reference Database](../architecture/graph_ontology/PIA_Reference_Database.md) â€” participant-graph scope and acceptance boundary.
-- [Sandbox Projection Assurance Milestone](history/MILESTONE_2026-07-30_PIA_SYNTHETIC_SANDBOX_PROJECTION_ASSURANCE.md) â€” tested synthetic graph mechanics.
-- [Repository Registries](../governance/registries/README.md) â€” governed artifact inventory and authority state.
-- [Literature bibliography and positioning milestone](history/MILESTONE_2026-09_LITERATURE_BIBLIOGRAPHY_POSITIONING.md) â€” source intake and positioning checkpoint.
-- [PIA ↔ Open Skills / LER Crosswalk](../active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md) â€” provisional interoperability boundary.
+- [Project README](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/README.md) - project purpose and repository orientation.
+- [Roadmap](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/ROADMAP.md) - milestones and dependency order.
+- [PIA Intake Subsystem Framework](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/architecture/pia-intake/PIA_Intake_Subsystem_Framework.md) - proposed intake architecture and agent boundaries.
+- [Graph Architecture](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/architecture/graph_ontology/Graph_Architecture.md) - canonical graph roles and domain separation.
+- [PIA Reference Database](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/architecture/graph_ontology/PIA_Reference_Database.md) - participant-graph scope and acceptance boundary.
+- [Sandbox Projection Assurance Milestone](history/MILESTONE_2026-07-30_PIA_SYNTHETIC_SANDBOX_PROJECTION_ASSURANCE.md) - tested synthetic graph mechanics.
+- [Repository Registries](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/registries/README.md) - governed artifact inventory and authority state.
+- [Literature bibliography and positioning milestone](history/MILESTONE_2026-09_LITERATURE_BIBLIOGRAPHY_POSITIONING.md) - source intake and positioning checkpoint.
+- [PIA <-> Open Skills / LER Crosswalk](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md) - provisional interoperability boundary.
 

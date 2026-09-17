@@ -30,9 +30,9 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 
 ## Active Research and History
 
-- [Literature-Positioning Matrix](../active-research/methodology/LITERATURE_POSITIONING_MATRIX.md)
-- [PIA ↔ Open Skills / LER Crosswalk](../active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md)
-- [PIA and OSI Literature Positioning Notes](../active-research/notes/PIA_OSI_LITERATURE_POSITIONING_NOTES.md)
+- [Literature-Positioning Matrix](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/active-research/methodology/LITERATURE_POSITIONING_MATRIX.md)
+- [PIA <-> Open Skills / LER Crosswalk](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/active-research/methodology/PIA_LER_OPEN_SKILLS_CROSSWALK.md)
+- [PIA and OSI Literature Positioning Notes](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/active-research/notes/PIA_OSI_LITERATURE_POSITIONING_NOTES.md)
 - [Project Bibliography and PIA/OSI Literature Positioning Milestone](history/MILESTONE_2026-09_LITERATURE_BIBLIOGRAPHY_POSITIONING.md)
 
 ##
@@ -40,27 +40,27 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 1. [Guided Start Here](START_HERE.md)
 2. [Project Status](PROJECT_STATUS.md)
 3. [Platform Overview](PLATFORM_OVERVIEW.md)
-4. [Repository Architecture](../governance/Repository_Architecture.md)
-5. [Repository Conventions](../governance/Repository_Conventions.md)
-6. [Namespace Standard](../governance/policies/NAMESPACE_STANDARD.md)
-7. [Clean Release Standard](../governance/CLEAN_RELEASE_STANDARD.md)
-8. [Repository Registries](../governance/registries/README.md)
-9. [Governance Model (proposed at Congruence)](../governance/GOVERNANCE_MODEL.md)
-10. [Governance Model Ratification Review](../governance/GOVERNANCE_MODEL_RATIFICATION_REVIEW.md)
-11. [Foundational Principles](../principles/Foundational%20Principles.md)
-12. [Human-Centered Capability Infrastructure](../principles/Human-Centered%20Capability%20Infrastructure.md)
+4. [Repository Architecture](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/Repository_Architecture.md)
+5. [Repository Conventions](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/Repository_Conventions.md)
+6. [Namespace Standard](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/policies/NAMESPACE_STANDARD.md)
+7. [Clean Release Standard](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/CLEAN_RELEASE_STANDARD.md)
+8. [Repository Registries](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/registries/README.md)
+9. [Governance Model (proposed at Congruence)](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/GOVERNANCE_MODEL.md)
+10. [Governance Model Ratification Review](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/GOVERNANCE_MODEL_RATIFICATION_REVIEW.md)
+11. [Foundational Principles](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/principles/Foundational%20Principles.md)
+12. [Human-Centered Capability Infrastructure](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/principles/Human-Centered%20Capability%20Infrastructure.md)
 13. [Glossary](GLOSSARY.md)
-14. [Canonical Terminology](../foundation/CANONICAL_TERMINOLOGY.md)
+14. [Canonical Terminology](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/foundation/CANONICAL_TERMINOLOGY.md)
 15. [Project Vocabulary](history/PROJECT_VOCABULARY.md)
-16. [Knowledge Lifecycle](../foundation/KNOWLEDGE_LIFECYCLE.md)
+16. [Knowledge Lifecycle](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/foundation/KNOWLEDGE_LIFECYCLE.md)
 17. [Knowledge Management Governance](architecture/KNOWLEDGE_MANAGEMENT_GOVERNANCE.md)
-18. [Congruence Protocol](../governance/CONGRUENCE_PROTOCOL_WORKING.md)
+18. [Congruence Protocol](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/CONGRUENCE_PROTOCOL_WORKING.md)
 19. [Assurance Architecture](architecture/Assurance_Architecture.md)
 20. [Concept Map](CONCEPT_MAP.md)
-21. [Ontology Meta-Model](../ontology/META_ONTOLOGY.md)
-22. [Graph Architecture](../architecture/graph_ontology/Graph_Architecture.md)
-23. [Graph Ontology Crosswalk](../architecture/graph_ontology/graph_Ontology.md)
-24. [Graph Standards](../architecture/graph_standards/Graph_Standards.md)
+21. [Ontology Meta-Model](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/ontology/META_ONTOLOGY.md)
+22. [Graph Architecture](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/architecture/graph_ontology/Graph_Architecture.md)
+23. [Graph Ontology Crosswalk](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/architecture/graph_ontology/graph_Ontology.md)
+24. [Graph Standards](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/architecture/graph_standards/Graph_Standards.md)
 
 ## Documentation Domains
 
@@ -80,15 +80,15 @@ Foundational commitments that guide architecture, implementation, governance, an
 
 Policies and protocols governing ecosystem use, decisions, responsibilities, and system behavior.
 
-- [Repository Architecture](../governance/Repository_Architecture.md)
-- [Repository Conventions](../governance/Repository_Conventions.md)
-- [Namespace Standard](../governance/policies/NAMESPACE_STANDARD.md)
-- [Clean Release Standard](../governance/CLEAN_RELEASE_STANDARD.md)
-- [Repository Migration Plan](../governance/Repository_Migration_Plan.md)
-- [Repository Registries](../governance/registries/README.md)
-- [Governance Model](../governance/GOVERNANCE_MODEL.md) is the proposed
+- [Repository Architecture](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/Repository_Architecture.md)
+- [Repository Conventions](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/Repository_Conventions.md)
+- [Namespace Standard](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/policies/NAMESPACE_STANDARD.md)
+- [Clean Release Standard](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/CLEAN_RELEASE_STANDARD.md)
+- [Repository Migration Plan](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/Repository_Migration_Plan.md)
+- [Repository Registries](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/registries/README.md)
+- [Governance Model](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/GOVERNANCE_MODEL.md) is the proposed
   constitutional consolidation of these authorities.
-- [Governance Model Ratification Review](../governance/GOVERNANCE_MODEL_RATIFICATION_REVIEW.md)
+- [Governance Model Ratification Review](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/GOVERNANCE_MODEL_RATIFICATION_REVIEW.md)
   records Congruence findings, dispositions, and Validation evidence.
 
 ### Knowledge Management Architecture
@@ -105,8 +105,8 @@ Cross-cutting structures governing how knowledge matures and is maintained:
 
 Architectural Decision Records preserve the context, reasoning, consequences, and status of significant design decisions.
 
-- [ADR Index](../decisions/ADR_INDEX.md)
-- [ADR Registry](../governance/registries/ADR_REGISTRY.md)
+- [ADR Index](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/decisions/ADR_INDEX.md)
+- [ADR Registry](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/registries/ADR_REGISTRY.md)
 
 ### Components
 
@@ -114,21 +114,21 @@ Implementation-specific contracts, interfaces, behaviors, and technical guidance
 
 ### Ontology and Graph
 
-- [Core Concepts](../ontology/CORE%20CONCEPTS.md) defines current
+- [Core Concepts](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/ontology/CORE%20CONCEPTS.md) defines current
   technology-independent concepts.
-- [Ontology Meta-Model](../ontology/META_ONTOLOGY.md) defines how ontology
+- [Ontology Meta-Model](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/ontology/META_ONTOLOGY.md) defines how ontology
   items, statuses, and projections are distinguished.
-- [Ontology Registry](../governance/registries/ONTOLOGY_REGISTRY.md) records
+- [Ontology Registry](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/governance/registries/ONTOLOGY_REGISTRY.md) records
   stable shared, OSI, PIA, and implementation ontology identities and status.
-- [Graph Architecture](../architecture/graph_ontology/Graph_Architecture.md)
+- [Graph Architecture](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/architecture/graph_ontology/Graph_Architecture.md)
   defines shared graph layers and the separate OSI and PIA database roles.
-- [OSI Reference Database](../architecture/graph_ontology/OSI_Reference_Database.md)
+- [OSI Reference Database](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/architecture/graph_ontology/OSI_Reference_Database.md)
   defines the organizational-system projection and acceptance boundary.
-- [PIA Reference Database](../architecture/graph_ontology/PIA_Reference_Database.md)
+- [PIA Reference Database](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/architecture/graph_ontology/PIA_Reference_Database.md)
   defines the participant evidence projection and acceptance boundary.
-- [Graph Ontology Crosswalk](../architecture/graph_ontology/graph_Ontology.md)
+- [Graph Ontology Crosswalk](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/architecture/graph_ontology/graph_Ontology.md)
   records current, experimental, operational, and planned graph mappings.
-- [Graph Schema](../graph/schema/README.md) identifies which schema files are
+- [Graph Schema](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/graph/schema/README.md) identifies which schema files are
   executable and which are descriptive.
 
 ## Documentation Boundary

@@ -5,7 +5,7 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "1.1"
+version: "1.2"
 owner: repository-governance
 ---
 
@@ -38,6 +38,17 @@ If you are new, use this orientation path:
 ## 5. Where the project stands
 
 - [Project Status](PROJECT_STATUS.md)
+
+## 6. Read the public work
+
+The repository's explanation layer is published alongside the technical
+orientation. Use these hubs to follow the current article series, project
+briefs, and source record:
+
+- [Publications](publications/index.md)
+- [Current articles](publications/articles/index.md)
+- [Briefs and project updates](publications/briefs/index.md)
+- [Project bibliography](publications/PROJECT_BIBLIOGRAPHY.md)
 
 When you are ready to see the architecture demonstrated, continue to [See It Work](SEE_IT_WORK.md).
 
