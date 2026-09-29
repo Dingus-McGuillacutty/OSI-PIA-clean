@@ -83,7 +83,7 @@ authority categories.
 - **Capability and Professional Identity** — professional identity, demonstrated capability, capability evidence, capability inference, portable capability records, and [PIA/PCA direction](publications/articles/2026-09-03_what-pia-pca-is-trying-to-build.html)
 - **Evidence-Grounded Evaluation** — evidence provenance, evidence chains, confidence, bounded assessment, negative boundaries, synthetic evidence, and [demonstrations](evidence/index.md)
 - **Hiring and Recruiting** — skills-based hiring, recruiting, hidden workers, job searching, capability recognition, and [public articles](publications/articles/index.md)
-- **ATS and Translation Failure** — applicant tracking systems, ATS filters, résumé translation, hiring false negatives, AI screening, and [False Negative Machine](publications/articles/2026-08-13_false-negative-machine.html) and [Hiring Translation](publications/articles/2026-08-11_hiring-translation-problem.html)
+- **ATS and Translation Failure** — applicant tracking systems, ATS filters, resume translation, hiring false negatives, AI screening, and [False Negative Machine](publications/articles/2026-08-13_false-negative-machine.html) and [Hiring Translation](publications/articles/2026-08-11_hiring-translation-problem.html)
 - **Organizational Capability** — organizational systems, capability utilization, capability absorption, trust, flow, mobility, and [what OSI is trying to measure](publications/articles/2026-09-03_what-osi-is-trying-to-measure.html)
 - **Human-Centered Machine Participation** — machine orientation, source admission, provenance, temporal authority, epistemic stewardship, trustworthy AI, and [research questions and methods](research-standards/README.md) and [For Machines](FOR_MACHINES.md)
 

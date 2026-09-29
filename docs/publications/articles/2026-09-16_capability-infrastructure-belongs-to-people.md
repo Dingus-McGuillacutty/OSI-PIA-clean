@@ -42,7 +42,7 @@ That starting point remains the governing point of the project.
 ## We built toward an existing field without knowing it existed
 
 PIA emerged from a practical failure of representation. A conventional record
-could contain degrees, credentials, work history, job titles, and résumé
+could contain degrees, credentials, work history, job titles, and resume
 bullets and still fail to explain the capability evidenced by actual work. The
 project therefore began reconstructing capability from the ground up while
 preserving:
@@ -164,7 +164,7 @@ weakening standards. A portable capability system should be able to show:
 - who independently reviewed or endorsed it; and
 - whether later evidence changed the interpretation.
 
-That is more rigorous than allowing a job title, manager judgment, résumé
+That is more rigorous than allowing a job title, manager judgment, resume
 bullet, or opaque score to stand in for the person. The goal is not to make
 everyone their own unquestioned authority. It is to prevent any single
 institution from becoming the unquestioned authority either.

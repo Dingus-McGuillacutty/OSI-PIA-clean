@@ -80,7 +80,7 @@ const targets: DocumentTarget[] = [
   },
   {
     id: "resume",
-    name: "Résumé",
+    name: "Resume",
     description:
       "Create a concise professional summary and stronger evidence-based bullets.",
     items: "Summary · Accomplishment · Technical capabilities",

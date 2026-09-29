@@ -383,7 +383,7 @@ export function FullReport() {
           <h2>Use the report when you are ready.</h2>
           <p>
             Return to the participant overview to create evidence-bounded
-            LinkedIn, résumé, or CV suggestions.
+            LinkedIn, resume, or CV suggestions.
           </p>
         </div>
         <a className="button button-primary" href="/report#document-update">

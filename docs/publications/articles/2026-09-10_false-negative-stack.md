@@ -54,7 +54,7 @@ It means **the false-negative cost exists whether or not the system measures it*
 
 Modern hiring systems operate through a similar stack of recognition boundaries. A person may possess the capability an organization needs. They may have years of evidence showing that they can do the work. They may have solved comparable problems repeatedly.
 
-But that evidence still has to travel through a series of gates. It must survive résumé conventions. It must be parsed successfully. It must use language a screening system recognizes.
+But that evidence still has to travel through a series of gates. It must survive resume conventions. It must be parsed successfully. It must use language a screening system recognizes.
 
 It may need particular credentials. It may need the right title. It may need to rank highly enough in an automated screen. It must attract the attention of a recruiter operating under time pressure.
 
@@ -120,7 +120,7 @@ A system designed around human capability should preserve that distinction.
 
 ## When reasonable gates interact
 
-The deeper organizational problem appears when individually reasonable gates interact. A credential requirement may be defensible. A résumé parser may be efficient. An automated ranking system may reduce workload.
+The deeper organizational problem appears when individually reasonable gates interact. A credential requirement may be defensible. A resume parser may be efficient. An automated ranking system may reduce workload.
 
 A recruiter may need shortcuts. A manager may prefer familiar backgrounds. An interview structure may need consistency. None of those mechanisms alone constitutes the hiring ecosystem.
 

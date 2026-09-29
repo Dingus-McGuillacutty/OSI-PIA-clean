@@ -1,6 +1,6 @@
 ---
 artifact_id: publication-article-personal-evidence-system-001
-title: "The Future Is Not the Perfect Résumé"
+title: "The Future Is Not the Perfect Resume"
 domain: shared
 layer: publication
 authority: supporting
@@ -12,7 +12,7 @@ series_part: 1
 permalink: /publications/articles/2026-08-29_future-not-perfect-resume.html
 ---
 
-# The Future Is Not the Perfect Résumé
+# The Future Is Not the Perfect Resume
 
 *It is a personally owned evidence system.*
 
@@ -22,23 +22,23 @@ This article is part of the OSI-PIA public article series. It describes an activ
 
 ## Article
 
-The future is not the perfect résumé.
+The future is not the perfect resume.
 
 The future is a personally owned coherent evidence system.
 
-That distinction matters because the résumé has been asked to carry too much. It is expected to summarize a person, satisfy a machine parser, match a job description, persuade a recruiter, orient a hiring manager, survive keyword filters, explain nonlinear experience, compress years of learning, and still leave enough evidence for an interview.
+That distinction matters because the resume has been asked to carry too much. It is expected to summarize a person, satisfy a machine parser, match a job description, persuade a recruiter, orient a hiring manager, survive keyword filters, explain nonlinear experience, compress years of learning, and still leave enough evidence for an interview.
 
 That is too much weight for one document.
 
-A résumé can be useful. It can orient attention. It can summarize. It can help a system route a person toward review. But a résumé is not the person. It is not the full evidence record. It is not the complete history of capability development.
+A resume can be useful. It can orient attention. It can summarize. It can help a system route a person toward review. But a resume is not the person. It is not the full evidence record. It is not the complete history of capability development.
 
 It is a projection.
 
 The problem is that modern hiring systems often treat that projection as if it were the underlying reality.
 
-## Capability Does Not Develop in Résumé Shape
+## Capability Does Not Develop in Resume Shape
 
-A person’s capability does not usually develop in neat résumé categories. It develops through work, projects, crises, experiments, training, tools, mistakes, informal leadership, mentoring, self-directed learning, repeated practice, and cross-domain transfer.
+A person’s capability does not usually develop in neat resume categories. It develops through work, projects, crises, experiments, training, tools, mistakes, informal leadership, mentoring, self-directed learning, repeated practice, and cross-domain transfer.
 
 Some of that evidence appears in job titles.
 
@@ -54,17 +54,17 @@ Much appears in stories, artifacts, systems built, people trained, knowledge pre
 
 The old model asks the person to compress all of that into one brittle document.
 
-A better model starts with the evidence system underneath the résumé.
+A better model starts with the evidence system underneath the resume.
 
-## The Résumé as Export
+## The Resume as Export
 
-A personally owned evidence system does not eliminate the résumé.
+A personally owned evidence system does not eliminate the resume.
 
 It demotes it.
 
-The résumé becomes one export from a deeper structure.
+The resume becomes one export from a deeper structure.
 
-That evidence system can produce different outputs for different contexts: a targeted ATS résumé, a capability brief, an interview proof pack, a portfolio summary, a professional identity report, a role-specific capability crosswalk, or a learning and development map.
+That evidence system can produce different outputs for different contexts: a targeted ATS resume, a capability brief, an interview proof pack, a portfolio summary, a professional identity report, a role-specific capability crosswalk, or a learning and development map.
 
 Each output can be different because each context asks a different question.
 
@@ -76,7 +76,7 @@ That matters because people should not have to rebuild their professional identi
 
 The ownership question is central.
 
-Right now, many hiring systems ask people to pour fragments of themselves into employer-controlled forms: upload the résumé, paste the résumé, fix the fields, answer the knockout questions, rewrite the bullets, match the keywords, and hope the system understands enough to route them forward.
+Right now, many hiring systems ask people to pour fragments of themselves into employer-controlled forms: upload the resume, paste the resume, fix the fields, answer the knockout questions, rewrite the bullets, match the keywords, and hope the system understands enough to route them forward.
 
 That process gives the person very little control over how their capability is represented, interpreted, stored, or forgotten.
 
@@ -84,7 +84,7 @@ A personally owned evidence system changes the center of gravity.
 
 The person owns the deeper record.
 
-The résumé becomes an output.
+The resume becomes an output.
 
 The application becomes a context-specific translation.
 
@@ -106,7 +106,7 @@ The point is to help people translate real fit.
 
 If a capability claim is not supported by evidence, the system should not present it as established. If evidence is strong but poorly worded, the system should help translate it. If evidence is real but not relevant to a particular role, the system can preserve it without foregrounding it. If evidence is missing, the system should identify the gap.
 
-That is different from résumé polish.
+That is different from resume polish.
 
 It is evidence discipline.
 
@@ -122,7 +122,7 @@ Human agency, review, correction, consent, and final judgment matter because the
 
 The right design question is not:
 
-**How do we make a perfect résumé?**
+**How do we make a perfect resume?**
 
 The better question is:
 
@@ -138,12 +138,12 @@ A better system starts deeper.
 
 The person owns the evidence.
 
-The résumé becomes an export.
+The resume becomes an export.
 
 The application becomes a translation.
 
 The interview becomes a chance to test and explain claims.
 
-The future is not the perfect résumé.
+The future is not the perfect resume.
 
 The future is a personally owned coherent evidence system.

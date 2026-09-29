@@ -22,7 +22,7 @@ during the initial design work.
 The project began from a more immediate problem:
 
 > **A person's actual capability can be substantially greater than what
-> conventional employment, education, credential, and résumé systems are able
+> conventional employment, education, credential, and resume systems are able
 > to see or represent.**
 
 The initial PIA work therefore started from the individual rather than from an
@@ -32,7 +32,7 @@ interoperability. It was framed as one of **recognition**.
 A person may have years of work, projects, informal learning, problem solving,
 artifacts, leadership, self-directed development, creative production, and
 cross-domain experience, yet the conventional record may reduce all of that to
-a small collection of job titles, degrees, certificates, and résumé bullets.
+a small collection of job titles, degrees, certificates, and resume bullets.
 When those conventional signals poorly represent the underlying capability,
 both the individual and organizations lose access to useful information.
 
@@ -49,7 +49,7 @@ That led independently toward an architecture involving:
 - preservation of source, context, provenance, and confidence;
 - relationships among people, activities, artifacts, outcomes, skills, and
   capabilities;
-- graph-based representation rather than a flat résumé;
+- graph-based representation rather than a flat resume;
 - distinction between raw observations and higher-order capability inferences;
 - participant-facing outputs that explain what the evidence supports;
 - portable records intended to remain useful outside the PIA system; and
@@ -115,7 +115,7 @@ technical specifications, and policy initiatives.
 For many individuals, the practical experience remains unchanged. They still
 face the question:
 
-> **“I know there is more here than my résumé shows. How do I figure out what
+> **“I know there is more here than my resume shows. How do I figure out what
 > it is, demonstrate it, and get someone to recognize it?”**
 
 The existence of sophisticated infrastructure does not automatically solve

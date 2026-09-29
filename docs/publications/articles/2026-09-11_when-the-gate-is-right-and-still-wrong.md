@@ -94,7 +94,7 @@ The criticism therefore cannot simply be "stop gatekeeping." The better question
 
 > **What does the system do when a legitimate person cannot traverse its preferred verification path?**
 
-A capable worker may lack the expected title. A career may not fit standard chronology. Relevant experience may use different vocabulary. Transferable capability may come from another domain. A résumé may not contain the keywords an automated screen expects. An internal employee may possess useful capability that is invisible to the formal job architecture.
+A capable worker may lack the expected title. A career may not fit standard chronology. Relevant experience may use different vocabulary. Transferable capability may come from another domain. A resume may not contain the keywords an automated screen expects. An internal employee may possess useful capability that is invisible to the formal job architecture.
 
 If the system says only `recognized` or `rejected`, uncertainty gets destroyed. "Our primary mechanism could not establish this person's capability" silently becomes "this person does not possess the capability." Those claims are not equivalent.
 

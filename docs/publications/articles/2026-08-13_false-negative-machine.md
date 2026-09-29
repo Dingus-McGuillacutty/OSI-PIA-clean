@@ -26,7 +26,7 @@ The first problem is translation.
 
 The second problem is what happens when organizations automate decisions based on a bad translation.
 
-A résumé is not a person. A keyword match is not capability. A score is not judgment. A ranking is not a complete evaluation. But in modern hiring systems, these representations can quietly become stand-ins for the person themselves.
+A resume is not a person. A keyword match is not capability. A score is not judgment. A ranking is not a complete evaluation. But in modern hiring systems, these representations can quietly become stand-ins for the person themselves.
 
 That is where false negatives enter the system.
 
@@ -34,7 +34,7 @@ A system can accurately determine that a representation failed its criteria with
 
 That distinction matters.
 
-A candidate may be rejected because the résumé did not parse cleanly. Because the job title did not match the expected title family. Because the candidate used different language than the job description. Because their strongest evidence came from military service, caregiving, self-directed learning, informal leadership, cross-domain work, or operational repair work that does not fit a standard career template.
+A candidate may be rejected because the resume did not parse cleanly. Because the job title did not match the expected title family. Because the candidate used different language than the job description. Because their strongest evidence came from military service, caregiving, self-directed learning, informal leadership, cross-domain work, or operational repair work that does not fit a standard career template.
 
 The system may record only one fact:
 
@@ -52,7 +52,7 @@ In a technical sense, a false negative occurs when a system classifies something
 
 In hiring, the “something” is capability.
 
-The system may decide that a person is not a match, not qualified, not competitive, or not worth advancing. But that decision may be based on a limited representation of the person: a résumé, profile, score, assessment result, work history field, degree field, keyword field, or parsed employment record.
+The system may decide that a person is not a match, not qualified, not competitive, or not worth advancing. But that decision may be based on a limited representation of the person: a resume, profile, score, assessment result, work history field, degree field, keyword field, or parsed employment record.
 
 The danger is not only that a machine makes a mistake.
 
@@ -65,9 +65,9 @@ The False Negative Machine does not prove that a person cannot do the work. It p
 
 False negatives usually do not happen in one dramatic moment. They happen through a chain.
 
-A person submits a résumé. The résumé is parsed. The parsed data is classified. The classification is compared to job criteria. Keywords, job titles, credentials, years of experience, and other proxy signals are weighted. The candidate may be ranked, scored, filtered, or sorted into a workflow.
+A person submits a resume. The resume is parsed. The parsed data is classified. The classification is compared to job criteria. Keywords, job titles, credentials, years of experience, and other proxy signals are weighted. The candidate may be ranked, scored, filtered, or sorted into a workflow.
 
-At each step, uncertainty exists. Did the system parse the résumé correctly? Did it understand the candidate’s work in context? Did it recognize equivalent experience? Did it distinguish between missing evidence and unread evidence? Did it treat career transitions, nonlinear paths, or cross-domain capability as potential value or as noise?
+At each step, uncertainty exists. Did the system parse the resume correctly? Did it understand the candidate’s work in context? Did it recognize equivalent experience? Did it distinguish between missing evidence and unread evidence? Did it treat career transitions, nonlinear paths, or cross-domain capability as potential value or as noise?
 
 Did it route the candidate to a human reviewer or pass over a qualified candidate on a weekend and send a rejection letter with no input from or to an actual person?
 
@@ -92,7 +92,7 @@ In my article [“Hiring Does Not Have a Talent Problem. It Has a Translation Pr
 
 Systems that produce and maintain false negatives add the next layer. When bad translations are automated, the failure can scale.
 
-This is not only a problem with artificial intelligence. Traditional applicant tracking systems can filter candidates through rigid keyword logic, Boolean rules, required fields, knockout questions, title matching, and formatting assumptions. AI-enabled systems may add semantic matching, scoring, ranking, contextual inference, résumé summarization, automated assessments, or predictive models, but they can still carry forward the same assumptions already built into hiring systems over time.
+This is not only a problem with artificial intelligence. Traditional applicant tracking systems can filter candidates through rigid keyword logic, Boolean rules, required fields, knockout questions, title matching, and formatting assumptions. AI-enabled systems may add semantic matching, scoring, ranking, contextual inference, resume summarization, automated assessments, or predictive models, but they can still carry forward the same assumptions already built into hiring systems over time.
 
 The technology changes, but the core risk remains:
 
@@ -140,7 +140,7 @@ A more defensible concern is narrower and more important:
 
 **A representational failure can become systemic even without a literal blacklist.**
 
-If many employers use similar tools, similar thresholds, similar résumé conventions, similar assessment models, similar job-description language, or similar ideas of what a qualified candidate should look like, then the same person may fail recognition again and again.
+If many employers use similar tools, similar thresholds, similar resume conventions, similar assessment models, similar job-description language, or similar ideas of what a qualified candidate should look like, then the same person may fail recognition again and again.
 
 The applicant may experience the pattern as a lockout. The underlying mechanism may be repeated misrecognition. That distinction matters.
 
@@ -234,7 +234,7 @@ Fairness also requires acknowledging that employers are responding to real signa
 
 Candidates are using AI too.
 
-Some use AI to rewrite résumés, mass-produce cover letters, optimize keywords, generate answers, or perform during assessments and interviews. Some of that use is reasonable. Some of it is deceptive or makes already-weak hiring signals even less reliable.
+Some use AI to rewrite resumes, mass-produce cover letters, optimize keywords, generate answers, or perform during assessments and interviews. Some of that use is reasonable. Some of it is deceptive or makes already-weak hiring signals even less reliable.
 
 That matters because it creates a trust spiral. Employers use automation because applicant volume is overwhelming. Candidates use automation because employer systems feel opaque and unresponsive. Employers distrust polished applications because they may be AI-generated. Candidates distrust screening systems because they may never reach a human.
 
@@ -257,7 +257,7 @@ Professional Identity Architecture, or PIA, begins with a different question.
 
 Not:
 
-**Does this person match the expected résumé pattern?**
+**Does this person match the expected resume pattern?**
 
 But:
 
@@ -265,11 +265,11 @@ But:
 
 That shift matters because it separates the person from the format.
 
-A résumé may still be useful. A profile may still be useful. A certification, title, degree, work history, project, training record, or assessment may still provide evidence.
+A resume may still be useful. A profile may still be useful. A certification, title, degree, work history, project, training record, or assessment may still provide evidence.
 
 But none of those artifacts should be mistaken for the whole person.
 
-PIA treats the résumé as a downstream projection of a deeper professional identity structure. It asks what the person has actually done, what conditions they operated under, what problems they solved, what systems they improved, what judgment they demonstrated, what they learned, and what capability is reasonably supported by the evidence.
+PIA treats the resume as a downstream projection of a deeper professional identity structure. It asks what the person has actually done, what conditions they operated under, what problems they solved, what systems they improved, what judgment they demonstrated, what they learned, and what capability is reasonably supported by the evidence.
 
 That does not eliminate uncertainty.
 
@@ -333,7 +333,7 @@ https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic
 [^cloudapper]: CloudApper, “AI Resume Screening vs. Traditional ATS Filters.” Industry/vendor explanation of screening mechanics and marketing claims.  
 https://www.cloudapper.ai/talent-acquisition/ai-resume-screening-vs-traditional-ats-filters/#How_AI_Screens_Resumes
 
-[^skillhub]: SkillHub, “ATS & AI Resume Filters Guide.” Candidate-side explanation of résumé parsing, formatting, keywords, and ATS legibility.  
+[^skillhub]: SkillHub, “ATS & AI Resume Filters Guide.” Candidate-side explanation of resume parsing, formatting, keywords, and ATS legibility.
 https://skillhub.com/blog/ats-ai-resume-filters-guide
 
 [^ibm-ai-adoption]: IBM Newsroom, “Data Suggests Growth in Enterprise Adoption of AI is Due to Widespread Deployment by Early Adopters,” January 10, 2024.  

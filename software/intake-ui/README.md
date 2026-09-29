@@ -45,7 +45,7 @@ Version `0.3.0` adds an optional report-to-document handoff. From an example
 participant overview, a participant may:
 
 - keep the completed report without requesting any document change;
-- choose a LinkedIn profile, résumé, or chronological CV as a target;
+- choose a LinkedIn profile, resume, or chronological CV as a target;
 - compare current wording with an evidence-bounded suggestion;
 - edit, accept, or reject each proposed change independently;
 - inspect the report basis for each suggestion; and

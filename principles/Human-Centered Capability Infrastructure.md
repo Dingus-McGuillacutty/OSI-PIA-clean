@@ -78,7 +78,7 @@ PIA addresses the individual-side recognition problem:
 > understandable and portable?**
 
 PIA should help individuals recognize and articulate capability that may be
-poorly represented by conventional résumés, credentials, job titles,
+poorly represented by conventional resumes, credentials, job titles,
 educational histories, or existing skills taxonomies.
 
 ### OSI

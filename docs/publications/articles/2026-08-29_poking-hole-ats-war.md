@@ -27,7 +27,7 @@ PIA/PCA naming remains provisional. The concept described here is intentionally 
 
 The modern job search often feels like moving through fog.
 
-A person uploads a résumé. The system parses it. Fields may populate incorrectly. Keywords may be missing or misread. A nonlinear career may look unfocused. A gap may look like risk. A title mismatch may look like nonqualification.
+A person uploads a resume. The system parses it. Fields may populate incorrectly. Keywords may be missing or misread. A nonlinear career may look unfocused. A gap may look like risk. A title mismatch may look like nonqualification.
 
 But the person may not be rejected by a robot.
 
@@ -63,13 +63,13 @@ Candidate volume is real. Recruiter workload is real. Organizations need tools t
 
 The problem is what happens when systems built for intake and triage become systems of recognition.
 
-A résumé parser does not understand a person. It extracts a representation.
+A resume parser does not understand a person. It extracts a representation.
 
 An ATS does not know capability. It routes, filters, stores, ranks, flags, and organizes candidate information.
 
 A recruiter scan does not see the whole person either. It sees what can be understood quickly under time pressure.
 
-Recent recruiter-facing analysis from Enhancv and Entrepreneur complicates the common story that “the ATS rejected the résumé.” Enhancv reports that most recruiters interviewed did not describe ATS tools as automatically rejecting résumés for formatting, content, or design; Entrepreneur emphasizes that candidates often become invisible through volume, timing, recruiter bandwidth, low prioritization, and communication breakdown rather than a single automated rejection event.[^enhancv-ats-reject][^entrepreneur-invisible-candidates]
+Recent recruiter-facing analysis from Enhancv and Entrepreneur complicates the common story that “the ATS rejected the resume.” Enhancv reports that most recruiters interviewed did not describe ATS tools as automatically rejecting resumes for formatting, content, or design; Entrepreneur emphasizes that candidates often become invisible through volume, timing, recruiter bandwidth, low prioritization, and communication breakdown rather than a single automated rejection event.[^enhancv-ats-reject][^entrepreneur-invisible-candidates]
 
 That distinction matters.
 
@@ -91,13 +91,13 @@ A brittle intake channel should not decide whether a person’s evidence reaches
 
 ## The Missing Layer
 
-Right now, the candidate usually owns a résumé.
+Right now, the candidate usually owns a resume.
 
 The employer owns an ATS.
 
 Between them is a fragile translation layer.
 
-That layer is often too thin to carry the complexity of real capability. The résumé is expected to satisfy a machine parser, match a job description, persuade a recruiter, orient a hiring manager, explain a career path, and survive automated comparison.
+That layer is often too thin to carry the complexity of real capability. The resume is expected to satisfy a machine parser, match a job description, persuade a recruiter, orient a hiring manager, explain a career path, and survive automated comparison.
 
 That is too much work for one document.
 
@@ -105,7 +105,7 @@ A better system needs a different architecture.
 
 The person needs a portable evidence packet: a personally owned structure that contains capability claims, supporting evidence, context, artifacts, provenance, review status, and interpretation boundaries.
 
-The employer-side system needs a reader layer: a way to recognize that packet, read it, preserve uncertainty, and route supported evidence for structured review instead of silently collapsing the person into résumé noise.
+The employer-side system needs a reader layer: a way to recognize that packet, read it, preserve uncertainty, and route supported evidence for structured review instead of silently collapsing the person into resume noise.
 
 That is the missing layer:
 
@@ -113,7 +113,7 @@ That is the missing layer:
 
 ## The Two-Part System
 
-The future is not only a better résumé.
+The future is not only a better resume.
 
 It is a two-part system.
 
@@ -121,7 +121,7 @@ It is a two-part system.
 The person owns a structured, portable record of capability evidence. That packet can include projects, work history, artifacts, tools, constraints, outcomes, learning patterns, supporting documents, participant review, and boundaries around what should and should not be inferred.
 
 **Part two: the ATS or employer reader layer.**  
-The employer-side system recognizes the packet format, reads the structured evidence, distinguishes evidence from interpretation, and routes the candidate for review without treating résumé formatting noise as absence of qualification.
+The employer-side system recognizes the packet format, reads the structured evidence, distinguishes evidence from interpretation, and routes the candidate for review without treating resume formatting noise as absence of qualification.
 
 This is not an automatic acceptance mechanism.
 
@@ -152,11 +152,11 @@ It means the system should not erase supported capability before anyone has inte
 
 ## What the Evidence Packet Should Carry
 
-A structured evidence packet should not be a larger résumé.
+A structured evidence packet should not be a larger resume.
 
-It should be the evidence system underneath the résumé.
+It should be the evidence system underneath the resume.
 
-A résumé is a projection. The evidence packet is the source structure.
+A resume is a projection. The evidence packet is the source structure.
 
 A useful packet might include:
 
@@ -198,7 +198,7 @@ A good system should preserve the difference between:
 - interpretation;
 - decision.
 
-A résumé bullet is evidence only if it connects to something real.
+A resume bullet is evidence only if it connects to something real.
 
 A keyword match is a proxy.
 
@@ -248,7 +248,7 @@ This is not only a candidate-side benefit.
 
 Employers are also trapped in the fog.
 
-They receive too many applications. Many résumés are polished. Some are AI-generated. Some are poorly formatted but legitimate. Some candidates are strong but illegible. Some candidates are weak but fluent. Recruiters have limited time. Hiring managers want shortlists. Compliance concerns matter. Risk matters.
+They receive too many applications. Many resumes are polished. Some are AI-generated. Some are poorly formatted but legitimate. Some candidates are strong but illegible. Some candidates are weak but fluent. Recruiters have limited time. Hiring managers want shortlists. Compliance concerns matter. Risk matters.
 
 The result is defensive filtering.
 
@@ -273,9 +273,9 @@ It gives judgment better material to work from.
 
 Candidates are currently forced to rebuild themselves for every system.
 
-Upload the résumé.
+Upload the resume.
 
-Paste the résumé.
+Paste the resume.
 
 Fix the fields.
 
@@ -299,7 +299,7 @@ The candidate does not start from the employer’s broken input field.
 
 The candidate starts from a coherent evidence base and generates the right output for the context.
 
-One export may be an ATS résumé.
+One export may be an ATS resume.
 
 Another may be a capability brief.
 
@@ -309,9 +309,9 @@ Another may be a portfolio summary.
 
 Another may be a promotion packet, fellowship packet, training plan, or professional identity report.
 
-The person is not the résumé.
+The person is not the resume.
 
-The résumé is one output from the person’s evidence system.
+The resume is one output from the person’s evidence system.
 
 ## Not a Bypass. A Better Channel.
 
@@ -383,11 +383,11 @@ That is not a serious capability-recognition system.
 
 A better system would let the person own their evidence and let the employer receive it in a structured, reviewable form.
 
-The future is not a résumé trying to survive the machine.
+The future is not a resume trying to survive the machine.
 
 The future is a portable evidence packet and a reader layer that knows how to treat human capability as more than formatting noise.
 
-A person should not disappear because a résumé parser got confused.
+A person should not disappear because a resume parser got confused.
 
 An employer should not lose access to capability because its intake system could not interpret the evidence.
 
@@ -410,7 +410,7 @@ This article is part of the OSI-PIA public article series and builds on the proj
 [^entrepreneur-invisible-candidates]: Entrepreneur, Volen Vulkov, “The More Efficient Hiring Becomes, the More Invisible Candidates Feel. Here’s the Problem Most Companies Are Missing,” July 18, 2026. Discusses the difference between ATS auto-rejection narratives and broader candidate invisibility caused by volume, timing, communication breakdown, and recruiter overload.  
 https://www.entrepreneur.com/building-a-business/the-more-efficient-hiring-becomes-the-more-invisible-candidates-feel-heres-the-problem-most-companies-are-missing
 
-[^enhancv-ats-reject]: Enhancv, Doroteya Vasileva, “Does the ATS Reject Your Resume? 25 Recruiters Explain What Really Happens,” updated August 28, 2026. Reports interviews with 25 recruiters, including findings that most did not use ATS tools to auto-reject résumés for formatting, content, or design, while scores, filters, and knockout questions still shape visibility.  
+[^enhancv-ats-reject]: Enhancv, Doroteya Vasileva, “Does the ATS Reject Your Resume? 25 Recruiters Explain What Really Happens,” updated August 28, 2026. Reports interviews with 25 recruiters, including findings that most did not use ATS tools to auto-reject resumes for formatting, content, or design, while scores, filters, and knockout questions still shape visibility.
 https://enhancv.com/blog/does-ats-reject-resumes/
 
 - [Hiring Does Not Have a Talent Problem. It Has a Translation Problem.](https://dingus-mcguillacutty.github.io/OSI-PIA-clean/publications/articles/2026-08-11_hiring-translation-problem.html)

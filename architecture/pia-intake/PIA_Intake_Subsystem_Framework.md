@@ -382,7 +382,7 @@ back as new participant evidence without a separate intake event.
 #### Optional report-to-document handoff
 
 A completed participant-facing report may offer a voluntary transformation
-step for LinkedIn profiles, résumés, CVs, or later approved document types.
+step for LinkedIn profiles, resumes, CVs, or later approved document types.
 This is an output workflow, not a new source-evidence interpretation.
 
 ```text

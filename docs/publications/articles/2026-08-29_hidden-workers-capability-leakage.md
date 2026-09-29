@@ -28,7 +28,7 @@ That is one of the central failures of modern hiring.
 
 A person may have skill, judgment, adaptability, operational experience, technical fluency, learning capacity, or deep practical knowledge. But if that capability does not appear in the expected form, the system may not recognize it.
 
-The person may not have the right title, degree, credential sequence, employment pattern, industry background, or résumé language. Their experience may come from military service, caregiving, self-directed learning, contract work, frontline repair, community leadership, internal systems work, or cross-domain problem solving.
+The person may not have the right title, degree, credential sequence, employment pattern, industry background, or resume language. Their experience may come from military service, caregiving, self-directed learning, contract work, frontline repair, community leadership, internal systems work, or cross-domain problem solving.
 
 The system does not necessarily see capability.
 
@@ -90,7 +90,7 @@ The disappearance is often procedural.
 
 It does not require a villain.
 
-It can happen through ordinary workflow: a job description copied from an old template, a degree requirement treated as default, a résumé parser misreading formatting, a career gap treated as risk, a military role failing to map to a civilian title, a self-taught person lacking the expected credential, or a cross-functional worker looking scattered instead of adaptive.
+It can happen through ordinary workflow: a job description copied from an old template, a degree requirement treated as default, a resume parser misreading formatting, a career gap treated as risk, a military role failing to map to a civilian title, a self-taught person lacking the expected credential, or a cross-functional worker looking scattered instead of adaptive.
 
 No single step looks dramatic.
 
@@ -258,17 +258,17 @@ The goal is not to create a more polished illusion.
 
 The goal is to help a person build a coherent evidence system.
 
-A résumé alone cannot carry the full structure of a person’s capability. It is too small, too brittle, and too dependent on the expectations of the receiving system.
+A resume alone cannot carry the full structure of a person’s capability. It is too small, too brittle, and too dependent on the expectations of the receiving system.
 
 A personally owned evidence system can preserve roles, projects, artifacts, tools, training, outcomes, constraints, learning patterns, capability claims, context, provenance, review boundaries, and uncertainty.
 
-From that evidence system, a person can generate different outputs: an ATS résumé, capability brief, interview proof pack, portfolio summary, professional identity report, role-specific capability crosswalk, or learning and development map.
+From that evidence system, a person can generate different outputs: an ATS resume, capability brief, interview proof pack, portfolio summary, professional identity report, role-specific capability crosswalk, or learning and development map.
 
 The point is not to fake fit.
 
 The point is to translate real fit.
 
-For hidden workers, this matters because their capability often exists outside the expected résumé pattern. PIA/PCA gives that capability a structure before it is compressed for a specific system.
+For hidden workers, this matters because their capability often exists outside the expected resume pattern. PIA/PCA gives that capability a structure before it is compressed for a specific system.
 
 ## What OSI Tries to See
 
@@ -330,7 +330,7 @@ A hiring system that cannot interpret evidence will confuse unfamiliarity with a
 
 A workforce system that does not develop people will later call development failure talent scarcity.
 
-A résumé parser that misreads a person does not prove the person lacks value.
+A resume parser that misreads a person does not prove the person lacks value.
 
 It only proves the channel was weak.
 

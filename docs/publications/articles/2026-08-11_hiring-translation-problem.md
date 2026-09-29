@@ -23,9 +23,9 @@ I am developing Organizational Systems Intelligence (OSI) and Professional Ident
 Many organizations describe their hiring problem as a talent shortage.
 That may be partly true in some fields, regions, and labor markets. But it is not the whole problem.
 A growing body of research and reporting points to a deeper failure: modern hiring systems often struggle to recognize capability when it does not arrive in the expected format.
-The problem is not simply that organizations cannot find capable people. The problem is that capability has to pass through a long chain of translation before a person is understood. That chain is not purely technical. It includes software, human bandwidth, timing, recruiter attention, job-description design, communication practices, and organizational assumptions. In other words, the problem is not only whether a machine reads a résumé correctly. It is whether the whole hiring system preserves enough signal for interpretation.
+The problem is not simply that organizations cannot find capable people. The problem is that capability has to pass through a long chain of translation before a person is understood. That chain is not purely technical. It includes software, human bandwidth, timing, recruiter attention, job-description design, communication practices, and organizational assumptions. In other words, the problem is not only whether a machine reads a resume correctly. It is whether the whole hiring system preserves enough signal for interpretation.
 
-- a résumé format;
+- a resume format;
 - job-posting language;
 - keyword filters;
 - applicant tracking systems;
@@ -38,7 +38,7 @@ The problem is not simply that organizations cannot find capable people. The pro
 - organizational assumptions about what a “qualified” person looks like.
 
 ## At every stage, capability signal can be lost.
-A person may have the ability to do the work, but not the exact vocabulary the system expects. They may have learned through military service, caregiving, internal process improvement, informal leadership, self-directed technical learning, cross-functional work, or non-linear career movement. They may have built capability in real environments without having a résumé that matches the standard template.
+A person may have the ability to do the work, but not the exact vocabulary the system expects. They may have learned through military service, caregiving, internal process improvement, informal leadership, self-directed technical learning, cross-functional work, or non-linear career movement. They may have built capability in real environments without having a resume that matches the standard template.
 When that happens, modern, layered hiring systems may not see a person with transferable capability.
 Hiring systems may see an organization's best candidates as a mismatch for what the machine-readable part of the system expects. A human in the hiring process may not even know their next top performer exists at all. 
 ## The System Is Built to Recognize Familiarity
@@ -62,12 +62,12 @@ The result is a closed reference system: the organization uses its own limited p
 That can make hiring appear rational while quietly excluding people whose skills, judgment, and potential exist outside the familiar organizational or industry frame.
 
 ## AI Did Not Create the Problem. It Accelerated It.
-AI did not invent brittle hiring systems. Keyword filtering, rigid degree requirements, narrow experience matching, and résumé conventions existed long before generative AI.
+AI did not invent brittle hiring systems. Keyword filtering, rigid degree requirements, narrow experience matching, and resume conventions existed long before generative AI.
 But AI can intensify the problem.
 When automated tools are used mainly to reduce volume, rank applicants, or accelerate rejection, they can make old assumptions operate faster and at greater scale. A flawed human process may reject qualified people inconsistently. A flawed automated process can reject them consistently.
 That distinction matters.
 A bad filter at small scale is a nuisance. A bad filter at large scale becomes infrastructure.
-Secondary AI-governance commentary has identified recurring failure modes in AI hiring systems, including keyword dependency, résumé parsing errors, historical-data bias, and over-rigid filters.[^verityai-ai-rejects] More broadly, reporting on AI adoption suggests that workplace AI confidence can fall when tools are adopted without enough training, context, or support.[^rali-ai-confidence]
+Secondary AI-governance commentary has identified recurring failure modes in AI hiring systems, including keyword dependency, resume parsing errors, historical-data bias, and over-rigid filters.[^verityai-ai-rejects] More broadly, reporting on AI adoption suggests that workplace AI confidence can fall when tools are adopted without enough training, context, or support.[^rali-ai-confidence]
 The risk is not only that an AI tool makes a mistake. The risk is that the mistake becomes normalized as part of the organization’s talent pipeline.
 Responsible use of AI in hiring should therefore begin with a simple principle:
 
@@ -77,13 +77,13 @@ A faster “no” is not automatically a better hiring system.
 
 ## The New Problem: Manufactured Polish
 There is another side to the problem.
-Harvard Business Review has argued that generative AI is weakening traditional hiring signals by making it easier for candidates to manufacture polished résumés and perform convincingly in remote interviews.[^hbr-ai-broken-hiring]
+Harvard Business Review has argued that generative AI is weakening traditional hiring signals by making it easier for candidates to manufacture polished resumes and perform convincingly in remote interviews.[^hbr-ai-broken-hiring]
 That creates a two-sided failure.
 On one side, real capability may be rejected because it is not legible to the system.
 On the other side, manufactured polish may pass through because it is optimized for the system.
 That is a dangerous combination.
 A hiring system that rejects unconventional capability while rewarding machine-optimized presentation is not measuring talent. It is measuring compatibility with the hiring interface.
-In that world, the résumé becomes less a record of capability and more a performance object. The candidate learns to satisfy the scanner. The employer learns to distrust the signal. Both sides adapt to the system rather than the work.
+In that world, the resume becomes less a record of capability and more a performance object. The candidate learns to satisfy the scanner. The employer learns to distrust the signal. Both sides adapt to the system rather than the work.
 That is not a healthy labor market.
 It is a translation failure with feedback loops.
 
@@ -95,7 +95,7 @@ Their evidence exists, but it is not automatically legible.
 This is the core issue OSI-PIA is being developed to examine.
 
 ## The Resume Is Not Enough
-The traditional résumé asks people to compress a complex human development history into a narrow format:
+The traditional resume asks people to compress a complex human development history into a narrow format:
 
 - job title;
 - employer;
@@ -124,11 +124,11 @@ A hiring system that cannot interpret those signals may mistake depth for vaguen
 ## What PIA Is Trying to Build
 Professional Identity Architecture, or PIA, is an early-stage framework for translating career evidence into demonstrated capability.
 It does not begin with the question:
-> Does this person match the expected résumé pattern?
+> Does this person match the expected resume pattern?
 It begins with:
 > What capability is demonstrated by the evidence?
 That shift changes the work of identifying qualified candidates for their actual abilities and potential to succeed. Not candidates as potential placeholders. Not as disposable or interchangeable. 
-Instead of treating a résumé as the primary object, PIA treats the résumé as a downstream projection of a deeper professional identity structure.
+Instead of treating a resume as the primary object, PIA treats the resume as a downstream projection of a deeper professional identity structure.
 The goal is not to inflate a person’s experience or produce marketing language. The goal is to preserve evidence, interpret it carefully, and make capability legible without flattening the person.
 A PIA-style professional identity output may organize experience around questions such as:
 - What was the purpose of the role or activity?
@@ -180,7 +180,7 @@ The goal is to stop confusing narrow legibility with actual qualification.
 ## Conclusion
 Hiring does not only have a talent problem.
 It has a translation problem.
-People are more complex than résumés. Capability develops across contexts. Evidence appears in different forms. Organizations need systems that can interpret that evidence responsibly.
+People are more complex than resumes. Capability develops across contexts. Evidence appears in different forms. Organizations need systems that can interpret that evidence responsibly.
 If hiring systems continue to optimize mainly for speed, surface polish, and pattern matching, they will keep missing people who can do the work.
 Some of those people will be hidden workers.
 Some will be career changers.

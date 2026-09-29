@@ -88,7 +88,7 @@ registry.
 The public metadata and hub language was extended after the bibliography and
 PIA/OSI literature-positioning work. It now names open-skills and Learning and
 Employment Record (LER) interoperability, evidence-grounded capability
-inference, capability utilization and absorption, ATS and résumé translation
+inference, capability utilization and absorption, ATS and resume translation
 failure, provenance, temporal authority, and epistemic stewardship. The six
 meta-topics remain the navigation structure; the added phrases are plain-language
 entry vocabulary, not new authority categories or keyword claims.

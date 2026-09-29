@@ -52,7 +52,7 @@ and concept, not one single schema.
 | Skill and competency semantics | Open Skills Network Rich Skill Descriptor (RSD), Credential Engine CTDL-ASN, 1EdTech CASE | Defines named skills or competencies and their relationships |
 | Achievement and evidence record | 1EdTech CLR 2.0, Open Badges 3.0 | Represents achievements, criteria, evidence, results, issuer, dates, and alignments |
 | Trust and portability | W3C Verifiable Credentials | Provides portable, issuer-signed, machine-verifiable claims |
-| Employment-system interchange | HR Open LER-RS | Translates learning and employment records into résumé, hiring, and advancement workflows |
+| Employment-system interchange | HR Open LER-RS | Translates learning and employment records into resume, hiring, and advancement workflows |
 
 The project bibliography should attach authoritative references for each
 standards family before this crosswalk is used to support a formal paper or
@@ -92,7 +92,7 @@ exists; it does not mean the PIA claim is automatically valid.
 | Conversion factors | Little or no direct LER analogue | Weak | PIA and OSI domain |
 | Capability utilization | Little or no direct LER analogue | Weak | OSI domain |
 | Organizational capability absorption | No obvious LER analogue | Weak | OSI-specific research area |
-| Employment or résumé export | HR Open LER-RS | Strong | Appropriate downstream interface |
+| Employment or resume export | HR Open LER-RS | Strong | Appropriate downstream interface |
 
 ## Where PIA should remain richer
 
@@ -288,7 +288,7 @@ PIA should not currently claim novelty in:
 - skill taxonomies;
 - evidence-linked achievements;
 - credential verification;
-- machine-readable résumés;
+- machine-readable resumes;
 - LERs;
 - competency frameworks; or
 - skills-first hiring itself.

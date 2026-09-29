@@ -82,7 +82,7 @@ These questions remain active and have not yet been promoted.
 - **RQ-005:** Can organizations be understood more accurately as ecological
   systems than as hierarchical structures?
 - **RQ-006:** Can professional identity be represented through
-  participant-governed evidence rather than résumé-centric or credential-centric
+  participant-governed evidence rather than resume-centric or credential-centric
   models?
 - **RQ-007:** Can congruence between multiple knowledge domains produce more
   explainable organizational intelligence than conceptual unification?

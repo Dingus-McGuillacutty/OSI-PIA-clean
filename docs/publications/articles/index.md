@@ -7,13 +7,13 @@ authority: supporting
 status: active
 version: "1.6"
 owner: publication-stewardship
-description: "Public essays about professional identity, demonstrated capability, evidence-grounded evaluation, skills-based hiring, ATS and résumé translation failure, organizational capability, open-skills and LER interoperability, and human-centered AI."
+description: "Public essays about professional identity, demonstrated capability, evidence-grounded evaluation, skills-based hiring, ATS and resume translation failure, organizational capability, open-skills and LER interoperability, and human-centered AI."
 ---
 
 # OSI-PIA Articles
 
 Public essays on hiring, capability recognition, professional identity,
-evidence-grounded evaluation, ATS and résumé translation failure,
+evidence-grounded evaluation, ATS and resume translation failure,
 organizational systems, open-skills and LER interoperability, and ethical
 AI-assisted interpretation.
 
@@ -34,7 +34,7 @@ AI-assisted interpretation.
 
 ## Related Capability Evidence Systems Articles
 
-- [The Future Is Not the Perfect Résumé](2026-08-29_future-not-perfect-resume.html)
+- [The Future Is Not the Perfect Resume](2026-08-29_future-not-perfect-resume.html)
 - [Poking a Hole in the Fog of ATS War](2026-08-29_poking-hole-ats-war.html)
 
 ## Supplemental Project Briefs

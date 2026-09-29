@@ -77,7 +77,7 @@ test("server-renders the optional report-to-document handoff", async () => {
   assert.match(html, /Your participant overview is ready/);
   assert.match(html, /Put this report to work/);
   assert.match(html, /LinkedIn profile/);
-  assert.match(html, /Résumé/);
+  assert.match(html, /Resume/);
   assert.match(html, /Chronological CV/);
   assert.match(html, /Your source stays unchanged/);
   assert.match(html, /No automatic publishing/);

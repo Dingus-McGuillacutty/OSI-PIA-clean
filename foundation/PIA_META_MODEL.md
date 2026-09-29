@@ -47,7 +47,7 @@ by the OSI foundation.
 
 # Foundational Premise
 
-Professional identity is not a résumé.
+Professional identity is not a resume.
 
 Professional identity is not a collection of credentials.
 

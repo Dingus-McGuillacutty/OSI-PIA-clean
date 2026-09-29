@@ -33,7 +33,7 @@ evaluation can continue to shape assumptions after the conditions that
 produced it have changed. A credential can remain historically valid while
 becoming a weak indicator of current skill. A personality assessment can
 capture a person at one point in time and then quietly harden into an identity
-claim. A résumé can preserve an accurate history while still badly
+claim. A resume can preserve an accurate history while still badly
 underrepresenting current capability.
 
 The problem is not simply stale data. The problem is **authority being carried

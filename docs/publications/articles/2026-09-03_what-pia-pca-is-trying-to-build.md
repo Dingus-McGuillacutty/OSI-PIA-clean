@@ -30,7 +30,7 @@ Hiring has a translation problem. Bad translations can become false negatives. A
 
 This article turns toward the response.
 
-Professional Identity Architecture and Professional Capability Architecture, or PIA/PCA, are attempts to build a better way for people to represent capability without reducing themselves to a brittle résumé pattern.
+Professional Identity Architecture and Professional Capability Architecture, or PIA/PCA, are attempts to build a better way for people to represent capability without reducing themselves to a brittle resume pattern.
 
 The goal is simple:
 
@@ -40,19 +40,19 @@ Not the employer. Not the applicant tracking system. Not the parser. Not the ran
 
 The person.
 
-## The Résumé Is Not Enough
+## The Resume Is Not Enough
 
-The résumé is still useful. It can summarize, orient attention, and help an employer understand where to look. It can give a recruiter or hiring manager a quick first view of someone’s work history.
+The resume is still useful. It can summarize, orient attention, and help an employer understand where to look. It can give a recruiter or hiring manager a quick first view of someone’s work history.
 
-But a résumé is not a person. It is not the full evidence record. It is not the complete history of capability development. It is a projection.
+But a resume is not a person. It is not the full evidence record. It is not the complete history of capability development. It is a projection.
 
-That distinction matters because modern hiring often asks the résumé to carry too much. It must satisfy a parser, match a job description, communicate experience, explain a career path, persuade a recruiter, orient a hiring manager, survive keyword filters, and prepare the ground for an interview.
+That distinction matters because modern hiring often asks the resume to carry too much. It must satisfy a parser, match a job description, communicate experience, explain a career path, persuade a recruiter, orient a hiring manager, survive keyword filters, and prepare the ground for an interview.
 
 That is too much work for one document.
 
-When the résumé becomes the only object, the person is forced to compress a complex working life into a fragile format and hope the receiving system understands it.
+When the resume becomes the only object, the person is forced to compress a complex working life into a fragile format and hope the receiving system understands it.
 
-PIA/PCA starts from a different assumption: the résumé should be one output from a deeper evidence system.
+PIA/PCA starts from a different assumption: the resume should be one output from a deeper evidence system.
 
 ## Capability Does Not Develop in Straight Lines
 
@@ -78,9 +78,9 @@ A personally owned evidence system should preserve more than dates, titles, and 
 
 At a high level, that evidence system may include roles, projects, artifacts, tools, outcomes, constraints, learning patterns, capability claims, context, provenance, review status, and interpretation boundaries.
 
-The point is not to create a larger résumé. The point is to create the structure underneath the résumé.
+The point is not to create a larger resume. The point is to create the structure underneath the resume.
 
-That structure allows a person to generate different outputs for different contexts without breaking the relationship between representation and reality. A job application may need a targeted résumé. An interview may need a proof pack. A career transition may need a capability brief. A portfolio may need artifact summaries. A promotion process may need evidence of development. A learning plan may need a map of gaps and strengths.
+That structure allows a person to generate different outputs for different contexts without breaking the relationship between representation and reality. A job application may need a targeted resume. An interview may need a proof pack. A career transition may need a capability brief. A portfolio may need artifact summaries. A promotion process may need evidence of development. A learning plan may need a map of gaps and strengths.
 
 The outputs differ.
 
@@ -94,7 +94,7 @@ PIA/PCA depends on a basic distinction:
 
 Evidence is what the person did, built, learned, completed, changed, supported, documented, repaired, led, or produced. Interpretation is what that evidence may mean.
 
-A résumé bullet often collapses those layers. It presents a claim in compressed form, often without enough context to show what supports it.
+A resume bullet often collapses those layers. It presents a claim in compressed form, often without enough context to show what supports it.
 
 PIA/PCA tries to keep the layers visible. A capability claim should be traceable to evidence. If a person says they build systems, what systems? If they say they improve operations, what changed? If they say they train others, who depended on that training? If they say they translate across teams, what groups, tools, problems, or workflows were involved?
 
@@ -108,7 +108,7 @@ That is evidence discipline.
 
 ## Translation Without Theater
 
-Modern job searching pressures people to perform. They are told to optimize keywords, tailor every résumé, quantify everything, match the posting, polish the profile, generate the cover letter, and produce the right professional story for each system.
+Modern job searching pressures people to perform. They are told to optimize keywords, tailor every resume, quantify everything, match the posting, polish the profile, generate the cover letter, and produce the right professional story for each system.
 
 Some of that advice is practical. But it can also push people toward theater.
 
@@ -122,15 +122,15 @@ It should make the relationship between claim, evidence, context, and uncertaint
 
 ## The Candidate-Side Signal System
 
-A person using PIA/PCA should not depend on one perfect résumé. They should have a coordinated signal system.
+A person using PIA/PCA should not depend on one perfect resume. They should have a coordinated signal system.
 
-That system can produce a machine-legible résumé for intake, a human-readable capability brief for interpretation, an interview proof pack for follow-up, a portfolio summary for artifacts, and a role-specific crosswalk that connects job requirements to supported evidence.
+That system can produce a machine-legible resume for intake, a human-readable capability brief for interpretation, an interview proof pack for follow-up, a portfolio summary for artifacts, and a role-specific crosswalk that connects job requirements to supported evidence.
 
-Those pieces serve different purposes. The résumé gets the person into the channel. The brief explains the pattern. The proof pack prepares the person to defend claims. The portfolio shows artifacts where available. The crosswalk connects the person’s evidence to a specific role without pretending that every piece of experience is equally relevant.
+Those pieces serve different purposes. The resume gets the person into the channel. The brief explains the pattern. The proof pack prepares the person to defend claims. The portfolio shows artifacts where available. The crosswalk connects the person’s evidence to a specific role without pretending that every piece of experience is equally relevant.
 
 Together, those outputs help the person move through an overloaded recognition system with more signal and less noise.
 
-The future is not the perfect résumé.
+The future is not the perfect resume.
 
 The future is a personally owned coherent evidence system.
 
@@ -150,11 +150,11 @@ PIA/PCA should help people become more legible without surrendering agency.
 
 Ownership is not just a technical detail. It changes the power relationship.
 
-Today, many people rebuild themselves repeatedly inside systems they do not control. They upload a résumé, paste the résumé, fix parsed fields, answer forms, rewrite bullets, adjust keywords, and hope the employer’s system reads them correctly. When the process fails, the person often receives silence or a generic rejection. The representation disappears into someone else’s system.
+Today, many people rebuild themselves repeatedly inside systems they do not control. They upload a resume, paste the resume, fix parsed fields, answer forms, rewrite bullets, adjust keywords, and hope the employer’s system reads them correctly. When the process fails, the person often receives silence or a generic rejection. The representation disappears into someone else’s system.
 
 A personally owned evidence system changes the center of gravity.
 
-The person keeps the source structure. The résumé becomes an export. The application becomes a translation. The interview becomes a chance to test and explain claims. The portfolio becomes supporting evidence. The learning plan becomes a way to develop capability rather than merely market it.
+The person keeps the source structure. The resume becomes an export. The application becomes a translation. The interview becomes a chance to test and explain claims. The portfolio becomes supporting evidence. The learning plan becomes a way to develop capability rather than merely market it.
 
 That does not guarantee opportunity.
 
@@ -180,7 +180,7 @@ PIA/PCA is especially relevant for people whose capability does not fit conventi
 
 These people are often asked to prove themselves through formats that were not designed to recognize them.
 
-PIA/PCA gives them a way to preserve and translate evidence before it is compressed into a résumé. That does not mean every hidden worker is qualified for every role. It means the system should not treat unfamiliar evidence as absence.
+PIA/PCA gives them a way to preserve and translate evidence before it is compressed into a resume. That does not mean every hidden worker is qualified for every role. It means the system should not treat unfamiliar evidence as absence.
 
 Although PIA/PCA begins on the person side, it also has implications for employers. Organizations are overwhelmed by volume, polish, automation, and uncertainty. Recruiters and hiring managers need better evidence, not just more applications. They need ways to distinguish unsupported claims from supported ones, transferable capability from vague aspiration, and unfamiliar career paths from genuine non-fit.
 
@@ -210,7 +210,7 @@ It is built.
 
 A useful system should help people understand both their current evidence and their next growth path: where the evidence is strong, where it is thin, what capabilities appear across multiple contexts, what claims need better support, and what development would open new paths.
 
-Those questions move beyond résumé optimization.
+Those questions move beyond resume optimization.
 
 They turn professional identity into an active development system.
 
@@ -218,11 +218,11 @@ They turn professional identity into an active development system.
 
 PIA/PCA is trying to build the missing person-side layer in modern capability recognition.
 
-The problem is not simply that people need better résumés. The problem is that many people are asked to represent complex, nonlinear, evidence-rich lives through brittle documents and employer-controlled intake systems.
+The problem is not simply that people need better resumes. The problem is that many people are asked to represent complex, nonlinear, evidence-rich lives through brittle documents and employer-controlled intake systems.
 
 A better approach starts with evidence.
 
-The person owns the deeper record. Capability claims remain connected to proof. AI helps organize and translate but does not become the authority. The résumé becomes one export from a larger structure. The interview becomes a chance to examine supported claims. The portfolio becomes part of the evidence environment. The development plan becomes part of the same system.
+The person owns the deeper record. Capability claims remain connected to proof. AI helps organize and translate but does not become the authority. The resume becomes one export from a larger structure. The interview becomes a chance to examine supported claims. The portfolio becomes part of the evidence environment. The development plan becomes part of the same system.
 
 The goal is not to make people look artificial.
 
@@ -241,5 +241,5 @@ This article builds on prior OSI-PIA public articles and the related Capability 
 - [Real Capability vs. Manufactured Polish](2026-08-18_real-capability-vs-manufactured-polish.html)
 - [Hidden Workers and Capability Leakage](2026-08-29_hidden-workers-capability-leakage.html)
 - [The Wrong Metrics Are Steering the System](2026-08-29_wrong-metrics-steering-system.html)
-- [The Future Is Not the Perfect Résumé](2026-08-29_future-not-perfect-resume.html)
+- [The Future Is Not the Perfect Resume](2026-08-29_future-not-perfect-resume.html)
 - [Poking a Hole in the Fog of ATS War](2026-08-29_poking-hole-ats-war.html)

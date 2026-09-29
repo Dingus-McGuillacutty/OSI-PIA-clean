@@ -62,7 +62,7 @@ A capable person in a broken system may look ineffective.
 
 A less experienced person in a strong learning system may develop quickly.
 
-A team with average individual talent but high trust, clear information, and good feedback loops may outperform a team with stronger résumés and weaker coordination.
+A team with average individual talent but high trust, clear information, and good feedback loops may outperform a team with stronger resumes and weaker coordination.
 
 This is why OSI does not start by asking only, “Who is talented?”
 
@@ -344,7 +344,7 @@ This article builds on prior OSI-PIA public articles and the related Capability 
 - [Hidden Workers and Capability Leakage](2026-08-29_hidden-workers-capability-leakage.html)
 - [The Wrong Metrics Are Steering the System](2026-08-29_wrong-metrics-steering-system.html)
 - [What PIA/PCA Is Trying to Build](2026-09-03_what-pia-pca-is-trying-to-build.html)
-- [The Future Is Not the Perfect Résumé](2026-08-29_future-not-perfect-resume.html)
+- [The Future Is Not the Perfect Resume](2026-08-29_future-not-perfect-resume.html)
 - [Poking a Hole in the Fog of ATS War](2026-08-29_poking-hole-ats-war.html)
 
 Related external sources:

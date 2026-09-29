@@ -87,7 +87,7 @@ These shortcuts are operationally convenient. They are also dangerous. The centr
 
 ## An ATS can rank a person without understanding them
 
-Consider a conventional applicant-tracking system. The system may be authorized to parse résumés, compare keywords, apply filters, assign rankings, and remove candidates from consideration. Operationally, the system possesses authority. But what exactly does it know?
+Consider a conventional applicant-tracking system. The system may be authorized to parse resumes, compare keywords, apply filters, assign rankings, and remove candidates from consideration. Operationally, the system possesses authority. But what exactly does it know?
 
 If a candidate does not have the expected title, credential, vocabulary, or employment chronology, the system may have very little basis for concluding that the person lacks the underlying capability.
 

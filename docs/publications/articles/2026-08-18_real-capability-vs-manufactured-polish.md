@@ -38,9 +38,9 @@ Article 1 focused on translation failure: real capability may not arrive in the 
 
 That does not mean every polished application is dishonest. It means polish is becoming less reliable as evidence.
 
-A résumé is not a person. A cover letter is not judgment. A fluent interview answer is not necessarily evidence of experience. A polished application is not proof that the candidate can do the work.
+A resume is not a person. A cover letter is not judgment. A fluent interview answer is not necessarily evidence of experience. A polished application is not proof that the candidate can do the work.
 
-Generative AI did not create that problem. Hiring has always relied on proxies: job titles, credentials, résumé bullets, professional language, interview fluency, confidence, and fit signals. But generative AI changes the cost of producing those proxies. It can make a résumé sound stronger than the experience behind it, make a cover letter sound tailored without requiring real interest, help prepare structured interview answers without proving judgment, and produce professional language faster than hiring systems can verify what that language means.
+Generative AI did not create that problem. Hiring has always relied on proxies: job titles, credentials, resume bullets, professional language, interview fluency, confidence, and fit signals. But generative AI changes the cost of producing those proxies. It can make a resume sound stronger than the experience behind it, make a cover letter sound tailored without requiring real interest, help prepare structured interview answers without proving judgment, and produce professional language faster than hiring systems can verify what that language means.
 
 The result is signal instability. The hiring system becomes less certain about what its own signals mean.
 
@@ -48,22 +48,22 @@ The result is signal instability. The hiring system becomes less certain about w
 
 The problem is not that only one side is using AI. Both sides are adapting.
 
-Employers use AI and automated systems to manage volume, rank applicants, summarize résumés, screen for fit, draft job descriptions, write outreach, evaluate applications, and reduce the burden of review. Candidates use AI to tailor résumés, match keywords, generate cover letters, prepare interview answers, increase application volume, and translate their experience into language the system is more likely to recognize.
+Employers use AI and automated systems to manage volume, rank applicants, summarize resumes, screen for fit, draft job descriptions, write outreach, evaluate applications, and reduce the burden of review. Candidates use AI to tailor resumes, match keywords, generate cover letters, prepare interview answers, increase application volume, and translate their experience into language the system is more likely to recognize.
 
 Each side is responding rationally to the other. But the combined effect may be irrational at the system level.
 
-More applications do not necessarily mean more qualified candidates. More polished résumés do not necessarily mean more capability. More filters do not necessarily mean better judgment. More automation does not necessarily mean better understanding.
+More applications do not necessarily mean more qualified candidates. More polished resumes do not necessarily mean more capability. More filters do not necessarily mean better judgment. More automation does not necessarily mean better understanding.
 
 The hiring system becomes busier without becoming clearer.
 
 ## The Signal Was Already Fragile
 
 The problem is not that candidates suddenly have better tools. The problem is that too much of hiring still treats polished presentation as a proxy for ability.
-Mark Huang’s analysis of HBR’s warning about AI-polished résumés and remote interview performance makes this point directly: AI did not create the weakness.
+Mark Huang’s analysis of HBR’s warning about AI-polished resumes and remote interview performance makes this point directly: AI did not create the weakness.
 
-A résumé can still be useful. An interview can still be useful. A polished answer can still communicate preparation, clarity, and seriousness. But none of those signals should be treated as proof by themselves.
+A resume can still be useful. An interview can still be useful. A polished answer can still communicate preparation, clarity, and seriousness. But none of those signals should be treated as proof by themselves.
 
-When a hiring system mostly rewards the cleanest résumé, the smoothest answer, or the most familiar professional language, it does not necessarily measure capability. It may measure who has learned to perform the hiring ritual.
+When a hiring system mostly rewards the cleanest resume, the smoothest answer, or the most familiar professional language, it does not necessarily measure capability. It may measure who has learned to perform the hiring ritual.
 
 Generative AI makes that performance easier to produce. That does not make every AI-assisted candidate deceptive. It means the old signals are carrying more noise than they used to carry.
 
@@ -71,23 +71,23 @@ The screening question changes from **“Does this look good?”** to **“What 
 
 ## The Resume Illusion
 
-Robert Half describes a pattern many hiring teams are now encountering: a résumé appears to contain the right experience, keywords, and proof of accomplishment, but the candidate struggles when asked to explain the work in a real conversation.[^robert-half-resume-illusion]
+Robert Half describes a pattern many hiring teams are now encountering: a resume appears to contain the right experience, keywords, and proof of accomplishment, but the candidate struggles when asked to explain the work in a real conversation.[^robert-half-resume-illusion]
 
 This is the resume illusion: the document looks like evidence, but the conversation reveals the gap.
 
-That does not mean every AI-assisted résumé is dishonest. There is a major difference between using AI to clarify real experience and using AI to manufacture a professional identity the candidate cannot support.
+That does not mean every AI-assisted resume is dishonest. There is a major difference between using AI to clarify real experience and using AI to manufacture a professional identity the candidate cannot support.
 
-But the distinction matters because hiring systems have long treated résumé polish as a useful early signal. When a résumé took effort to produce, polish could suggest attention, familiarity with the role, communication ability, and sometimes competence. Generative AI weakens that assumption.
+But the distinction matters because hiring systems have long treated resume polish as a useful early signal. When a resume took effort to produce, polish could suggest attention, familiarity with the role, communication ability, and sometimes competence. Generative AI weakens that assumption.
 
-A candidate can now produce a tailored, keyword-aligned, professional-looking résumé quickly. The document may pass an automated screen. It may even impress a human reviewer. But if the candidate cannot explain the work, defend the numbers, describe the tradeoffs, or answer follow-up questions, the representation has outrun the evidence.
+A candidate can now produce a tailored, keyword-aligned, professional-looking resume quickly. The document may pass an automated screen. It may even impress a human reviewer. But if the candidate cannot explain the work, defend the numbers, describe the tradeoffs, or answer follow-up questions, the representation has outrun the evidence.
 
 That is not capability. It is performance.
 
 ## Polish Is Not Proof
 
-The Interview Guys describe the candidate-side version of the same problem: AI-polished résumés may pass the machine but fail the conversation when the candidate cannot explain the details behind a project, metric, tool, or claim.[^interview-guys-resume-illusion]
+The Interview Guys describe the candidate-side version of the same problem: AI-polished resumes may pass the machine but fail the conversation when the candidate cannot explain the details behind a project, metric, tool, or claim.[^interview-guys-resume-illusion]
 
-A polished résumé can open the door, but it cannot do the work. A polished answer can sound structured, but it does not prove judgment. A list of tools can look impressive, but it does not prove working fluency. A metric can sound persuasive, but it does not prove the candidate measured it, caused it, or understands what changed.
+A polished resume can open the door, but it cannot do the work. A polished answer can sound structured, but it does not prove judgment. A list of tools can look impressive, but it does not prove working fluency. A metric can sound persuasive, but it does not prove the candidate measured it, caused it, or understands what changed.
 
 This is where manufactured polish becomes dangerous. It does not merely make weak applications look better. It makes representation less reliable as evidence. The more hiring depends on artifacts that can be cheaply optimized, the less those artifacts can carry trust by themselves.
 
@@ -95,7 +95,7 @@ This is where manufactured polish becomes dangerous. It does not merely make wea
 
 Fairness matters here. The problem is not that candidates use AI.
 
-Many candidates use AI responsibly. They use it to clarify language, reduce awkward phrasing, translate experience across domains, prepare for interviews, identify gaps, or make a résumé easier for systems and humans to read. For some people, AI may help recover signal that hiring systems would otherwise miss. A candidate with strong capability but weak résumé-writing skill may use AI to become more legible. A nontraditional candidate may use AI to translate experience into language employers understand. A person who struggles with professional writing may use AI to communicate more clearly.
+Many candidates use AI responsibly. They use it to clarify language, reduce awkward phrasing, translate experience across domains, prepare for interviews, identify gaps, or make a resume easier for systems and humans to read. For some people, AI may help recover signal that hiring systems would otherwise miss. A candidate with strong capability but weak resume-writing skill may use AI to become more legible. A nontraditional candidate may use AI to translate experience into language employers understand. A person who struggles with professional writing may use AI to communicate more clearly.
 
 That is not the problem.
 
@@ -113,7 +113,7 @@ Forbes, drawing on London Business School research by Isabel Fernandez-Mateo, ar
 
 Organizations are using AI to produce job descriptions, identify candidates, write outreach, analyze interviews, and evaluate applications. If these tools learn from historical job descriptions or prior hiring patterns, they may reproduce the same assumptions that already shaped the organization’s definition of talent.
 
-The signal problem starts before the résumé. It starts when the organization decides what the role is, what language describes it, which candidates are invited to see it, and which evidence will count as relevant.
+The signal problem starts before the resume. It starts when the organization decides what the role is, what language describes it, which candidates are invited to see it, and which evidence will count as relevant.
 
 This means generative AI can shape both sides of the hiring signal. Candidates can produce more polished representations of themselves. Organizations can produce more standardized representations of work. Both sides may become smoother. Neither side is necessarily becoming more truthful.
 
@@ -131,13 +131,13 @@ That is why hiring can experience diminishing returns even while the tools becom
 
 ## The Trust Spiral
 
-Employers are responding to the resume illusion by adding friction. Robert Half recommends behavioral interviews, work simulations, reference checks, attention to soft skills, and careful review of whether candidates can substantiate what their résumés claim.[^robert-half-resume-illusion]
+Employers are responding to the resume illusion by adding friction. Robert Half recommends behavioral interviews, work simulations, reference checks, attention to soft skills, and careful review of whether candidates can substantiate what their resumes claim.[^robert-half-resume-illusion]
 
-That reaction is understandable. If résumés become less trustworthy, employers will look for other ways to verify claims. If remote interviews can be scripted or assisted, employers may want more in-person interviews. If application volume rises, employers may add assessments, screens, references, or additional rounds.
+That reaction is understandable. If resumes become less trustworthy, employers will look for other ways to verify claims. If remote interviews can be scripted or assisted, employers may want more in-person interviews. If application volume rises, employers may add assessments, screens, references, or additional rounds.
 
 But the solution to weak signals can become more gates: more tests, more interviews, more suspicion, more burden on candidates, more process, and more delay.
 
-Candidates did not create this system by themselves. Many job seekers use AI because the labor market has trained them to optimize for machines. They are told to tailor every résumé, match keywords, quantify everything, speak the language of the job posting, and submit enough applications to overcome silence.
+Candidates did not create this system by themselves. Many job seekers use AI because the labor market has trained them to optimize for machines. They are told to tailor every resume, match keywords, quantify everything, speak the language of the job posting, and submit enough applications to overcome silence.
 
 If the system rewards machine-readable polish, candidates will produce machine-readable polish. If employers use opaque filters, candidates will try to satisfy opaque filters. If rejection feels random, candidates will automate volume.
 
@@ -147,15 +147,15 @@ The same tools that help an honest candidate clarify real evidence can also help
 
 ## The Risk of Replacing One Weak Proxy With Another
 
-When résumés become less trustworthy, organizations may be tempted to replace them with other proxies: assessments, video interviews, personality tests, gamified screens, AI interview analysis, portfolio reviews, reference checks, or work simulations.
+When resumes become less trustworthy, organizations may be tempted to replace them with other proxies: assessments, video interviews, personality tests, gamified screens, AI interview analysis, portfolio reviews, reference checks, or work simulations.
 
-Some of these can be useful. Some can be better than résumé filtering. Some can also introduce new forms of bias, burden, opacity, or misinterpretation.
+Some of these can be useful. Some can be better than resume filtering. Some can also introduce new forms of bias, burden, opacity, or misinterpretation.
 
 The problem is not the existence of proxies. Hiring always requires interpretation under uncertainty. The problem is forgetting that proxies are proxies.
 
-A work sample is not the whole person. An interview is not the whole person. A reference is not the whole person. A résumé is not the whole person. A score is not the whole person. Every signal has limits.
+A work sample is not the whole person. An interview is not the whole person. A reference is not the whole person. A resume is not the whole person. A score is not the whole person. Every signal has limits.
 
-The responsible question is not **“Which single signal should replace the résumé?”** The better question is **“What combination of evidence gives us a fairer, more accurate, and more accountable understanding of capability?”**
+The responsible question is not **“Which single signal should replace the resume?”** The better question is **“What combination of evidence gives us a fairer, more accurate, and more accountable understanding of capability?”**
 
 ## What PIA and OSI See
 
@@ -163,7 +163,7 @@ Professional Identity Architecture, or PIA, does not treat polish as proof. It t
 
 Presentation can be useful. Clear writing matters. Good structure matters. A person should be able to explain their work in language others can understand. But PIA asks a deeper question: **What evidence supports the claim?**
 
-If a résumé says someone improved a process, what process? Under what conditions? What did they actually do? What changed? Who depended on the result? What did they learn? Could they explain the work without the document in front of them?
+If a resume says someone improved a process, what process? Under what conditions? What did they actually do? What changed? Who depended on the result? What did they learn? Could they explain the work without the document in front of them?
 
 Manufactured polish collapses those questions into appearance. PIA tries to reopen them. The goal is not to punish candidates for using AI. The goal is to preserve the relationship between representation and reality.
 
@@ -179,7 +179,7 @@ OSI asks whether the organization is actually improving its ability to recognize
 
 At this point in the series, the pattern should be visible. The problem is not only technical. It is epistemological.
 
-Hiring systems are trying to know something difficult: whether a person has the capability, judgment, learning capacity, and contextual fit to do real work in a real organization. But the system rarely sees the person directly. It sees representations: a résumé, profile, score, credential, keyword match, work history, interview performance, portfolio, reference, generated summary, or ranking.
+Hiring systems are trying to know something difficult: whether a person has the capability, judgment, learning capacity, and contextual fit to do real work in a real organization. But the system rarely sees the person directly. It sees representations: a resume, profile, score, credential, keyword match, work history, interview performance, portfolio, reference, generated summary, or ranking.
 
 Those artifacts may contain evidence. But they are not the same thing as knowledge.
 
@@ -189,7 +189,7 @@ OSI-PIA begins from that distinction. Evidence is not interpretation. Interpreta
 
 That does not mean hiring systems should abandon structure, technology, or analysis. It means they need a more disciplined way to approach the problem. A better hiring system must be able to move from evidence to interpretation without collapsing uncertainty into false certainty.
 
-PIA approaches that problem at the individual level. It asks how a person’s work, learning, judgment, and demonstrated capability can be represented without reducing the person to a résumé pattern or keyword profile.
+PIA approaches that problem at the individual level. It asks how a person’s work, learning, judgment, and demonstrated capability can be represented without reducing the person to a resume pattern or keyword profile.
 
 OSI approaches the same problem at the organizational level. It asks how organizations create, lose, misread, block, retain, or fail to deploy capability through the systems they build.
 
@@ -199,7 +199,7 @@ Together, they point toward a possible response to the failures described in thi
 
 The answer is not to ban AI from job searching, trust every polished artifact, or make hiring colder, more adversarial, and more performative. The answer is better evidence.
 
-That means treating résumés as orientation, not proof; designing interviews around actual experience, tradeoffs, and judgment; using bounded work samples where appropriate; asking candidates to explain claims in context; checking whether the process rewards confidence more than competence; allowing AI to clarify evidence without allowing it to replace evidence; giving reviewers enough structure to compare candidates fairly without reducing people to scores; and recognizing that human judgment is still necessary, but human judgment also needs better evidence to work from.
+That means treating resumes as orientation, not proof; designing interviews around actual experience, tradeoffs, and judgment; using bounded work samples where appropriate; asking candidates to explain claims in context; checking whether the process rewards confidence more than competence; allowing AI to clarify evidence without allowing it to replace evidence; giving reviewers enough structure to compare candidates fairly without reducing people to scores; and recognizing that human judgment is still necessary, but human judgment also needs better evidence to work from.
 
 The goal is not to eliminate uncertainty. The goal is to stop confusing polish with proof.
 
@@ -207,7 +207,7 @@ The goal is not to eliminate uncertainty. The goal is to stop confusing polish w
 
 Generative AI did not make hiring signals fragile. It revealed that many of them already were.
 
-A résumé can still matter. An interview can still matter. A cover letter, portfolio, reference, work sample, credential, or assessment can still provide useful evidence. But none of them should be mistaken for capability by themselves.
+A resume can still matter. An interview can still matter. A cover letter, portfolio, reference, work sample, credential, or assessment can still provide useful evidence. But none of them should be mistaken for capability by themselves.
 
 [Article 1](https://dingus-mcguillacutty.github.io/OSI-PIA-clean/publications/articles/2026-08-11_hiring-translation-problem.html) argued that hiring has a translation problem. [Article 2](https://dingus-mcguillacutty.github.io/OSI-PIA-clean/publications/articles/2026-08-13_false-negative-machine.html) argued that bad translations become dangerous when automated systems treat them as truth.
 
@@ -228,7 +228,7 @@ The next article in this series, **“Hidden Workers and Capability Leakage,”*
 [^robert-half-resume-illusion]: Robert Half, Rob Hosking, “The Resume Illusion: How AI-Generated Applications Are Challenging Traditional Hiring Practices.”  
 https://www.roberthalf.com/us/en/insights/hiring-help/ai-generated-resumes-hiring-challenges
 
-[^interview-guys-resume-illusion]: The Interview Guys, “The Resume Illusion: Why AI Resumes Are Backfiring in 2026.” Secondary candidate-facing commentary on AI-polished résumés and interview verification.  
+[^interview-guys-resume-illusion]: The Interview Guys, “The Resume Illusion: Why AI Resumes Are Backfiring in 2026.” Secondary candidate-facing commentary on AI-polished resumes and interview verification.
 https://blog.theinterviewguys.com/why-ai-resumes-are-backfiring-in-2026/
 
 [^forbes-lbs-genai-hiring]: London Business School / Forbes, Isabel Fernandez-Mateo, “Generative AI Is Changing Hiring. Its Most Overlooked Impact May Come Before Anyone Applies,” March 16, 2026.  

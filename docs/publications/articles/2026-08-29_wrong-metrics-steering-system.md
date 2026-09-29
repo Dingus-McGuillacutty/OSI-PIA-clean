@@ -48,7 +48,7 @@ In many cases, the issue is not that capability is absent.
 
 The issue is that organizations have lost access to capability.
 
-Capable people may exist in the applicant pool, but the system fails to recognize them. They may be filtered out by rigid requirements, misread by automated systems, buried under volume, mismatched by job-title history, screened out by résumé formatting, ignored because their experience is nonlinear, or never routed to the person who could interpret their evidence.
+Capable people may exist in the applicant pool, but the system fails to recognize them. They may be filtered out by rigid requirements, misread by automated systems, buried under volume, mismatched by job-title history, screened out by resume formatting, ignored because their experience is nonlinear, or never routed to the person who could interpret their evidence.
 
 That is not simple scarcity.
 
@@ -68,7 +68,7 @@ That is understandable.
 
 But processing is not the same thing as recognition.
 
-A system can process a résumé without understanding the person. It can extract a job title without interpreting the work. It can count years without understanding development. It can compare keywords without understanding context. It can reject a candidate without knowing what capability disappeared.
+A system can process a resume without understanding the person. It can extract a job title without interpreting the work. It can count years without understanding development. It can compare keywords without understanding context. It can reject a candidate without knowing what capability disappeared.
 
 The Softchoice article on tech hiring describes the contradiction clearly: companies claim they cannot find IT talent while large numbers of experienced technology workers are displaced, applying repeatedly, and struggling to get through hiring systems.[^softchoice-brutal-normal]
 
@@ -104,7 +104,7 @@ That is how hiring becomes procedurally safer and substantively weaker at the sa
 
 When organizations are overwhelmed, the measurable parts of the system become more powerful.
 
-It is easy to measure how many applications arrived, how quickly they were screened, how many candidates were rejected, how many interviews were scheduled, how long the process took, which source produced applicants, how closely a résumé matched the posting, and whether a candidate met minimum criteria.
+It is easy to measure how many applications arrived, how quickly they were screened, how many candidates were rejected, how many interviews were scheduled, how long the process took, which source produced applicants, how closely a resume matched the posting, and whether a candidate met minimum criteria.
 
 Those metrics can help manage workflow.
 
@@ -214,17 +214,17 @@ It may lose access to the people it needs.
 
 Professional Identity Architecture and Professional Capability Architecture approach the same problem from the person’s side.
 
-The current system asks people to compress complex human development into a résumé, then hopes the machine and the organization interpret it correctly.
+The current system asks people to compress complex human development into a resume, then hopes the machine and the organization interpret it correctly.
 
 That is not enough.
 
-A person’s capability may be distributed across roles, projects, artifacts, crises, tools, training, informal leadership, self-directed learning, and cross-domain transfer. One résumé cannot carry that whole structure.
+A person’s capability may be distributed across roles, projects, artifacts, crises, tools, training, informal leadership, self-directed learning, and cross-domain transfer. One resume cannot carry that whole structure.
 
 PIA/PCA points toward a different model:
 
-**The future is not the perfect résumé. The future is a personally owned coherent evidence system.**
+**The future is not the perfect resume. The future is a personally owned coherent evidence system.**
 
-That evidence system can produce a targeted résumé, but it does not collapse into the résumé. It can also support a capability brief, evidence map, interview proof pack, portfolio summary, learning and development map, and role-specific capability crosswalk.
+That evidence system can produce a targeted resume, but it does not collapse into the resume. It can also support a capability brief, evidence map, interview proof pack, portfolio summary, learning and development map, and role-specific capability crosswalk.
 
 The point is not to fake fit.
 
@@ -234,11 +234,11 @@ The point is to translate real fit.
 
 Organizations have applicant tracking systems.
 
-Candidates have résumés.
+Candidates have resumes.
 
 What is missing is the layer between messy human capability and formal organizational recognition.
 
-That layer needs to preserve distinctions the current system often collapses: evidence is not interpretation, interpretation is not proof, a proxy is not the person, a score is not judgment, a formatted résumé is not capability, and a rejected application is not proof that capability was absent.
+That layer needs to preserve distinctions the current system often collapses: evidence is not interpretation, interpretation is not proof, a proxy is not the person, a score is not judgment, a formatted resume is not capability, and a rejected application is not proof that capability was absent.
 
 The missing layer is a capability-recognition and evidence-translation layer.
 

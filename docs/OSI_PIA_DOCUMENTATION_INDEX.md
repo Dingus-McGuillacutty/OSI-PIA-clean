@@ -1,4 +1,4 @@
-﻿# OSI / PIA Documentation Index
+# OSI / PIA Documentation Index
 
 ## Purpose
 
@@ -16,7 +16,7 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 - [Real Capability vs. Manufactured Polish](publications/articles/2026-08-18_real-capability-vs-manufactured-polish.md)
 - [Hidden Workers and Capability Leakage](publications/articles/2026-08-29_hidden-workers-capability-leakage.md)
 - [The Wrong Metrics Are Steering the System](publications/articles/2026-08-29_wrong-metrics-steering-system.md)
-- [The Future Is Not the Perfect Résumé](publications/articles/2026-08-29_future-not-perfect-resume.md)
+- [The Future Is Not the Perfect Resume](publications/articles/2026-08-29_future-not-perfect-resume.md)
 - [Poking a Hole in the Fog of ATS War](publications/articles/2026-08-29_poking-hole-ats-war.md)
 - [What PIA/PCA Is Trying to Build](publications/articles/2026-09-03_what-pia-pca-is-trying-to-build.md)
 - [What OSI Is Trying to Measure](publications/articles/2026-09-03_what-osi-is-trying-to-measure.md)
