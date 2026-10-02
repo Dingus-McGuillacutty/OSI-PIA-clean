@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+### OSI-PIA public introduction — 2026-10-01
+
+- Recorded the first LinkedIn introduction and public sharing of the capstone
+  article as a [public-conversation milestone](docs/history/MILESTONE_2026-10-01_OSI_PIA_PUBLIC_INTRODUCTION.md)
+- Preserved the distinction between public communication, research status, and
+  production authorization
+
 ### OSI expanded synthetic projection package â€” 2026-08-02
 
 - Expanded the OSI synthetic sandbox package from one to three bounded

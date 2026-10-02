@@ -56,6 +56,12 @@ link validation, and an enabled public discussion channel. The project remains
 an active research and development system. It is not a production hiring,
 employment-screening, psychological-assessment, or personnel-decision tool.
 
+On 2026-10-01, the first LinkedIn introduction to OSI-PIA and public sharing of
+the capstone article marked the transition from private development and public
+repository presence into active public conversation. This communications
+milestone does not change the project’s research-stage status or authorize
+production use.
+
 The public article series now includes the machine-participation sequence
 *The False Negative Stack*, *Access Is Not Authority*, and *When the Gate Is
 Right and Still Wrong*, followed by *Temporal Authority* and *Capability
