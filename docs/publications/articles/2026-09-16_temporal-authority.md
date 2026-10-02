@@ -11,9 +11,6 @@ series: "Hiring and Capability Recognition"
 series_part: 8
 permalink: /publications/articles/2026-09-16_temporal-authority.html
 ---
-
-# Temporal Authority
-
 ## The truth of a person's capability is bounded by time and context. Neither gives an organization the authority to turn a past state into a permanent ceiling.
 
 ## Publication Note

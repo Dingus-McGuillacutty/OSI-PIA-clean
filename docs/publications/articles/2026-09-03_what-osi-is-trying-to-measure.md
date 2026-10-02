@@ -11,9 +11,6 @@ series: "Hiring and Capability Recognition"
 series_part: 7
 permalink: /publications/articles/2026-09-03_what-osi-is-trying-to-measure.html
 ---
-
-# What OSI Is Trying to Measure
-
 *Where organizations create, lose, misread, block, or waste capability.*
 
 ## Publication Note

@@ -11,9 +11,6 @@ series: "Capability Evidence Systems"
 series_part: 1
 permalink: /publications/articles/2026-08-29_future-not-perfect-resume.html
 ---
-
-# The Future Is Not the Perfect Resume
-
 *It is a personally owned evidence system.*
 
 ## Publication Note

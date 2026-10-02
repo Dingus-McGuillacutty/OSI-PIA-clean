@@ -25,6 +25,7 @@ This index is the front door to the OSI/PIA documentation system. It helps contr
 - [When the Gate Is Right and Still Wrong](publications/articles/2026-09-11_when-the-gate-is-right-and-still-wrong.md)
 - [Temporal Authority](publications/articles/2026-09-16_temporal-authority.md)
 - [Capability Infrastructure Should Belong to the People It Describes](publications/articles/2026-09-16_capability-infrastructure-belongs-to-people.md)
+- [You Can't Find Work, and Companies Can't Find Workers, Because the Labor Market Can't Read People](publications/articles/2026-10-01_labor-market-cant-read-people.md)
 - [Project Bibliography](publications/PROJECT_BIBLIOGRAPHY.md)
 - [PIA Professional Identity and Resume Output Model](publications/standards/PIA_PROFESSIONAL_IDENTITY_OUTPUT_MODEL.md)
 

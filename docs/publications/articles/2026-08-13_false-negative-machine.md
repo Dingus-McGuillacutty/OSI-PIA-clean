@@ -11,9 +11,6 @@ series: "Hiring and Capability Recognition"
 series_part: 2
 permalink: /publications/articles/2026-08-13_false-negative-machine.html
 ---
-
-# The False Negative Machine
-
 ## Publication Note
 
 This article is part of the OSI-PIA public article series. It describes an active research and development direction. It does not claim that OSI-PIA is a finished hiring product, validated employment-screening system, legal compliance tool, or production decision system.

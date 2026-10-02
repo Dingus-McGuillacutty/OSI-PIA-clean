@@ -11,8 +11,6 @@ series: "Machine Participation and Human Systems"
 series_part: 3
 permalink: /publications/articles/2026-09-11_when-the-gate-is-right-and-still-wrong.html
 ---
-
-# When the Gate Is Right and Still Wrong
 ## Security, Machine Discoverability, and the Cost of Legitimate False Negatives
 
 The first two articles in this short series began with a simple experiment: I asked several AI systems to inspect **OSI-PIA-clean**, a public GitHub repository for Organizational Systems Intelligence and Professional Identity Architecture.

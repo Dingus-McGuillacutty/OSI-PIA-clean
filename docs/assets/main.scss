@@ -1,0 +1,21 @@
+---
+---
+
+@import "minima";
+
+// Keep Pages headlines readable for long publication titles.
+.page-heading,
+.post-title {
+  font-size: 2.25rem;
+  line-height: 1.14;
+  letter-spacing: -0.01em;
+  max-width: 30ch;
+}
+
+@media screen and (max-width: 600px) {
+  .page-heading,
+  .post-title {
+    font-size: 1.85rem;
+    line-height: 1.18;
+  }
+}

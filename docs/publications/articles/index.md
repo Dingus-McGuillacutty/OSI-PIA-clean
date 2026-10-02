@@ -5,7 +5,7 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "1.6"
+version: "1.7"
 owner: publication-stewardship
 description: "Public essays about professional identity, demonstrated capability, evidence-grounded evaluation, skills-based hiring, ATS and resume translation failure, organizational capability, open-skills and LER interoperability, and human-centered AI."
 ---
@@ -31,6 +31,7 @@ AI-assisted interpretation.
 - [When the Gate Is Right and Still Wrong](2026-09-11_when-the-gate-is-right-and-still-wrong.html)
 - [Temporal Authority](2026-09-16_temporal-authority.html)
 - [Capability Infrastructure Should Belong to the People It Describes](2026-09-16_capability-infrastructure-belongs-to-people.html)
+- [You Can't Find Work, and Companies Can't Find Workers, Because the Labor Market Can't Read People](2026-10-01_labor-market-cant-read-people.html)
 
 ## Related Capability Evidence Systems Articles
 

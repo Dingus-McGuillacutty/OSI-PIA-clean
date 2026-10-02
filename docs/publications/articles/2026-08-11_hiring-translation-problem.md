@@ -11,9 +11,6 @@ series: "Hiring and Capability Recognition"
 series_part: 1
 permalink: /publications/articles/2026-08-11_hiring-translation-problem.html
 ---
-
-# Hiring Does Not Have a Talent Problem. It Has a Translation Problem.
-
 ## Publication Note
 
 I am developing Organizational Systems Intelligence (OSI) and Professional Identity Architecture (PIA) to help address some of the major challenges in the modern hyper-speed landscape of hiring and job searching. OSI/PIA seeks evidence-bounded, methodologically cautious ways to describe hidden capability at both the individual and organizational level. The goal is to improve visibility into capability and potential without scoring, labeling, or converting people into simplified metrics whose humanity disappears inside modern organizational analysis systems. This is the first article in a continuing public series describing that work as it evolves.

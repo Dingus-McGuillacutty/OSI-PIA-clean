@@ -11,9 +11,6 @@ series: "Hiring and Capability Recognition"
 series_part: 9
 permalink: /publications/articles/2026-09-16_capability-infrastructure-belongs-to-people.html
 ---
-
-# Capability Infrastructure Should Belong to the People It Describes
-
 ## Systems built to recognize human capability should increase individual agency and opportunity—not bury that capability inside another layer of institutional machinery.
 
 ## Publication Note

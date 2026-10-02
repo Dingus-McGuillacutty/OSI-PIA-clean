@@ -11,9 +11,6 @@ series: "Hiring and Capability Recognition"
 series_part: 6
 permalink: /publications/articles/2026-09-03_what-pia-pca-is-trying-to-build.html
 ---
-
-# What PIA/PCA Is Trying to Build
-
 *The person owns the evidence system.*
 
 ## Publication Note

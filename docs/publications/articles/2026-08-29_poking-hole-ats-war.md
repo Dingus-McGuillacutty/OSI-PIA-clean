@@ -11,9 +11,6 @@ series: "Capability Evidence Systems"
 series_part: 2
 permalink: /publications/articles/2026-08-29_poking-hole-ats-war.html
 ---
-
-# Poking a Hole in the Fog of ATS War
-
 *Why hiring systems need a reader layer for structured capability evidence.*
 
 ## Publication Note

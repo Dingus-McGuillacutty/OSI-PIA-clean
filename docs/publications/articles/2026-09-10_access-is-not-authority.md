@@ -11,7 +11,6 @@ series: "Machine Participation and Human Systems"
 series_part: 2
 permalink: /publications/articles/2026-09-10_access-is-not-authority.html
 ---
-# Access Is Not Authority
 ## Designing AI for a Human World
 
 Over several blind and semi-guided tests in September 2026, I asked different AI systems to inspect the same public research repository:

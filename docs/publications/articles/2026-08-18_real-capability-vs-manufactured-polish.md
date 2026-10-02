@@ -11,9 +11,6 @@ series: "Hiring and Capability Recognition"
 series_part: 3
 permalink: /publications/articles/2026-08-18_real-capability-vs-manufactured-polish.html
 ---
-
-# Real Capability vs. Manufactured Polish
-
 *When both sides optimize the hiring interface, the signal starts to collapse.*
 
 ## Publication Note

@@ -5,10 +5,10 @@ domain: shared
 layer: publication
 authority: supporting
 status: active
-version: "0.5.4"
+version: "0.5.5"
 owner: repository-governance
 lifecycle_state: validation
-last_reviewed: "2026-09-16"
+last_reviewed: "2026-10-01"
 review_cycle: milestone
 ---
 
@@ -25,7 +25,7 @@ linked canonical documents govern when they differ from this summary.
 ```json
 {
   "project": "OSI-PIA",
-  "as_of": "2026-09-16",
+  "as_of": "2026-10-01",
   "overall_authority": "working",
   "overall_status": "proposed",
   "production_participant_processing": "not_authorized",
@@ -35,7 +35,7 @@ linked canonical documents govern when they differ from this summary.
     "real_participant_projection": "not_authorized",
     "real_organizational_projection": "not_authorized"
   },
-  "current_focus": "governed artifact metadata, publication authoring, semantic discoverability, literature positioning, standards interoperability, and machine participation conformance",
+  "current_focus": "governed artifact metadata, capability infrastructure publication, semantic discoverability, literature positioning, standards interoperability, and machine participation conformance",
   "canonical_sources": [
     "README.md",
     "ROADMAP.md",
@@ -61,9 +61,12 @@ The public article series now includes the machine-participation sequence
 Right and Still Wrong*, followed by *Temporal Authority* and *Capability
 Infrastructure Should Belong to the People It Describes*. These extend the
 series from access and source authority into chronology, portability, and the
-participant as a primary beneficiary. Publication remains a supporting
-explanation layer and does not promote exploratory research into canonical
-authority.
+participant as a primary beneficiary. The new capstone *You Can't Find Work,
+and Companies Can't Find Workers, Because the Labor Market Can't Read People*
+frames these concerns as a capability-infrastructure problem spanning
+evidence, translation, recognition, deployment, and governance. Publication
+remains a supporting explanation layer and does not promote exploratory
+research into canonical authority.
 
 Artifact metadata is now governed through a versioned machine-readable contract
 and validator-backed controlled vocabularies. Publication creation follows a

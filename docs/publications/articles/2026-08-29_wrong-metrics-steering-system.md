@@ -11,9 +11,6 @@ series: "Hiring and Capability Recognition"
 series_part: 5
 permalink: /publications/articles/2026-08-29_wrong-metrics-steering-system.html
 ---
-
-# The Wrong Metrics Are Steering the System
-
 ## Publication Note
 
 This article is part of the OSI-PIA public article series. It describes an active research and development direction. It does not claim that OSI-PIA is a finished hiring product, validated employment-screening system, legal compliance tool, or production decision system.

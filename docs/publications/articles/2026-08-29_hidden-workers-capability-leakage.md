@@ -11,9 +11,6 @@ series: "Hiring and Capability Recognition"
 series_part: 4
 permalink: /publications/articles/2026-08-29_hidden-workers-capability-leakage.html
 ---
-
-# Hidden Workers and Capability Leakage
-
 ## Publication Note
 
 This article is part of the OSI-PIA public article series. It describes an active research and development direction. It does not claim that OSI-PIA, PIA, PCA, or any related prototype is a finished hiring product, validated employment-screening system, legal compliance tool, or production decision system.

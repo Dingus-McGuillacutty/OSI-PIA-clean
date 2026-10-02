@@ -11,7 +11,6 @@ series: "Machine Participation and Human Systems"
 series_part: 1
 permalink: /publications/articles/2026-09-10_false-negative-stack.html
 ---
-# The False Negative Stack
 ## When Reasonable Gates Make Real Capability Disappear
 
 In September 2026, I asked Claude Sonnet 5 to inspect a public GitHub repository I maintain: **OSI-PIA-clean**, the development repository for Organizational Systems Intelligence and Professional Identity Architecture.
