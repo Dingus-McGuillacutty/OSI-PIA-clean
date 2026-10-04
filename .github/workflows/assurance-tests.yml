@@ -11,8 +11,8 @@ permissions:
 
 jobs:
   assurance-tests:
-    name: Python ${{ matrix.python-version }}
-    runs-on: ubuntu-latest
+    name: Windows / Python ${{ matrix.python-version }}
+    runs-on: windows-latest
     strategy:
       fail-fast: false
       matrix:
