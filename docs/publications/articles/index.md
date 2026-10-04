@@ -40,9 +40,9 @@ AI-assisted interpretation.
 
 ## Supplemental Project Briefs
 
-- [Independent Convergence with the Open Skills / LER Field](../briefs/2026-09-16_independent-convergence-open-skills-ler.html)
+- [Independent Convergence with the Open Skills / LER Field — read online](https://dingus-mcguillacutty.github.io/OSI-PIA-clean/publications/briefs/2026-09-16_independent-convergence-open-skills-ler.html)
   — project-history context for the PIA/LER crosswalk and human-centered
-  capability infrastructure principle.
+  capability infrastructure principle. [View source on GitHub](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/docs/publications/briefs/2026-09-16_independent-convergence-open-skills-ler.md).
 
 ## Publication Boundary
 

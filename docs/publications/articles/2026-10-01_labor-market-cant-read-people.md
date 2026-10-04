@@ -284,7 +284,8 @@ further testing.
 - [Hidden Workers and Capability Leakage](2026-08-29_hidden-workers-capability-leakage.html)
 - [What PIA/PCA Is Trying to Build](2026-09-03_what-pia-pca-is-trying-to-build.html)
 - [Capability Infrastructure Should Belong to the People It Describes](2026-09-16_capability-infrastructure-belongs-to-people.html)
-- [Independent Convergence with the Open Skills / LER Field](../briefs/2026-09-16_independent-convergence-open-skills-ler.html)
+- [Independent Convergence with the Open Skills / LER Field — read online](https://dingus-mcguillacutty.github.io/OSI-PIA-clean/publications/briefs/2026-09-16_independent-convergence-open-skills-ler.html)
+- [Independent Convergence with the Open Skills / LER Field — view source on GitHub](https://github.com/Dingus-McGuillacutty/OSI-PIA-clean/blob/main/docs/publications/briefs/2026-09-16_independent-convergence-open-skills-ler.md)
 
 ## References and Source Notes
 
