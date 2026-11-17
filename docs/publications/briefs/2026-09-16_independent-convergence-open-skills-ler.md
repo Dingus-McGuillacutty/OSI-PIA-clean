@@ -10,8 +10,6 @@ owner: publication-stewardship
 permalink: /publications/briefs/2026-09-16_independent-convergence-open-skills-ler.html
 ---
 
-# Project History Brief: Independent Convergence with the Open Skills / LER Field
-
 ## Origin
 
 PIA did not begin as an attempt to participate in the Learning and Employment
